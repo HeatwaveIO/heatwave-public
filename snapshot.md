@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-23T23:43:33Z
+# Heatwave public snapshot 2026-10-23T23:48:30Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,18 +6,18 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 3.225% | 7.771 | 1 | 2026-10-23T23:41:24+00:00 |  |
-| propr_h6 | live | -1.929% | 4.071 | 1 | 2026-10-23T23:41:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | -1.962% |  | 0 | 2026-10-23T23:42:30+00:00 |  |
+| propr_2s | live | 3.139% | 7.684 | 1 | 2026-10-23T23:46:34+00:00 |  |
+| propr_h6 | live | -1.99% | 4.01 | 1 | 2026-10-23T23:46:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -1.962% |  | 0 | 2026-10-23T23:47:34+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 3.352% |  | 0 | 2026-10-23T23:41:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 3.282% |  | 0 | 2026-10-23T23:46:32Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | DOT | SHORT | 1.1236 | 1.0793 | 0.712 | 1.07695 (+0.75R) | True | 2026-10-23T23:55Z | urn:prp-order:Bn6ppky6mQ8T @ 1.1205 | urn:prp-order:4ab4FsEsbQSJ @ 0.9666 |
-| propr_h6 | DOT | SHORT | 1.1231 | 1.0793 | 0.699 | 1.076075 (+0.75R) | True | 2026-10-23T23:55Z | urn:prp-order:RAAp1aJ4PW7b @ 1.12 | urn:prp-order:EM6fxPCMJ9N4 @ 0.9666 |
+| propr_2s | DOT | SHORT | 1.1236 | 1.083 | 0.653 | 1.07695 (+0.75R) | True | 2026-10-23T23:55Z | urn:prp-order:Bn6ppky6mQ8T @ 1.1205 | urn:prp-order:4ab4FsEsbQSJ @ 0.9666 |
+| propr_h6 | DOT | SHORT | 1.1231 | 1.083 | 0.64 | 1.076075 (+0.75R) | True | 2026-10-23T23:55Z | urn:prp-order:RAAp1aJ4PW7b @ 1.12 | urn:prp-order:EM6fxPCMJ9N4 @ 0.9666 |
 
 ## Signal scan 2026-10-23T10:00Z .. 2026-10-23T23:00Z (decision times)
 
@@ -31,11 +31,11 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-23T12:00Z | kPEPE | LONG | 1 | 5.118 | 4.267 | no_breakout | no_breakout | none |
 | 2026-10-23T12:00Z | ZEC | SHORT | 1 | 3.492 | 3.212 | no_breakout | no_breakout | none |
 | 2026-10-23T14:00Z | kPEPE | LONG | 1 | 2.953 | 2.352 | no_breakout | no_breakout | none |
-| 2026-10-23T14:00Z | DOT | SHORT | 1 | 3.227 | 4.845 | filled | filled | open 0.675R so far |
+| 2026-10-23T14:00Z | DOT | SHORT | 1 | 3.227 | 4.845 | filled | filled | open 0.611R so far |
 | 2026-10-23T15:00Z | kPEPE | LONG | 1 | 2.859 | 5.594 | no_breakout | no_breakout | none |
-| 2026-10-23T17:00Z | ENA | SHORT | 1 | 2.868 | 3.788 | skipped_slots_full | skipped_slots_full | open 0.406R so far |
-| 2026-10-23T19:00Z | ENA | SHORT | 1 | 2.75 | 2.195 | filled | filled | open 1.94R so far |
-| 2026-10-23T20:00Z | WLD | SHORT | 1 | 3.519 | 2.425 | skipped_slots_full | skipped_slots_full | open 2.468R so far |
+| 2026-10-23T17:00Z | ENA | SHORT | 1 | 2.868 | 3.788 | skipped_slots_full | skipped_slots_full | open 0.348R so far |
+| 2026-10-23T19:00Z | ENA | SHORT | 1 | 2.75 | 2.195 | filled | filled | open 1.834R so far |
+| 2026-10-23T20:00Z | WLD | SHORT | 1 | 3.519 | 2.425 | skipped_slots_full | skipped_slots_full | open 2.364R so far |
 | 2026-10-23T23:00Z | kPEPE | LONG | 1 | 3.796 | 2.813 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-23T23:00Z | WLD | SHORT | 1 | 9.117 | 8.455 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-23T23:00Z | ENA | SHORT | 2 | 6.428 | 6.829 | skipped_off_hours | skipped_off_hours |  |
