@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-24T08:13:31Z
+# Heatwave public snapshot 2026-10-24T08:18:33Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.215% | 6.761 | 1 | 2026-10-24T08:11:34+00:00 |  |
-| propr_h6 | live | -2.848% | 3.152 | 1 | 2026-10-24T08:11:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T08:12:52+00:00 |  |
+| propr_2s | live | 2.137% | 6.683 | 1 | 2026-10-24T08:16:20+00:00 |  |
+| propr_h6 | live | -2.942% | 3.058 | 1 | 2026-10-24T08:16:43+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T08:17:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 4.118% |  | 0 | 2026-10-24T07:56:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 4.228% |  | 0 | 2026-10-24T08:16:33Z |  |
 
 ## Open Propr positions
 
@@ -28,7 +28,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-23T19:00Z | ENA | SHORT | 1 | 2.75 | 2.195 | filled | filled | closed 1.4756R |
 | 2026-10-23T20:00Z | WLD | SHORT | 1 | 3.519 | 2.425 | skipped_slots_full | skipped_slots_full | closed 2.9607R |
 | 2026-10-23T23:00Z | kPEPE | LONG | 1 | 3.796 | 2.813 | skipped_off_hours | skipped_off_hours | none |
-| 2026-10-23T23:00Z | WLD | SHORT | 1 | 9.117 | 8.455 | skipped_off_hours | skipped_off_hours | open 0.033R so far |
+| 2026-10-23T23:00Z | WLD | SHORT | 1 | 9.117 | 8.455 | skipped_off_hours | skipped_off_hours | open -0.018R so far |
 | 2026-10-23T23:00Z | ENA | SHORT | 2 | 6.428 | 6.829 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-23T23:00Z | ZEC | SHORT | 3 | 5.959 | 6.422 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-23T23:00Z | LTC | SHORT | 4 | 4.235 | 2.476 | skipped_off_hours | skipped_off_hours |  |
