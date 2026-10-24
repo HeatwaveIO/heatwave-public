@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T00:43:34Z",
+ "generated_utc": "2026-10-24T00:48:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,38 +8,38 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T00:41:18+00:00",
+   "last_cycle_utc": "2026-10-24T00:46:23+00:00",
    "error": null,
-   "warning": null,
+   "warning": "signal / management step failed: HTTP Error 500: Internal Server Error (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
    "refuse": [],
-   "equity_pct_vs_start": 3.073,
-   "balance_pct_vs_start": 3.073,
-   "cushion_pct_of_start_to_floor": 7.619,
+   "equity_pct_vs_start": 2.991,
+   "balance_pct_vs_start": 3.07,
+   "cushion_pct_of_start_to_floor": 7.537,
    "open_positions": [
     {
      "coin": "ARB",
      "side": "SHORT",
-     "status": "crossing",
+     "status": "open",
      "decision_utc": "2026-10-24T00:00Z",
-     "fill_utc": null,
-     "entry": 0.16979,
+     "fill_utc": "2026-10-24T00:46Z",
+     "entry": 0.1677,
      "stop0": 0.1731,
      "tp_3R": 0.15986,
      "qty": 6944.4,
      "risk_pct_of_start": 0.75,
      "be_trigger_R": 0.75,
-     "be_trigger_px": 0.167307,
-     "be_stop_px": 0.169625,
+     "be_trigger_px": 0.16365,
+     "be_stop_px": 0.16743,
      "be_moved": false,
-     "mark": 0.16757,
-     "unrealized_R": 0.671,
-     "distance_to_be_trigger_R": 0.079,
+     "mark": 0.16825,
+     "unrealized_R": -0.102,
+     "distance_to_be_trigger_R": 0.852,
      "time_exit_utc": "2026-10-24T09:55Z",
      "venue": {
       "open": true,
       "quantity": "6944.4",
       "entryPrice": "0.1677",
-      "markPrice": "0.167575"
+      "markPrice": "0.16835"
      },
      "orders": {
       "entry": [
@@ -146,16 +146,112 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T00:41:43+00:00",
+   "last_cycle_utc": "2026-10-24T00:46:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
    "equity_pct_vs_start": -2.039,
    "balance_pct_vs_start": -2.039,
    "cushion_pct_of_start_to_floor": 3.961,
-   "open_positions": [],
-   "venue_open_positions": 0,
-   "venue_live_orders": 0,
+   "open_positions": [
+    {
+     "coin": "ARB",
+     "side": "SHORT",
+     "status": "crossing",
+     "decision_utc": "2026-10-24T00:00Z",
+     "fill_utc": null,
+     "entry": 0.16979,
+     "stop0": 0.1731,
+     "tp_3R": 0.15986,
+     "qty": 7115.7,
+     "risk_pct_of_start": 0.75,
+     "be_trigger_R": 0.75,
+     "be_trigger_px": 0.167307,
+     "be_stop_px": 0.169625,
+     "be_moved": false,
+     "mark": 0.16826,
+     "unrealized_R": 0.462,
+     "distance_to_be_trigger_R": 0.288,
+     "time_exit_utc": "2026-10-24T09:55Z",
+     "venue": {
+      "open": true,
+      "quantity": "7115.7",
+      "entryPrice": "0.167857",
+      "markPrice": "0.16835"
+     },
+     "orders": {
+      "entry": [
+       {
+        "orderId": "urn:prp-order:JrRzqCP8eT13",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "sell",
+        "status": "filled",
+        "timeInForce": "IOC",
+        "price": "0.16783",
+        "triggerPrice": null,
+        "quantity": "7115.7",
+        "cumulativeQuantity": "7115.7",
+        "createdAt": "2026-10-24T00:46:46.593Z",
+        "filledAt": "2026-10-24T00:46:47.010Z",
+        "cancelledAt": null
+       },
+       {
+        "orderId": "urn:prp-order:WaaqoXXJeb4X",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "sell",
+        "status": "cancelled",
+        "timeInForce": "GTX",
+        "price": "0.16979",
+        "triggerPrice": null,
+        "quantity": "11329.3",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-24T00:44:08.143Z",
+        "filledAt": null,
+        "cancelledAt": "2026-10-24T00:46:45.349Z"
+       }
+      ],
+      "stop_market": [
+       {
+        "orderId": "urn:prp-order:VmGLUMRgkGs6",
+        "exchangeOrderId": null,
+        "type": "stop_market",
+        "side": "buy",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": null,
+        "triggerPrice": "0.1731",
+        "quantity": "7115.7",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-24T00:46:46.593Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "take_profit_limit": [
+       {
+        "orderId": "urn:prp-order:Vu9cSa1bucET",
+        "exchangeOrderId": null,
+        "type": "take_profit_limit",
+        "side": "buy",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": "0.15986",
+        "triggerPrice": "0.15986",
+        "quantity": "7115.7",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-24T00:46:46.593Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "other_live": []
+     }
+    }
+   ],
+   "venue_open_positions": 1,
+   "venue_live_orders": 2,
    "recent_closed": [
     {
      "coin": "kPEPE",
@@ -186,7 +282,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-24T00:42:25+00:00",
+   "last_cycle_utc": "2026-10-24T00:47:28+00:00",
    "attendance_only": true,
    "trading_days": 3,
    "balance_pct_vs_start": -1.965,
@@ -223,8 +319,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-24T00:41:31Z",
-   "equity_pct_vs_start": 3.944,
+   "as_of": "2026-10-24T00:46:30Z",
+   "equity_pct_vs_start": 3.984,
    "open": 0,
    "closed": 1,
    "wins": 1,
@@ -432,8 +528,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:51Z",
      "net_R": null,
-     "mark": 0.19465,
-     "r_so_far": 0.739
+     "mark": 0.19439,
+     "r_so_far": 0.765
     }
    },
    {
@@ -460,8 +556,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:19Z",
      "net_R": null,
-     "mark": 0.19465,
-     "r_so_far": 2.552
+     "mark": 0.19439,
+     "r_so_far": 2.601
     }
    },
    {
@@ -540,8 +636,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.47343,
-     "r_so_far": 0.003
+     "mark": 0.47241,
+     "r_so_far": 0.03
     }
    },
    {
@@ -760,8 +856,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004536,
-     "r_so_far": -0.466
+     "mark": 0.004548,
+     "r_so_far": -0.301
     }
    },
    {
