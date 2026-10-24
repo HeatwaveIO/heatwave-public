@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T00:28:35Z",
+ "generated_utc": "2026-10-24T00:33:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T00:26:36+00:00",
+   "last_cycle_utc": "2026-10-24T00:31:24+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -50,7 +50,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T00:26:43+00:00",
+   "last_cycle_utc": "2026-10-24T00:31:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -90,7 +90,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-24T00:27:34+00:00",
+   "last_cycle_utc": "2026-10-24T00:32:27+00:00",
    "attendance_only": true,
    "trading_days": 3,
    "balance_pct_vs_start": -1.965,
@@ -127,8 +127,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-24T00:26:33Z",
-   "equity_pct_vs_start": 3.664,
+   "as_of": "2026-10-24T00:31:30Z",
+   "equity_pct_vs_start": 3.774,
    "open": 0,
    "closed": 1,
    "wins": 1,
@@ -336,8 +336,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:51Z",
      "net_R": null,
-     "mark": 0.19629,
-     "r_so_far": 0.573
+     "mark": 0.19617,
+     "r_so_far": 0.585
     }
    },
    {
@@ -364,8 +364,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:19Z",
      "net_R": null,
-     "mark": 0.19629,
-     "r_so_far": 2.246
+     "mark": 0.19617,
+     "r_so_far": 2.269
     }
    },
    {
@@ -392,8 +392,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:20Z",
      "net_R": null,
-     "mark": 0.47348,
-     "r_so_far": 2.837
+     "mark": 0.47294,
+     "r_so_far": 2.874
     }
    },
    {
@@ -438,14 +438,16 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-10-24T00:27Z",
+     "entry": 0.47356,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 0.47294,
+     "r_so_far": 0.016
     }
    },
    {
@@ -664,8 +666,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004582,
-     "r_so_far": 0.164
+     "mark": 0.004563,
+     "r_so_far": -0.096
     }
    },
    {
