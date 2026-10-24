@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T00:08:37Z",
+ "generated_utc": "2026-10-24T00:13:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T00:06:29+00:00",
+   "last_cycle_utc": "2026-10-24T00:11:34+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -50,7 +50,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T00:06:43+00:00",
+   "last_cycle_utc": "2026-10-24T00:11:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -90,14 +90,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-24T00:02:33+00:00",
+   "last_cycle_utc": "2026-10-24T00:12:25+00:00",
    "attendance_only": true,
    "trading_days": 3,
-   "balance_pct_vs_start": -1.962,
-   "open_positions": 0,
+   "balance_pct_vs_start": -1.965,
+   "open_positions": 1,
    "resting_orders": 0,
-   "saver_why": null,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "saver_why": "an attendance trade is open or resting",
+   "error": null
   },
   "alp100": {
    "account": "alp100",
@@ -328,8 +328,16 @@
      "propr_h6": "skipped_slots_full"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-10-23T22:26Z",
+     "entry": 0.20193,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": "2026-10-23T22:51Z",
+     "net_R": null,
+     "mark": 0.19723,
+     "r_so_far": 0.477
     }
    },
    {
@@ -356,8 +364,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:19Z",
      "net_R": null,
-     "mark": 0.19844,
-     "r_so_far": 1.845
+     "mark": 0.19723,
+     "r_so_far": 2.071
     }
    },
    {
@@ -384,8 +392,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-23T22:20Z",
      "net_R": null,
-     "mark": 0.47764,
-     "r_so_far": 2.548
+     "mark": 0.4774,
+     "r_so_far": 2.565
     }
    },
    {
@@ -648,14 +656,16 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-10-24T00:07Z",
+     "entry": 0.00457,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 0.004575,
+     "r_so_far": 0.068
     }
    },
    {
