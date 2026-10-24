@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-24T22:08:33Z
+# Heatwave public snapshot 2026-10-24T22:13:34Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.613% | 7.159 | 2 | 2026-10-24T22:08:26+00:00 |  |
-| propr_h6 | live | -3.825% | 2.175 | 1 | 2026-10-24T22:07:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T22:07:52+00:00 |  |
+| propr_2s | live | 2.538% | 7.084 | 2 | 2026-10-24T22:13:18+00:00 |  |
+| propr_h6 | live | -3.822% | 2.178 | 1 | 2026-10-24T22:12:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T22:12:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 3.518% |  | 0 | 2026-10-24T21:56:31Z |  |
 
@@ -16,9 +16,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | DOGE | SHORT | 0.074948 | 0.077201 | -0.85 | 0.072959 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:HPFrw3oytQeE @ 0.0776 | urn:prp-order:ht95EavDiPPx @ 0.069044 |
-| propr_2s | kPEPE | LONG | 0.004347 | 0.00452 | 1.587 | 0.004429 (+0.75R) | True | 2026-10-25T01:55Z | urn:prp-order:eNzekxE3Fskx @ 0.004429 | urn:prp-order:7DT4dhEEiFfC @ 0.004626 |
-| propr_h6 | DOGE | SHORT | 0.074947 | 0.077201 | -0.85 | 0.072957 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:hQRWa4Mk6Ho4 @ 0.0776 | urn:prp-order:PHBTXv7xhgMg @ 0.069044 |
+| propr_2s | DOGE | SHORT | 0.074948 | 0.077247 | -0.867 | 0.072959 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:HPFrw3oytQeE @ 0.0776 | urn:prp-order:ht95EavDiPPx @ 0.069044 |
+| propr_2s | kPEPE | LONG | 0.004347 | 0.004511 | 1.505 | 0.004429 (+0.75R) | True | 2026-10-25T01:55Z | urn:prp-order:eNzekxE3Fskx @ 0.004429 | urn:prp-order:7DT4dhEEiFfC @ 0.004626 |
+| propr_h6 | DOGE | SHORT | 0.074947 | 0.077247 | -0.867 | 0.072957 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:hQRWa4Mk6Ho4 @ 0.0776 | urn:prp-order:PHBTXv7xhgMg @ 0.069044 |
 
 ## Signal scan 2026-10-24T09:00Z .. 2026-10-24T22:00Z (decision times)
 
@@ -27,14 +27,14 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-24T10:00Z | NEAR | SHORT | 1 | 4.541 | 2.31 | placed_not_filled (expired) | placed_not_filled (expired) | closed -0.6955R |
-| 2026-10-24T15:00Z | DOGE | SHORT | 1 | 4.023 | 2.835 | filled | filled | open -0.851R so far |
+| 2026-10-24T15:00Z | DOGE | SHORT | 1 | 4.023 | 2.835 | filled | filled | open -0.852R so far |
 | 2026-10-24T15:00Z | NEAR | SHORT | 2 | 3.365 | 5.092 | not_top1 | not_top1 |  |
 | 2026-10-24T15:00Z | SOL | SHORT | 3 | 2.714 | 1.847 | not_top1 | not_top1 |  |
 | 2026-10-24T15:00Z | ETH | SHORT | 4 | 2.512 | 1.744 | not_top1 | not_top1 |  |
-| 2026-10-24T16:00Z | kPEPE | LONG | 1 | 2.55 | 2.238 | filled | skipped_room_clamp | open 1.495R so far |
+| 2026-10-24T16:00Z | kPEPE | LONG | 1 | 2.55 | 2.238 | filled | skipped_room_clamp | open 1.432R so far |
 | 2026-10-24T16:00Z | ETH | SHORT | 1 | 3.206 | 2.661 | no_breakout | no_breakout | pending |
 | 2026-10-24T16:00Z | AAVE | SHORT | 2 | 3.005 | 1.718 | not_top1 | not_top1 |  |
-| 2026-10-24T19:00Z | kPEPE | LONG | 1 | 3.754 | 2.536 | skipped_slots_full | skipped_room_clamp | open 0.531R so far |
+| 2026-10-24T19:00Z | kPEPE | LONG | 1 | 3.754 | 2.536 | skipped_slots_full | skipped_room_clamp | open 0.469R so far |
 | 2026-10-24T19:00Z | ZEC | SHORT | 1 | 4.266 | 3.494 | armed_waiting_breakout | armed_waiting_breakout | pending |
 | 2026-10-24T19:00Z | DOT | SHORT | 2 | 3.424 | 1.544 | not_top1 | not_top1 |  |
 
