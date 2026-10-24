@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T05:18:36Z",
+ "generated_utc": "2026-10-24T05:23:34Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T05:16:19+00:00",
+   "last_cycle_utc": "2026-10-24T05:21:35+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": 2.21,
+   "equity_pct_vs_start": 2.299,
    "balance_pct_vs_start": 3.063,
-   "cushion_pct_of_start_to_floor": 6.756,
+   "cushion_pct_of_start_to_floor": 6.845,
    "open_positions": [
     {
      "coin": "ARB",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.16365,
      "be_stop_px": 0.16743,
      "be_moved": false,
-     "mark": 0.17117,
-     "unrealized_R": -0.643,
-     "distance_to_be_trigger_R": 1.393,
+     "mark": 0.17101,
+     "unrealized_R": -0.613,
+     "distance_to_be_trigger_R": 1.363,
      "time_exit_utc": "2026-10-24T09:55Z",
      "venue": {
       "open": true,
       "quantity": "6944.4",
       "entryPrice": "0.1677",
-      "markPrice": "0.171175"
+      "markPrice": "0.170905"
      },
      "orders": {
       "entry": [
@@ -126,9 +126,9 @@
      "be_trigger_px": 0.004618,
      "be_stop_px": 0.004569,
      "be_moved": false,
-     "mark": 0.00453,
-     "unrealized_R": -0.522,
-     "distance_to_be_trigger_R": 1.272,
+     "mark": 0.004531,
+     "unrealized_R": -0.507,
+     "distance_to_be_trigger_R": 1.257,
      "time_exit_utc": "2026-10-24T09:55Z",
      "venue": {
       "open": true,
@@ -226,13 +226,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T05:16:44+00:00",
+   "last_cycle_utc": "2026-10-24T05:21:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -2.842,
+   "equity_pct_vs_start": -2.773,
    "balance_pct_vs_start": -2.049,
-   "cushion_pct_of_start_to_floor": 3.158,
+   "cushion_pct_of_start_to_floor": 3.227,
    "open_positions": [
     {
      "coin": "ARB",
@@ -249,15 +249,15 @@
      "be_trigger_px": 0.163925,
      "be_stop_px": 0.167595,
      "be_moved": false,
-     "mark": 0.17113,
-     "unrealized_R": -0.624,
-     "distance_to_be_trigger_R": 1.374,
+     "mark": 0.17105,
+     "unrealized_R": -0.609,
+     "distance_to_be_trigger_R": 1.359,
      "time_exit_utc": "2026-10-24T09:55Z",
      "venue": {
       "open": true,
       "quantity": "7115.7",
       "entryPrice": "0.167857",
-      "markPrice": "0.171175"
+      "markPrice": "0.170905"
      },
      "orders": {
       "entry": [
@@ -344,9 +344,9 @@
      "be_trigger_px": 0.004613,
      "be_stop_px": 0.004566,
      "be_moved": false,
-     "mark": 0.004529,
-     "unrealized_R": -0.515,
-     "distance_to_be_trigger_R": 1.265,
+     "mark": 0.004531,
+     "unrealized_R": -0.485,
+     "distance_to_be_trigger_R": 1.235,
      "time_exit_utc": "2026-10-24T09:55Z",
      "venue": {
       "open": true,
@@ -442,7 +442,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-24T05:17:50+00:00",
+   "last_cycle_utc": "2026-10-24T05:22:52+00:00",
    "attendance_only": true,
    "trading_days": 4,
    "balance_pct_vs_start": -2.042,
@@ -479,8 +479,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-24T05:16:33Z",
-   "equity_pct_vs_start": 3.388,
+   "as_of": "2026-10-24T05:21:31Z",
+   "equity_pct_vs_start": 3.418,
    "open": 0,
    "closed": 1,
    "wins": 1,
@@ -636,8 +636,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.47763,
-     "r_so_far": -0.105
+     "mark": 0.4774,
+     "r_so_far": -0.099
     }
    },
    {
@@ -856,8 +856,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004529,
-     "r_so_far": -0.562
+     "mark": 0.004535,
+     "r_so_far": -0.479
     }
    },
    {
