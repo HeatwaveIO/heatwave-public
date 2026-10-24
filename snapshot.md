@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-24T09:18:33Z
+# Heatwave public snapshot 2026-10-24T09:23:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,18 +6,18 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.227% | 6.772 | 1 | 2026-10-24T09:16:36+00:00 |  |
-| propr_h6 | live | -2.837% | 3.163 | 1 | 2026-10-24T09:16:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T09:17:52+00:00 |  |
+| propr_2s | live | 2.24% | 6.786 | 1 | 2026-10-24T09:21:26+00:00 |  |
+| propr_h6 | live | -2.825% | 3.175 | 1 | 2026-10-24T09:21:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T09:23:03+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 4.588% |  | 0 | 2026-10-24T09:16:33Z |  |
+| coinbase | SHADOW (real orders blocked) | 4.878% |  | 0 | 2026-10-24T09:21:30Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | ARB | SHORT | 0.1677 | 0.16864 | -0.174 | 0.16365 (+0.75R) | False | 2026-10-24T09:55Z | urn:prp-order:JKDQEsbWAJCw @ 0.1731 | urn:prp-order:f8UXf7G5BgPe @ 0.15986 |
-| propr_h6 | ARB | SHORT | 0.167857 | 0.16871 | -0.163 | 0.163925 (+0.75R) | False | 2026-10-24T09:55Z | urn:prp-order:VmGLUMRgkGs6 @ 0.1731 | urn:prp-order:Vu9cSa1bucET @ 0.15986 |
+| propr_2s | ARB | SHORT | 0.1677 | 0.16855 | -0.157 | 0.16365 (+0.75R) | False | 2026-10-24T09:55Z | urn:prp-order:JKDQEsbWAJCw @ 0.1731 | urn:prp-order:f8UXf7G5BgPe @ 0.15986 |
+| propr_h6 | ARB | SHORT | 0.167857 | 0.16855 | -0.132 | 0.163925 (+0.75R) | False | 2026-10-24T09:55Z | urn:prp-order:VmGLUMRgkGs6 @ 0.1731 | urn:prp-order:Vu9cSa1bucET @ 0.15986 |
 
 ## Signal scan 2026-10-23T20:00Z .. 2026-10-24T09:00Z (decision times)
 
