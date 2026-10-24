@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-24T00:13:35Z
+# Heatwave public snapshot 2026-10-24T00:18:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 3.073% | 7.619 | 0 | 2026-10-24T00:11:34+00:00 |  |
-| propr_h6 | live | -2.039% | 3.961 | 0 | 2026-10-24T00:11:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | -1.965% |  | 1 | 2026-10-24T00:12:25+00:00 |  |
+| propr_2s | live | 3.073% | 7.619 | 0 | 2026-10-24T00:16:30+00:00 |  |
+| propr_h6 | live | -2.039% | 3.961 | 0 | 2026-10-24T00:16:43+00:00 |  |
+| hyro_h6 | h6.16-hyro | -1.965% |  | 1 | 2026-10-24T00:17:34+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 2.924% |  | 0 | 2026-10-23T23:56:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 3.414% |  | 0 | 2026-10-24T00:16:31Z |  |
 
 ## Open Propr positions
 
@@ -29,9 +29,9 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-23T14:00Z | kPEPE | LONG | 1 | 2.953 | 2.352 | no_breakout | no_breakout | none |
 | 2026-10-23T14:00Z | DOT | SHORT | 1 | 3.227 | 4.845 | filled | filled | closed 0.5674R |
 | 2026-10-23T15:00Z | kPEPE | LONG | 1 | 2.859 | 5.594 | no_breakout | no_breakout | none |
-| 2026-10-23T17:00Z | ENA | SHORT | 1 | 2.868 | 3.788 | skipped_slots_full | skipped_slots_full | open 0.477R so far |
-| 2026-10-23T19:00Z | ENA | SHORT | 1 | 2.75 | 2.195 | filled | filled | open 2.071R so far |
-| 2026-10-23T20:00Z | WLD | SHORT | 1 | 3.519 | 2.425 | skipped_slots_full | skipped_slots_full | open 2.565R so far |
+| 2026-10-23T17:00Z | ENA | SHORT | 1 | 2.868 | 3.788 | skipped_slots_full | skipped_slots_full | open 0.579R so far |
+| 2026-10-23T19:00Z | ENA | SHORT | 1 | 2.75 | 2.195 | filled | filled | open 2.257R so far |
+| 2026-10-23T20:00Z | WLD | SHORT | 1 | 3.519 | 2.425 | skipped_slots_full | skipped_slots_full | open 2.695R so far |
 | 2026-10-23T23:00Z | kPEPE | LONG | 1 | 3.796 | 2.813 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-23T23:00Z | WLD | SHORT | 1 | 9.117 | 8.455 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-23T23:00Z | ENA | SHORT | 2 | 6.428 | 6.829 | skipped_off_hours | skipped_off_hours |  |
@@ -46,7 +46,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-23T23:00Z | ETH | SHORT | 11 | 3.067 | 2.239 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-23T23:00Z | SUI | SHORT | 12 | 2.898 | 4.083 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-23T23:00Z | AVAX | SHORT | 13 | 2.71 | 3.26 | skipped_off_hours | skipped_off_hours |  |
-| 2026-10-24T00:00Z | kPEPE | LONG | 1 | 6.191 | 1.683 | skipped_off_hours | skipped_off_hours | open 0.068R so far |
+| 2026-10-24T00:00Z | kPEPE | LONG | 1 | 6.191 | 1.683 | skipped_off_hours | skipped_off_hours | open 0.137R so far |
 | 2026-10-24T00:00Z | DOGE | SHORT | 1 | 5.684 | 1.666 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-24T00:00Z | LTC | SHORT | 2 | 5.239 | 2.039 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-24T00:00Z | WLD | SHORT | 3 | 3.69 | 1.864 | skipped_off_hours | skipped_off_hours |  |
