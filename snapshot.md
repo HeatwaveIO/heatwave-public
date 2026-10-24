@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-24T17:38:33Z
+# Heatwave public snapshot 2026-10-24T17:43:34Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,18 +6,18 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 1.508% | 6.054 | 1 | 2026-10-24T17:36:30+00:00 |  |
-| propr_h6 | live | -3.461% | 2.539 | 1 | 2026-10-24T17:36:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T17:37:52+00:00 |  |
+| propr_2s | live | 1.517% | 6.063 | 1 | 2026-10-24T17:41:24+00:00 |  |
+| propr_h6 | live | -3.453% | 2.547 | 1 | 2026-10-24T17:41:43+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T17:42:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 4.948% |  | 0 | 2026-10-24T17:36:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 4.948% |  | 0 | 2026-10-24T17:41:31Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | DOGE | SHORT | 0.074948 | 0.076245 | -0.489 | 0.072959 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:HPFrw3oytQeE @ 0.0776 | urn:prp-order:ht95EavDiPPx @ 0.069044 |
-| propr_h6 | DOGE | SHORT | 0.074947 | 0.076245 | -0.489 | 0.072957 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:hQRWa4Mk6Ho4 @ 0.0776 | urn:prp-order:PHBTXv7xhgMg @ 0.069044 |
+| propr_2s | DOGE | SHORT | 0.074948 | 0.076299 | -0.509 | 0.072959 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:HPFrw3oytQeE @ 0.0776 | urn:prp-order:ht95EavDiPPx @ 0.069044 |
+| propr_h6 | DOGE | SHORT | 0.074947 | 0.076313 | -0.515 | 0.072957 (+0.75R) | False | 2026-10-25T00:55Z | urn:prp-order:hQRWa4Mk6Ho4 @ 0.0776 | urn:prp-order:PHBTXv7xhgMg @ 0.069044 |
 
 ## Signal scan 2026-10-24T04:00Z .. 2026-10-24T17:00Z (decision times)
 
@@ -26,8 +26,8 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-24T07:00Z | kPEPE | LONG | 1 | 3.425 | 1.79 | skipped_off_hours | skipped_off_hours | none |
-| 2026-10-24T10:00Z | NEAR | SHORT | 1 | 4.541 | 2.31 | placed_not_filled (expired) | placed_not_filled (expired) | open -0.328R so far |
-| 2026-10-24T15:00Z | DOGE | SHORT | 1 | 4.023 | 2.835 | filled | filled | open -0.446R so far |
+| 2026-10-24T10:00Z | NEAR | SHORT | 1 | 4.541 | 2.31 | placed_not_filled (expired) | placed_not_filled (expired) | open -0.369R so far |
+| 2026-10-24T15:00Z | DOGE | SHORT | 1 | 4.023 | 2.835 | filled | filled | open -0.487R so far |
 | 2026-10-24T15:00Z | NEAR | SHORT | 2 | 3.365 | 5.092 | not_top1 | not_top1 |  |
 | 2026-10-24T15:00Z | SOL | SHORT | 3 | 2.714 | 1.847 | not_top1 | not_top1 |  |
 | 2026-10-24T15:00Z | ETH | SHORT | 4 | 2.512 | 1.744 | not_top1 | not_top1 |  |
