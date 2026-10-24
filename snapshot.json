@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T12:58:55Z",
+ "generated_utc": "2026-10-24T13:03:46Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T12:56:20+00:00",
+   "last_cycle_utc": "2026-10-24T13:01:34+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -66,7 +66,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T12:56:43+00:00",
+   "last_cycle_utc": "2026-10-24T13:01:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -122,7 +122,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-24T12:57:50+00:00",
+   "last_cycle_utc": "2026-10-24T13:02:52+00:00",
    "attendance_only": true,
    "trading_days": 4,
    "balance_pct_vs_start": -2.042,
@@ -169,10 +169,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-23T23:00Z .. 2026-10-24T12:00Z (decision times)",
+  "window": "2026-10-24T00:00Z .. 2026-10-24T13:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-23T23:00Z": 24,
    "2026-10-24T00:00Z": 22,
    "2026-10-24T01:00Z": 24,
    "2026-10-24T02:00Z": 24,
@@ -185,253 +184,10 @@
    "2026-10-24T09:00Z": 24,
    "2026-10-24T10:00Z": 24,
    "2026-10-24T11:00Z": 24,
-   "2026-10-24T12:00Z": 23
+   "2026-10-24T12:00Z": 23,
+   "2026-10-24T13:00Z": 24
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "kPEPE",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 3.796,
-    "width_pct": 2.813,
-    "level": 0.004657,
-    "stop": 0.004526,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    },
-    "replay_be075": {
-     "status": "none",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "WLD",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 9.117,
-    "width_pct": 8.455,
-    "level": 0.47239,
-    "stop": 0.51233,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-24T00:27Z",
-     "entry": 0.47356,
-     "exit_utc": "2026-10-24T08:56Z",
-     "exit": 0.46922,
-     "exit_kind": "time",
-     "breakeven_utc": null,
-     "net_R": 0.0985
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "ENA",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 6.428,
-    "width_pct": 6.829,
-    "level": 0.1933,
-    "stop": 0.2065,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "ZEC",
-    "side": "SHORT",
-    "rank": 3,
-    "rvol": 5.959,
-    "width_pct": 6.422,
-    "level": 1157.0,
-    "stop": 1231.3,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "LTC",
-    "side": "SHORT",
-    "rank": 4,
-    "rvol": 4.235,
-    "width_pct": 2.476,
-    "level": 56.584,
-    "stop": 57.985,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "XRP",
-    "side": "SHORT",
-    "rank": 5,
-    "rvol": 3.87,
-    "width_pct": 2.194,
-    "level": 1.2807,
-    "stop": 1.3088,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "NEAR",
-    "side": "SHORT",
-    "rank": 6,
-    "rvol": 3.867,
-    "width_pct": 4.953,
-    "level": 4.5833,
-    "stop": 4.8103,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "DOT",
-    "side": "SHORT",
-    "rank": 7,
-    "rvol": 3.662,
-    "width_pct": 4.124,
-    "level": 1.0669,
-    "stop": 1.1109,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "SOL",
-    "side": "SHORT",
-    "rank": 8,
-    "rvol": 3.223,
-    "width_pct": 2.145,
-    "level": 101.64,
-    "stop": 103.82,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "AAVE",
-    "side": "SHORT",
-    "rank": 9,
-    "rvol": 3.15,
-    "width_pct": 4.103,
-    "level": 141.62,
-    "stop": 147.43,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "ARB",
-    "side": "SHORT",
-    "rank": 10,
-    "rvol": 3.084,
-    "width_pct": 5.269,
-    "level": 0.16986,
-    "stop": 0.17881,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "ETH",
-    "side": "SHORT",
-    "rank": 11,
-    "rvol": 3.067,
-    "width_pct": 2.239,
-    "level": 2349.4,
-    "stop": 2402.0,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "SUI",
-    "side": "SHORT",
-    "rank": 12,
-    "rvol": 2.898,
-    "width_pct": 4.083,
-    "level": 0.93915,
-    "stop": 0.9775,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
-   {
-    "decision_utc": "2026-10-23T23:00Z",
-    "or_hour_utc": "22:00",
-    "coin": "AVAX",
-    "side": "SHORT",
-    "rank": 13,
-    "rvol": 2.71,
-    "width_pct": 3.26,
-    "level": 8.8582,
-    "stop": 9.147,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
    {
     "decision_utc": "2026-10-24T00:00Z",
     "or_hour_utc": "23:00",
