@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-24T10:58:34Z
+# Heatwave public snapshot 2026-10-24T11:03:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.127% | 6.673 | 0 | 2026-10-24T10:56:30+00:00 |  |
-| propr_h6 | live | -2.963% | 3.037 | 0 | 2026-10-24T10:56:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T10:57:52+00:00 |  |
+| propr_2s | live | 2.127% | 6.673 | 0 | 2026-10-24T11:01:26+00:00 |  |
+| propr_h6 | live | -2.963% | 3.037 | 0 | 2026-10-24T11:01:43+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.042% |  | 0 | 2026-10-24T11:02:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 4.948% |  | 0 | 2026-10-24T10:56:31Z |  |
 
@@ -17,7 +17,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-10-23T21:00Z .. 2026-10-24T10:00Z (decision times)
+## Signal scan 2026-10-23T22:00Z .. 2026-10-24T11:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
