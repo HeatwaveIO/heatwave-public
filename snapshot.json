@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-24T09:58:56Z",
+ "generated_utc": "2026-10-24T10:03:34Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,78 +8,14 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T09:56:21+00:00",
+   "last_cycle_utc": "2026-10-24T10:01:34+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": 2.16,
-   "balance_pct_vs_start": 2.333,
-   "cushion_pct_of_start_to_floor": 6.706,
-   "open_positions": [
-    {
-     "coin": "ARB",
-     "side": "SHORT",
-     "status": "open",
-     "decision_utc": "2026-10-24T00:00Z",
-     "fill_utc": "2026-10-24T00:46Z",
-     "entry": 0.1677,
-     "stop0": 0.1731,
-     "tp_3R": 0.15986,
-     "qty": 6944.4,
-     "risk_pct_of_start": 0.75,
-     "be_trigger_R": 0.75,
-     "be_trigger_px": 0.16365,
-     "be_stop_px": 0.16743,
-     "be_moved": false,
-     "mark": 0.16935,
-     "unrealized_R": -0.306,
-     "distance_to_be_trigger_R": 1.056,
-     "time_exit_utc": "2026-10-24T09:55Z",
-     "venue": {
-      "open": false,
-      "quantity": null,
-      "entryPrice": null,
-      "markPrice": null
-     },
-     "orders": {
-      "entry": [
-       {
-        "orderId": "urn:prp-order:jWyLTwYrsbPC",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "sell",
-        "status": "filled",
-        "timeInForce": "IOC",
-        "price": "0.1677",
-        "triggerPrice": null,
-        "quantity": "6944.4",
-        "cumulativeQuantity": "6944.4",
-        "createdAt": "2026-10-24T00:41:22.561Z",
-        "filledAt": "2026-10-24T00:41:23.178Z",
-        "cancelledAt": null
-       },
-       {
-        "orderId": "urn:prp-order:UNV1G4LCfo11",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "sell",
-        "status": "cancelled",
-        "timeInForce": "GTX",
-        "price": "0.16979",
-        "triggerPrice": null,
-        "quantity": "11329.3",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-24T00:39:52.323Z",
-        "filledAt": null,
-        "cancelledAt": "2026-10-24T00:41:21.071Z"
-       }
-      ],
-      "stop_market": [],
-      "take_profit_limit": [],
-      "other_live": []
-     }
-    }
-   ],
+   "equity_pct_vs_start": 2.127,
+   "balance_pct_vs_start": 2.127,
+   "cushion_pct_of_start_to_floor": 6.673,
+   "open_positions": [],
    "venue_open_positions": 0,
    "venue_live_orders": 0,
    "recent_closed": [
@@ -108,6 +44,14 @@
      "closed_at": "2026-10-23T22:50:51.895Z"
     },
     {
+     "coin": "ARB",
+     "side": "SHORT",
+     "decision_utc": "2026-10-24T00:00Z",
+     "exit_reason": "time exit",
+     "net_R": -0.279,
+     "closed_at": "2026-10-24T09:56:23.539Z"
+    },
+    {
      "coin": "kPEPE",
      "side": "LONG",
      "decision_utc": "2026-10-24T00:00Z",
@@ -122,78 +66,14 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-24T09:56:43+00:00",
+   "last_cycle_utc": "2026-10-24T10:01:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -2.925,
-   "balance_pct_vs_start": -2.75,
-   "cushion_pct_of_start_to_floor": 3.075,
-   "open_positions": [
-    {
-     "coin": "ARB",
-     "side": "SHORT",
-     "status": "open",
-     "decision_utc": "2026-10-24T00:00Z",
-     "fill_utc": "2026-10-24T00:51Z",
-     "entry": 0.167857,
-     "stop0": 0.1731,
-     "tp_3R": 0.15986,
-     "qty": 7115.7,
-     "risk_pct_of_start": 0.75,
-     "be_trigger_R": 0.75,
-     "be_trigger_px": 0.163925,
-     "be_stop_px": 0.167595,
-     "be_moved": false,
-     "mark": 0.16935,
-     "unrealized_R": -0.285,
-     "distance_to_be_trigger_R": 1.035,
-     "time_exit_utc": "2026-10-24T09:55Z",
-     "venue": {
-      "open": false,
-      "quantity": null,
-      "entryPrice": null,
-      "markPrice": null
-     },
-     "orders": {
-      "entry": [
-       {
-        "orderId": "urn:prp-order:JrRzqCP8eT13",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "sell",
-        "status": "filled",
-        "timeInForce": "IOC",
-        "price": "0.16783",
-        "triggerPrice": null,
-        "quantity": "7115.7",
-        "cumulativeQuantity": "7115.7",
-        "createdAt": "2026-10-24T00:46:46.593Z",
-        "filledAt": "2026-10-24T00:46:47.010Z",
-        "cancelledAt": null
-       },
-       {
-        "orderId": "urn:prp-order:WaaqoXXJeb4X",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "sell",
-        "status": "cancelled",
-        "timeInForce": "GTX",
-        "price": "0.16979",
-        "triggerPrice": null,
-        "quantity": "11329.3",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-24T00:44:08.143Z",
-        "filledAt": null,
-        "cancelledAt": "2026-10-24T00:46:45.349Z"
-       }
-      ],
-      "stop_market": [],
-      "take_profit_limit": [],
-      "other_live": []
-     }
-    }
-   ],
+   "equity_pct_vs_start": -2.963,
+   "balance_pct_vs_start": -2.963,
+   "cushion_pct_of_start_to_floor": 3.037,
+   "open_positions": [],
    "venue_open_positions": 0,
    "venue_live_orders": 0,
    "recent_closed": [
@@ -222,6 +102,14 @@
      "closed_at": "2026-10-23T22:50:51.881Z"
     },
     {
+     "coin": "ARB",
+     "side": "SHORT",
+     "decision_utc": "2026-10-24T00:00Z",
+     "exit_reason": "time exit",
+     "net_R": -0.289,
+     "closed_at": "2026-10-24T09:56:46.780Z"
+    },
+    {
      "coin": "kPEPE",
      "side": "LONG",
      "decision_utc": "2026-10-24T00:00Z",
@@ -234,7 +122,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-24T09:57:52+00:00",
+   "last_cycle_utc": "2026-10-24T10:02:52+00:00",
    "attendance_only": true,
    "trading_days": 4,
    "balance_pct_vs_start": -2.042,
@@ -281,10 +169,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-23T20:00Z .. 2026-10-24T09:00Z (decision times)",
+  "window": "2026-10-23T21:00Z .. 2026-10-24T10:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-23T20:00Z": 24,
    "2026-10-23T21:00Z": 24,
    "2026-10-23T22:00Z": 24,
    "2026-10-23T23:00Z": 24,
@@ -297,35 +184,10 @@
    "2026-10-24T06:00Z": 23,
    "2026-10-24T07:00Z": 24,
    "2026-10-24T08:00Z": 24,
-   "2026-10-24T09:00Z": 24
+   "2026-10-24T09:00Z": 24,
+   "2026-10-24T10:00Z": 24
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-23T20:00Z",
-    "or_hour_utc": "19:00",
-    "coin": "WLD",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 3.519,
-    "width_pct": 2.425,
-    "level": 0.51625,
-    "stop": 0.52877,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "skipped_slots_full",
-     "propr_h6": "skipped_slots_full"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-23T20:26Z",
-     "entry": 0.51436,
-     "exit_utc": "2026-10-24T00:33Z",
-     "exit": 0.47113,
-     "exit_kind": "target",
-     "breakeven_utc": "2026-10-23T22:20Z",
-     "net_R": 2.9607
-    }
-   },
    {
     "decision_utc": "2026-10-23T23:00Z",
     "or_hour_utc": "22:00",
@@ -758,6 +620,32 @@
     "accounts": {
      "propr_2s": "skipped_off_hours",
      "propr_h6": "skipped_off_hours"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
+    }
+   },
+   {
+    "decision_utc": "2026-10-24T10:00Z",
+    "or_hour_utc": "09:00",
+    "coin": "NEAR",
+    "side": "SHORT",
+    "rank": 1,
+    "rvol": 4.541,
+    "width_pct": 2.31,
+    "level": 4.425,
+    "stop": 4.5272,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
     },
     "replay_be075": {
      "status": "pending",
