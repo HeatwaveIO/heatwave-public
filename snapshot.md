@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-25T00:48:33Z
+# Heatwave public snapshot 2026-10-25T00:53:34Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,17 +6,17 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.439% | 6.985 | 1 | 2026-10-25T00:48:25+00:00 |  |
-| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T00:47:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.044% |  | 1 | 2026-10-25T00:47:52+00:00 |  |
+| propr_2s | live | 2.412% | 6.957 | 1 | 2026-10-25T00:53:23+00:00 |  |
+| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T00:52:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.044% |  | 1 | 2026-10-25T00:52:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 2.194% |  | 0 | 2026-10-25T00:46:33Z |  |
+| coinbase | SHADOW (real orders blocked) | 2.174% |  | 0 | 2026-10-25T00:51:32Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | kPEPE | LONG | 0.004347 | 0.004527 | 1.651 | 0.004429 (+0.75R) | True | 2026-10-25T01:55Z | urn:prp-order:eNzekxE3Fskx @ 0.004429 | urn:prp-order:7DT4dhEEiFfC @ 0.004626 |
+| propr_2s | kPEPE | LONG | 0.004347 | 0.004521 | 1.596 | 0.004429 (+0.75R) | True | 2026-10-25T01:55Z | urn:prp-order:eNzekxE3Fskx @ 0.004429 | urn:prp-order:7DT4dhEEiFfC @ 0.004626 |
 
 ## Signal scan 2026-10-24T11:00Z .. 2026-10-25T00:00Z (decision times)
 
@@ -28,10 +28,10 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-24T15:00Z | NEAR | SHORT | 2 | 3.365 | 5.092 | not_top1 | not_top1 |  |
 | 2026-10-24T15:00Z | SOL | SHORT | 3 | 2.714 | 1.847 | not_top1 | not_top1 |  |
 | 2026-10-24T15:00Z | ETH | SHORT | 4 | 2.512 | 1.744 | not_top1 | not_top1 |  |
-| 2026-10-24T16:00Z | kPEPE | LONG | 1 | 2.55 | 2.238 | filled | skipped_room_clamp | open 1.577R so far |
+| 2026-10-24T16:00Z | kPEPE | LONG | 1 | 2.55 | 2.238 | filled | skipped_room_clamp | open 1.532R so far |
 | 2026-10-24T16:00Z | ETH | SHORT | 1 | 3.206 | 2.661 | no_breakout | no_breakout | none |
 | 2026-10-24T16:00Z | AAVE | SHORT | 2 | 3.005 | 1.718 | not_top1 | not_top1 |  |
-| 2026-10-24T19:00Z | kPEPE | LONG | 1 | 3.754 | 2.536 | skipped_slots_full | skipped_room_clamp | open 0.611R so far |
+| 2026-10-24T19:00Z | kPEPE | LONG | 1 | 3.754 | 2.536 | skipped_slots_full | skipped_room_clamp | open 0.566R so far |
 | 2026-10-24T19:00Z | ZEC | SHORT | 1 | 4.266 | 3.494 | armed_waiting_breakout | armed_waiting_breakout | pending |
 | 2026-10-24T19:00Z | DOT | SHORT | 2 | 3.424 | 1.544 | not_top1 | not_top1 |  |
 
