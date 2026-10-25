@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T12:03:33Z",
+ "generated_utc": "2026-10-25T12:08:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T12:03:23+00:00",
+   "last_cycle_utc": "2026-10-25T12:08:20+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -82,7 +82,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T12:02:42+00:00",
+   "last_cycle_utc": "2026-10-25T12:07:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -146,7 +146,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-25T12:02:52+00:00",
+   "last_cycle_utc": "2026-10-25T12:07:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -250,8 +250,8 @@
     "stop": 0.45571,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
-     "propr_h6": "not_picked_by_executor (data / timing)"
+     "propr_2s": "armed_waiting_breakout",
+     "propr_h6": "armed_waiting_breakout"
     },
     "replay_be075": {
      "status": "pending",
