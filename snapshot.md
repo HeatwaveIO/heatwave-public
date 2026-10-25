@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-25T07:23:33Z
+# Heatwave public snapshot 2026-10-25T07:28:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.237% | 6.783 | 0 | 2026-10-25T07:23:22+00:00 |  |
-| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T07:22:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | -1.967% |  | 0 | 2026-10-25T07:22:52+00:00 |  |
+| propr_2s | live | 2.237% | 6.783 | 0 | 2026-10-25T07:28:19+00:00 |  |
+| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T07:27:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -1.967% |  | 0 | 2026-10-25T07:27:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 2.428% |  | 0 | 2026-10-25T07:21:32Z |  |
+| coinbase | SHADOW (real orders blocked) | 2.478% |  | 0 | 2026-10-25T07:26:31Z |  |
 
 ## Open Propr positions
 
