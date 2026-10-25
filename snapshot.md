@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-25T04:58:35Z
+# Heatwave public snapshot 2026-10-25T05:03:32Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.237% | 6.783 | 0 | 2026-10-25T04:58:23+00:00 |  |
-| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T04:57:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.044% |  | 1 | 2026-10-25T04:57:52+00:00 |  |
+| propr_2s | live | 2.237% | 6.783 | 0 | 2026-10-25T05:03:23+00:00 |  |
+| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T05:02:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.044% |  | 1 | 2026-10-25T05:02:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 1.098% |  | 0 | 2026-10-25T04:56:33Z |  |
 
@@ -17,16 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-10-24T15:00Z .. 2026-10-25T04:00Z (decision times)
+## Signal scan 2026-10-24T16:00Z .. 2026-10-25T05:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-24T15:00Z | DOGE | SHORT | 1 | 4.023 | 2.835 | filled | filled | closed -1.038R |
-| 2026-10-24T15:00Z | NEAR | SHORT | 2 | 3.365 | 5.092 | not_top1 | not_top1 |  |
-| 2026-10-24T15:00Z | SOL | SHORT | 3 | 2.714 | 1.847 | not_top1 | not_top1 |  |
-| 2026-10-24T15:00Z | ETH | SHORT | 4 | 2.512 | 1.744 | not_top1 | not_top1 |  |
 | 2026-10-24T16:00Z | kPEPE | LONG | 1 | 2.55 | 2.238 | filled | skipped_room_clamp | closed 1.3274R |
 | 2026-10-24T16:00Z | ETH | SHORT | 1 | 3.206 | 2.661 | no_breakout | no_breakout | none |
 | 2026-10-24T16:00Z | AAVE | SHORT | 2 | 3.005 | 1.718 | not_top1 | not_top1 |  |

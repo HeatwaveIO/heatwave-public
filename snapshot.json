@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T04:58:35Z",
+ "generated_utc": "2026-10-25T05:03:32Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T04:58:23+00:00",
+   "last_cycle_utc": "2026-10-25T05:03:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -82,7 +82,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T04:57:42+00:00",
+   "last_cycle_utc": "2026-10-25T05:02:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -146,7 +146,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-25T04:57:52+00:00",
+   "last_cycle_utc": "2026-10-25T05:02:52+00:00",
    "attendance_only": true,
    "trading_days": 4,
    "balance_pct_vs_start": -2.044,
@@ -193,10 +193,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-24T15:00Z .. 2026-10-25T04:00Z (decision times)",
+  "window": "2026-10-24T16:00Z .. 2026-10-25T05:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-24T15:00Z": 24,
    "2026-10-24T16:00Z": 24,
    "2026-10-24T17:00Z": 24,
    "2026-10-24T18:00Z": 24,
@@ -209,83 +208,10 @@
    "2026-10-25T01:00Z": 24,
    "2026-10-25T02:00Z": 24,
    "2026-10-25T03:00Z": 24,
-   "2026-10-25T04:00Z": 24
+   "2026-10-25T04:00Z": 24,
+   "2026-10-25T05:00Z": 24
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-24T15:00Z",
-    "or_hour_utc": "14:00",
-    "coin": "DOGE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 4.023,
-    "width_pct": 2.835,
-    "level": 0.075461,
-    "stop": 0.0776,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "filled",
-     "propr_h6": "filled"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-24T15:26Z",
-     "entry": 0.075035,
-     "exit_utc": "2026-10-24T23:32Z",
-     "exit": 0.0776,
-     "exit_kind": "stop",
-     "breakeven_utc": null,
-     "net_R": -1.038
-    }
-   },
-   {
-    "decision_utc": "2026-10-24T15:00Z",
-    "or_hour_utc": "14:00",
-    "coin": "NEAR",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 3.365,
-    "width_pct": 5.092,
-    "level": 4.2382,
-    "stop": 4.454,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "not_top1",
-     "propr_h6": "not_top1"
-    }
-   },
-   {
-    "decision_utc": "2026-10-24T15:00Z",
-    "or_hour_utc": "14:00",
-    "coin": "SOL",
-    "side": "SHORT",
-    "rank": 3,
-    "rvol": 2.714,
-    "width_pct": 1.847,
-    "level": 99.6,
-    "stop": 101.44,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "not_top1",
-     "propr_h6": "not_top1"
-    }
-   },
-   {
-    "decision_utc": "2026-10-24T15:00Z",
-    "or_hour_utc": "14:00",
-    "coin": "ETH",
-    "side": "SHORT",
-    "rank": 4,
-    "rvol": 2.512,
-    "width_pct": 1.744,
-    "level": 2328.4,
-    "stop": 2369.0,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "not_top1",
-     "propr_h6": "not_top1"
-    }
-   },
    {
     "decision_utc": "2026-10-24T16:00Z",
     "or_hour_utc": "15:00",
