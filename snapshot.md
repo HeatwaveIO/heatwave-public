@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-25T01:08:37Z
+# Heatwave public snapshot 2026-10-25T01:13:35Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 2.193% | 6.738 | 1 | 2026-10-25T01:08:20+00:00 |  |
-| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T01:07:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | -2.044% |  | 1 | 2026-10-25T01:07:50+00:00 |  |
+| propr_2s | live | 2.201% | 6.747 | 1 | 2026-10-25T01:13:22+00:00 |  |
+| propr_h6 | live | -3.996% | 2.004 | 0 | 2026-10-25T01:12:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | -2.044% |  | 1 | 2026-10-25T01:12:52+00:00 |  |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 2.074% |  | 0 | 2026-10-25T00:56:30Z |  |
 
@@ -16,7 +16,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | kPEPE | LONG | 0.004347 | 0.004499 | 1.394 | 0.004429 (+0.75R) | True | 2026-10-25T01:55Z | urn:prp-order:eNzekxE3Fskx @ 0.004429 | urn:prp-order:7DT4dhEEiFfC @ 0.004626 |
+| propr_2s | kPEPE | LONG | 0.004347 | 0.004496 | 1.367 | 0.004429 (+0.75R) | True | 2026-10-25T01:55Z | urn:prp-order:eNzekxE3Fskx @ 0.004429 | urn:prp-order:7DT4dhEEiFfC @ 0.004626 |
 
 ## Signal scan 2026-10-24T12:00Z .. 2026-10-25T01:00Z (decision times)
 
