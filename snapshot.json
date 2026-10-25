@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T02:58:35Z",
+ "generated_utc": "2026-10-25T03:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T02:58:34+00:00",
+   "last_cycle_utc": "2026-10-25T03:03:29+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -82,7 +82,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T02:57:42+00:00",
+   "last_cycle_utc": "2026-10-25T03:03:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -146,7 +146,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-25T02:57:48+00:00",
+   "last_cycle_utc": "2026-10-25T03:02:52+00:00",
    "attendance_only": true,
    "trading_days": 4,
    "balance_pct_vs_start": -2.044,
@@ -193,10 +193,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-24T13:00Z .. 2026-10-25T02:00Z (decision times)",
+  "window": "2026-10-24T14:00Z .. 2026-10-25T03:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-24T13:00Z": 24,
    "2026-10-24T14:00Z": 24,
    "2026-10-24T15:00Z": 24,
    "2026-10-24T16:00Z": 24,
@@ -209,7 +208,8 @@
    "2026-10-24T23:00Z": 24,
    "2026-10-25T00:00Z": 24,
    "2026-10-25T01:00Z": 24,
-   "2026-10-25T02:00Z": 24
+   "2026-10-25T02:00Z": 24,
+   "2026-10-25T03:00Z": 24
   },
   "signals": [
    {
@@ -370,16 +370,14 @@
      "propr_h6": "skipped_room_clamp"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-24T19:14Z",
      "entry": 0.004455,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-25T02:59Z",
+     "exit": 0.004461,
+     "exit_kind": "trailed_stop",
      "breakeven_utc": "2026-10-24T23:38Z",
-     "net_R": null,
-     "mark": 0.004491,
-     "r_so_far": 0.319
+     "net_R": 0.0066
     }
    },
    {
