@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T11:43:31Z",
+ "generated_utc": "2026-10-25T11:48:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T11:43:17+00:00",
+   "last_cycle_utc": "2026-10-25T11:48:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -82,7 +82,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T11:42:42+00:00",
+   "last_cycle_utc": "2026-10-25T11:48:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -146,14 +146,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-25T11:42:52+00:00",
+   "last_cycle_utc": "2026-10-25T11:47:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
    "open_positions": 0,
    "resting_orders": 0,
    "saver_why": null,
-   "error": "HyroError: list_challenges: HyroTrader API error (504 internal_server_error): An unexpected API error occurred."
+   "error": "HyroError: list_challenges: HyroTrader API error (502 internal_server_error): An unexpected API error occurred."
   },
   "alp100": {
    "account": "alp100",
@@ -183,8 +183,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-25T11:41:31Z",
-   "equity_pct_vs_start": 3.208,
+   "as_of": "2026-10-25T11:46:30Z",
+   "equity_pct_vs_start": 2.74,
    "open": 0,
    "closed": 1,
    "wins": 1,
