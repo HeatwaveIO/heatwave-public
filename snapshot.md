@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-26T04:28:40Z
+# Heatwave public snapshot 2026-10-26T04:33:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,20 +6,20 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 1.731% | 6.277 | 2 | 2026-10-26T04:28:28+00:00 |  |
-| propr_h6 | live | -4.464% | 1.536 | 2 | 2026-10-26T04:28:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-26T04:27:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | 1.587% | 6.132 | 2 | 2026-10-26T04:33:19+00:00 |  |
+| propr_h6 | live | -4.718% | 1.282 | 2 | 2026-10-26T04:32:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-26T04:32:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-21T19:55:46+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 5.304% |  | 0 | 2026-10-26T04:26:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 5.134% |  | 0 | 2026-10-26T04:31:30Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | ZEC | SHORT | 1185.3 | 1196.95 | -0.326 | 1158.525 (+0.75R) | False | 2026-10-26T09:55Z | urn:prp-order:rcWNtG8fNsw2 @ 1221 | urn:prp-order:YJdLWpsBNJkq @ 1073 |
-| propr_2s | NEAR | SHORT | 4.441702 | 4.48505 | -0.293 | 4.330704 (+0.75R) | False | 2026-10-26T11:55Z | urn:prp-order:nFG4R9xUWCeK @ 4.5897 | urn:prp-order:piayoWVzw9Yg @ 3.9977 |
-| propr_h6 | ZEC | SHORT | 1184.9 | 1197.25 | -0.342 | 1157.825 (+0.75R) | False | 2026-10-26T09:55Z | urn:prp-order:aNTH8tfKrEPp @ 1221 | urn:prp-order:zDAufqXZNCBe @ 1073 |
-| propr_h6 | NEAR | SHORT | 4.441702 | 4.4857 | -0.297 | 4.330704 (+0.75R) | False | 2026-10-26T11:55Z | urn:prp-order:3rsBjknpMoLt @ 4.5897 | urn:prp-order:jksAGmmvyyET @ 3.9977 |
+| propr_2s | ZEC | SHORT | 1185.3 | 1200.8 | -0.434 | 1158.525 (+0.75R) | False | 2026-10-26T09:55Z | urn:prp-order:rcWNtG8fNsw2 @ 1221 | urn:prp-order:YJdLWpsBNJkq @ 1073 |
+| propr_2s | NEAR | SHORT | 4.441702 | 4.50585 | -0.433 | 4.330704 (+0.75R) | False | 2026-10-26T11:55Z | urn:prp-order:nFG4R9xUWCeK @ 4.5897 | urn:prp-order:piayoWVzw9Yg @ 3.9977 |
+| propr_h6 | ZEC | SHORT | 1184.9 | 1201.35 | -0.456 | 1157.825 (+0.75R) | False | 2026-10-26T09:55Z | urn:prp-order:aNTH8tfKrEPp @ 1221 | urn:prp-order:zDAufqXZNCBe @ 1073 |
+| propr_h6 | NEAR | SHORT | 4.441702 | 4.50945 | -0.458 | 4.330704 (+0.75R) | False | 2026-10-26T11:55Z | urn:prp-order:3rsBjknpMoLt @ 4.5897 | urn:prp-order:jksAGmmvyyET @ 3.9977 |
 
 ## Signal scan 2026-10-25T15:00Z .. 2026-10-26T04:00Z (decision times)
 
@@ -28,9 +28,9 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-26T00:00Z | ENA | LONG | 1 | 5.417 | 2.212 | skipped_off_hours | skipped_off_hours | pending |
-| 2026-10-26T00:00Z | ZEC | SHORT | 1 | 5.492 | 3.125 | skipped_off_hours | skipped_off_hours | open -0.3R so far |
+| 2026-10-26T00:00Z | ZEC | SHORT | 1 | 5.492 | 3.125 | skipped_off_hours | skipped_off_hours | open -0.414R so far |
 | 2026-10-26T00:00Z | APT | SHORT | 2 | 3.083 | 1.628 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-26T01:00Z | ENA | LONG | 1 | 2.509 | 1.961 | skipped_off_hours | skipped_off_hours | pending |
-| 2026-10-26T02:00Z | kPEPE | LONG | 1 | 2.666 | 1.889 | skipped_off_hours | skipped_off_hours | open -0.074R so far |
-| 2026-10-26T02:00Z | NEAR | SHORT | 1 | 2.98 | 3.332 | skipped_off_hours | skipped_off_hours | open -0.33R so far |
+| 2026-10-26T02:00Z | kPEPE | LONG | 1 | 2.666 | 1.889 | skipped_off_hours | skipped_off_hours | open 0.314R so far |
+| 2026-10-26T02:00Z | NEAR | SHORT | 1 | 2.98 | 3.332 | skipped_off_hours | skipped_off_hours | open -0.433R so far |
 
