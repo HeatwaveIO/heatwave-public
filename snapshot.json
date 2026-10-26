@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T17:53:35Z",
+ "generated_utc": "2026-10-26T17:58:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T17:53:19+00:00",
+   "last_cycle_utc": "2026-10-26T17:58:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T17:52:42+00:00",
+   "last_cycle_utc": "2026-10-26T17:58:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-26T17:52:53+00:00",
+   "last_cycle_utc": "2026-10-26T17:57:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -204,7 +204,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-26T17:50:47+00:00",
+    "at": "2026-10-26T17:55:47+00:00",
     "day": "2026-10-26",
     "picks": [
      "SOXL",
@@ -226,6 +226,20 @@
       "oid": "c228c84d-5cfb-431c-89d2-4a9d7184d740",
       "stop_oid": null,
       "exit_oid": null
+     },
+     "SNDK": {
+      "day": "2026-10-26",
+      "status": "pending",
+      "limit": 1276.99,
+      "fill": null,
+      "stop": 1232.07,
+      "target": null,
+      "exit": null,
+      "exit_why": null,
+      "net_R": null,
+      "oid": "32d76ccc-db31-4a9e-9cf9-1ca464bc5b66",
+      "stop_oid": null,
+      "exit_oid": null
      }
     }
    }
@@ -233,8 +247,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-26T17:51:33Z",
-   "equity_pct_vs_start": 3.946,
+   "as_of": "2026-10-26T17:56:31Z",
+   "equity_pct_vs_start": 3.406,
    "open": 0,
    "closed": 2,
    "wins": 2,
