@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-26T23:08:40Z
+# Heatwave public snapshot 2026-10-26T23:13:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-26T23:08:33+00:00 |  |
-| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-26T23:08:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-26T23:07:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-26T23:13:30+00:00 |  |
+| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-26T23:12:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-26T23:13:06+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 4.57% |  | 0 | 2026-10-26T22:56:30Z |  |
 
@@ -23,7 +23,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-26T18:00Z | HYPE | SHORT | 1 | 5.727 | 2.826 | armed_waiting_breakout | armed_waiting_breakout | open 0.376R so far |
+| 2026-10-26T18:00Z | HYPE | SHORT | 1 | 5.727 | 2.826 | armed_waiting_breakout | armed_waiting_breakout | open 0.328R so far |
 | 2026-10-26T18:00Z | WLD | SHORT | 2 | 2.905 | 1.503 | not_top1 | not_top1 |  |
-| 2026-10-26T19:00Z | HYPE | SHORT | 1 | 2.607 | 1.835 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 0.611R so far |
+| 2026-10-26T19:00Z | HYPE | SHORT | 1 | 2.607 | 1.835 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 0.538R so far |
 
