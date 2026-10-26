@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T19:53:40Z",
+ "generated_utc": "2026-10-26T19:58:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T19:53:28+00:00",
+   "last_cycle_utc": "2026-10-26T19:58:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T19:53:42+00:00",
+   "last_cycle_utc": "2026-10-26T19:58:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-26T19:52:52+00:00",
+   "last_cycle_utc": "2026-10-26T19:57:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -204,7 +204,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-26T19:50:47+00:00",
+    "at": "2026-10-26T19:55:47+00:00",
     "day": "2026-10-26",
     "picks": [
      "SOXL",
@@ -247,8 +247,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-26T19:51:30Z",
-   "equity_pct_vs_start": 4.118,
+   "as_of": "2026-10-26T19:56:30Z",
+   "equity_pct_vs_start": 3.948,
    "open": 0,
    "closed": 2,
    "wins": 2,
@@ -344,14 +344,8 @@
      "propr_h6": "armed_waiting_breakout"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
