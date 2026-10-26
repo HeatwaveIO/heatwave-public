@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T04:03:36Z",
+ "generated_utc": "2026-10-26T04:08:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T04:03:34+00:00",
+   "last_cycle_utc": "2026-10-26T04:08:20+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": 1.906,
+   "equity_pct_vs_start": 1.964,
    "balance_pct_vs_start": 2.23,
-   "cushion_pct_of_start_to_floor": 6.451,
+   "cushion_pct_of_start_to_floor": 6.51,
    "open_positions": [
     {
      "coin": "ZEC",
@@ -31,15 +31,15 @@
      "be_trigger_px": 1158.525,
      "be_stop_px": 1183.515,
      "be_moved": false,
-     "mark": 1193.25,
-     "unrealized_R": -0.223,
-     "distance_to_be_trigger_R": 0.973,
+     "mark": 1195.55,
+     "unrealized_R": -0.287,
+     "distance_to_be_trigger_R": 1.037,
      "time_exit_utc": "2026-10-26T09:55Z",
      "venue": {
       "open": true,
       "quantity": "1.01",
       "entryPrice": "1185.3",
-      "markPrice": "1193.05"
+      "markPrice": "1193.15"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 4.330704,
      "be_stop_px": 4.434302,
      "be_moved": false,
-     "mark": 4.47695,
-     "unrealized_R": -0.238,
-     "distance_to_be_trigger_R": 0.988,
+     "mark": 4.4669,
+     "unrealized_R": -0.17,
+     "distance_to_be_trigger_R": 0.92,
      "time_exit_utc": "2026-10-26T11:55Z",
      "venue": {
       "open": true,
       "quantity": "253.3",
       "entryPrice": "4.441702",
-      "markPrice": "4.47495"
+      "markPrice": "4.46215"
      },
      "orders": {
       "entry": [
@@ -243,13 +243,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T04:02:42+00:00",
+   "last_cycle_utc": "2026-10-26T04:08:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -4.228,
+   "equity_pct_vs_start": -4.273,
    "balance_pct_vs_start": -4.003,
-   "cushion_pct_of_start_to_floor": 1.772,
+   "cushion_pct_of_start_to_floor": 1.727,
    "open_positions": [
     {
      "coin": "ZEC",
@@ -266,15 +266,15 @@
      "be_trigger_px": 1157.825,
      "be_stop_px": 1183.095,
      "be_moved": false,
-     "mark": 1193.15,
-     "unrealized_R": -0.229,
-     "distance_to_be_trigger_R": 0.979,
+     "mark": 1195.55,
+     "unrealized_R": -0.295,
+     "distance_to_be_trigger_R": 1.045,
      "time_exit_utc": "2026-10-26T09:55Z",
      "venue": {
       "open": true,
       "quantity": "1.01",
       "entryPrice": "1184.9",
-      "markPrice": "1193.05"
+      "markPrice": "1193.15"
      },
      "orders": {
       "entry": [
@@ -346,15 +346,15 @@
      "be_trigger_px": 4.330704,
      "be_stop_px": 4.434302,
      "be_moved": false,
-     "mark": 4.4764,
-     "unrealized_R": -0.234,
-     "distance_to_be_trigger_R": 0.984,
+     "mark": 4.4669,
+     "unrealized_R": -0.17,
+     "distance_to_be_trigger_R": 0.92,
      "time_exit_utc": "2026-10-26T11:55Z",
      "venue": {
       "open": true,
       "quantity": "253.3",
       "entryPrice": "4.441702",
-      "markPrice": "4.47495"
+      "markPrice": "4.46215"
      },
      "orders": {
       "entry": [
@@ -468,7 +468,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-26T04:02:52+00:00",
+   "last_cycle_utc": "2026-10-26T04:07:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -584,8 +584,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1190.5,
-     "r_so_far": -0.084
+     "mark": 1193.1,
+     "r_so_far": -0.162
     }
    },
    {
@@ -680,8 +680,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 4.4671,
-     "r_so_far": -0.172
+     "mark": 4.4611,
+     "r_so_far": -0.131
     }
    }
   ]
