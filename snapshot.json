@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T18:03:40Z",
+ "generated_utc": "2026-10-26T18:08:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T18:03:31+00:00",
+   "last_cycle_utc": "2026-10-26T18:08:26+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T18:03:42+00:00",
+   "last_cycle_utc": "2026-10-26T18:08:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-26T18:02:52+00:00",
+   "last_cycle_utc": "2026-10-26T18:07:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -204,7 +204,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-26T18:00:47+00:00",
+    "at": "2026-10-26T18:05:46+00:00",
     "day": "2026-10-26",
     "picks": [
      "SOXL",
@@ -229,7 +229,7 @@
      },
      "SNDK": {
       "day": "2026-10-26",
-      "status": "pending",
+      "status": "expired",
       "limit": 1276.99,
       "fill": null,
       "stop": 1232.07,
@@ -340,8 +340,8 @@
     "stop": 80.564,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
-     "propr_h6": "not_picked_by_executor (data / timing)"
+     "propr_2s": "armed_waiting_breakout",
+     "propr_h6": "armed_waiting_breakout"
     },
     "replay_be075": {
      "status": "pending",
