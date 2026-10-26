@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T14:18:34Z",
+ "generated_utc": "2026-10-26T14:23:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T14:18:22+00:00",
+   "last_cycle_utc": "2026-10-26T14:23:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T14:18:44+00:00",
+   "last_cycle_utc": "2026-10-26T14:23:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-26T14:17:53+00:00",
+   "last_cycle_utc": "2026-10-26T14:22:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -204,7 +204,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-26T14:15:46+00:00",
+    "at": "2026-10-26T14:21:15+00:00",
     "day": "2026-10-26",
     "picks": [],
     "equity_pct_vs_sleeve_start": 0.0,
@@ -215,8 +215,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-26T14:16:31Z",
-   "equity_pct_vs_start": 4.304,
+   "as_of": "2026-10-26T14:21:33Z",
+   "equity_pct_vs_start": 3.644,
    "open": 0,
    "closed": 2,
    "wins": 2,
