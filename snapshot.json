@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-26T11:58:31Z",
+ "generated_utc": "2026-10-26T12:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T11:58:28+00:00",
+   "last_cycle_utc": "2026-10-26T12:03:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-26T11:57:42+00:00",
+   "last_cycle_utc": "2026-10-26T12:03:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-26T11:57:52+00:00",
+   "last_cycle_utc": "2026-10-26T12:02:59+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -225,10 +225,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-25T22:00Z .. 2026-10-26T11:00Z (decision times)",
+  "window": "2026-10-25T23:00Z .. 2026-10-26T12:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-25T22:00Z": 24,
    "2026-10-25T23:00Z": 24,
    "2026-10-26T00:00Z": 24,
    "2026-10-26T01:00Z": 24,
@@ -241,7 +240,8 @@
    "2026-10-26T08:00Z": 24,
    "2026-10-26T09:00Z": 24,
    "2026-10-26T10:00Z": 24,
-   "2026-10-26T11:00Z": 24
+   "2026-10-26T11:00Z": 24,
+   "2026-10-26T12:00Z": 24
   },
   "signals": [
    {
@@ -354,16 +354,14 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-26T04:16Z",
      "entry": 0.004328,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-26T11:56Z",
+     "exit": 0.004371,
+     "exit_kind": "time",
      "breakeven_utc": "2026-10-26T05:45Z",
-     "net_R": null,
-     "mark": 0.004369,
-     "r_so_far": 0.339
+     "net_R": 0.3089
     }
    },
    {
