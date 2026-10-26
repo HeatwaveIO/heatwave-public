@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-25T23:58:40Z",
+ "generated_utc": "2026-10-26T00:03:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T23:58:25+00:00",
+   "last_cycle_utc": "2026-10-26T00:03:25+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -82,7 +82,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-25T23:58:42+00:00",
+   "last_cycle_utc": "2026-10-26T00:02:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -146,7 +146,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-25T23:57:52+00:00",
+   "last_cycle_utc": "2026-10-26T00:02:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -193,10 +193,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-25T10:00Z .. 2026-10-25T23:00Z (decision times)",
+  "window": "2026-10-25T11:00Z .. 2026-10-26T00:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-25T10:00Z": 24,
    "2026-10-25T11:00Z": 24,
    "2026-10-25T12:00Z": 24,
    "2026-10-25T13:00Z": 24,
@@ -209,7 +208,8 @@
    "2026-10-25T20:00Z": 24,
    "2026-10-25T21:00Z": 24,
    "2026-10-25T22:00Z": 24,
-   "2026-10-25T23:00Z": 24
+   "2026-10-25T23:00Z": 24,
+   "2026-10-26T00:00Z": 24
   },
   "signals": [
    {
@@ -262,6 +262,74 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null
+    }
+   },
+   {
+    "decision_utc": "2026-10-26T00:00Z",
+    "or_hour_utc": "23:00",
+    "coin": "ENA",
+    "side": "LONG",
+    "rank": 1,
+    "rvol": 5.417,
+    "width_pct": 2.212,
+    "level": 0.20888,
+    "stop": 0.20426,
+    "in_core_hours": false,
+    "accounts": {
+     "propr_2s": "skipped_off_hours",
+     "propr_h6": "skipped_off_hours"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
+    }
+   },
+   {
+    "decision_utc": "2026-10-26T00:00Z",
+    "or_hour_utc": "23:00",
+    "coin": "ZEC",
+    "side": "SHORT",
+    "rank": 1,
+    "rvol": 5.492,
+    "width_pct": 3.125,
+    "level": 1184.0,
+    "stop": 1221.0,
+    "in_core_hours": false,
+    "accounts": {
+     "propr_2s": "skipped_off_hours",
+     "propr_h6": "skipped_off_hours"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
+    }
+   },
+   {
+    "decision_utc": "2026-10-26T00:00Z",
+    "or_hour_utc": "23:00",
+    "coin": "APT",
+    "side": "SHORT",
+    "rank": 2,
+    "rvol": 3.083,
+    "width_pct": 1.628,
+    "level": 0.694,
+    "stop": 0.7053,
+    "in_core_hours": false,
+    "accounts": {
+     "propr_2s": "skipped_off_hours",
+     "propr_h6": "skipped_off_hours"
     }
    }
   ]
