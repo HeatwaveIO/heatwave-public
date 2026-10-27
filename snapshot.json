@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T21:08:35Z",
+ "generated_utc": "2026-10-27T21:13:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T21:08:36+00:00",
+   "last_cycle_utc": "2026-10-27T21:13:22+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,13 +106,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T21:07:42+00:00",
+   "last_cycle_utc": "2026-10-27T21:13:42+00:00",
    "error": null,
-   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
+   "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.537,
+   "equity_pct_vs_start": -5.539,
    "balance_pct_vs_start": -5.525,
-   "cushion_pct_of_start_to_floor": 0.463,
+   "cushion_pct_of_start_to_floor": 0.461,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -129,15 +129,15 @@
      "be_trigger_px": 82.329,
      "be_stop_px": 81.419,
      "be_moved": false,
-     "mark": 81.1875,
-     "unrealized_R": -0.128,
-     "distance_to_be_trigger_R": 0.878,
+     "mark": 81.1235,
+     "unrealized_R": -0.177,
+     "distance_to_be_trigger_R": 0.927,
      "time_exit_utc": "2026-10-28T03:55Z",
      "venue": {
       "open": true,
       "quantity": "2.91",
       "entryPrice": "81.354",
-      "markPrice": "81.1875"
+      "markPrice": "81.1135"
      },
      "orders": {
       "entry": [
@@ -282,7 +282,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T21:07:48+00:00",
+   "last_cycle_utc": "2026-10-27T21:12:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
