@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T20:58:40Z",
+ "generated_utc": "2026-10-27T21:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T20:58:26+00:00",
+   "last_cycle_utc": "2026-10-27T21:03:20+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,13 +106,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T20:58:42+00:00",
+   "last_cycle_utc": "2026-10-27T21:03:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.545,
+   "equity_pct_vs_start": -5.54,
    "balance_pct_vs_start": -5.525,
-   "cushion_pct_of_start_to_floor": 0.455,
+   "cushion_pct_of_start_to_floor": 0.46,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -129,15 +129,15 @@
      "be_trigger_px": 82.329,
      "be_stop_px": 81.419,
      "be_moved": false,
-     "mark": 81.0025,
-     "unrealized_R": -0.27,
-     "distance_to_be_trigger_R": 1.02,
+     "mark": 81.0715,
+     "unrealized_R": -0.217,
+     "distance_to_be_trigger_R": 0.967,
      "time_exit_utc": "2026-10-28T03:55Z",
      "venue": {
       "open": true,
       "quantity": "2.91",
       "entryPrice": "81.354",
-      "markPrice": "81.0025"
+      "markPrice": "81.1005"
      },
      "orders": {
       "entry": [
@@ -282,7 +282,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T20:57:49+00:00",
+   "last_cycle_utc": "2026-10-27T21:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -347,10 +347,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-27T07:00Z .. 2026-10-27T20:00Z (decision times)",
+  "window": "2026-10-27T08:00Z .. 2026-10-27T21:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-27T07:00Z": 25,
    "2026-10-27T08:00Z": 25,
    "2026-10-27T09:00Z": 25,
    "2026-10-27T10:00Z": 25,
@@ -363,7 +362,8 @@
    "2026-10-27T17:00Z": 25,
    "2026-10-27T18:00Z": 25,
    "2026-10-27T19:00Z": 25,
-   "2026-10-27T20:00Z": 25
+   "2026-10-27T20:00Z": 25,
+   "2026-10-27T21:00Z": 25
   },
   "signals": [
    {
