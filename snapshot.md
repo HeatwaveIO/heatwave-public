@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T01:48:33Z
+# Heatwave public snapshot 2026-10-27T01:53:33Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T01:48:19+00:00 |  |
-| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T01:47:41+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T01:47:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T01:53:34+00:00 |  |
+| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T01:52:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T01:52:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 2.416% |  | 0 | 2026-10-27T01:46:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 2.854% |  | 0 | 2026-10-27T01:51:31Z |  |
 
 ## Open Propr positions
 
@@ -23,7 +23,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-26T18:00Z | HYPE | SHORT | 1 | 5.727 | 2.826 | no_breakout | no_breakout | open 0.004R so far |
+| 2026-10-26T18:00Z | HYPE | SHORT | 1 | 5.727 | 2.826 | no_breakout | no_breakout | open 0.108R so far |
 | 2026-10-26T18:00Z | WLD | SHORT | 2 | 2.905 | 1.503 | not_top1 | not_top1 |  |
 | 2026-10-26T19:00Z | HYPE | SHORT | 1 | 2.607 | 1.835 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | closed -0.0099R |
 | 2026-10-27T00:00Z | XRP | SHORT | 1 | 4.255 | 2.094 | skipped_off_hours | skipped_off_hours | pending |
