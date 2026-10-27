@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T18:58:36Z
+# Heatwave public snapshot 2026-10-27T19:03:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 0.014% | 4.559 | 1 | 2026-10-27T18:58:24+00:00 |  |
-| propr_h6 | live | -5.516% | 0.484 | 1 | 2026-10-27T18:57:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T18:57:51+00:00 | HyroError: list_challenges: Could not reach the HyroTrader API: Request timed out after 15000ms.. Check the network and the HYRO_API_URL setting, then retry. |
+| propr_2s | live | -0.028% | 4.518 | 1 | 2026-10-27T19:03:24+00:00 |  |
+| propr_h6 | live | -5.524% | 0.476 | 1 | 2026-10-27T19:02:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T19:02:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 0.548% |  | 0 | 2026-10-27T18:56:32Z |  |
 
@@ -16,10 +16,10 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | HYPE | LONG | 81.489 | 81.4465 | -0.03 | 82.56525 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:YmV6dgdsm5ej @ 80.054 | urn:prp-order:Z8sYFnQVRJLa @ 84.078 |
-| propr_h6 | HYPE | LONG | 81.354 | 81.4465 | 0.071 | 82.329 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:Zoncrsf5otv2 @ 80.054 | urn:prp-order:3FzWDz3yf7Jx @ 84.078 |
+| propr_2s | HYPE | LONG | 81.489 | 81.4555 | -0.023 | 82.56525 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:YmV6dgdsm5ej @ 80.054 | urn:prp-order:Z8sYFnQVRJLa @ 84.078 |
+| propr_h6 | HYPE | LONG | 81.354 | 81.4555 | 0.078 | 82.329 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:Zoncrsf5otv2 @ 80.054 | urn:prp-order:3FzWDz3yf7Jx @ 84.078 |
 
-## Signal scan 2026-10-27T05:00Z .. 2026-10-27T18:00Z (decision times)
+## Signal scan 2026-10-27T06:00Z .. 2026-10-27T19:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
