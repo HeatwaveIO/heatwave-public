@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T07:58:32Z",
+ "generated_utc": "2026-10-27T08:03:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T07:58:28+00:00",
+   "last_cycle_utc": "2026-10-27T08:03:18+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T07:57:42+00:00",
+   "last_cycle_utc": "2026-10-27T08:02:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T07:57:52+00:00",
+   "last_cycle_utc": "2026-10-27T08:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -257,10 +257,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-26T18:00Z .. 2026-10-27T07:00Z (decision times)",
+  "window": "2026-10-26T19:00Z .. 2026-10-27T08:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-26T18:00Z": 25,
    "2026-10-26T19:00Z": 24,
    "2026-10-26T20:00Z": 21,
    "2026-10-26T21:00Z": 25,
@@ -273,51 +272,10 @@
    "2026-10-27T04:00Z": 25,
    "2026-10-27T05:00Z": 25,
    "2026-10-27T06:00Z": 25,
-   "2026-10-27T07:00Z": 25
+   "2026-10-27T07:00Z": 25,
+   "2026-10-27T08:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-26T18:00Z",
-    "or_hour_utc": "17:00",
-    "coin": "HYPE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 5.727,
-    "width_pct": 2.826,
-    "level": 78.35,
-    "stop": 80.564,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "no_breakout",
-     "propr_h6": "no_breakout"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-26T20:07Z",
-     "entry": 78.353,
-     "exit_utc": "2026-10-27T03:56Z",
-     "exit": 77.593,
-     "exit_kind": "time",
-     "breakeven_utc": null,
-     "net_R": 0.3048
-    }
-   },
-   {
-    "decision_utc": "2026-10-26T18:00Z",
-    "or_hour_utc": "17:00",
-    "coin": "WLD",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 2.905,
-    "width_pct": 1.503,
-    "level": 0.43901,
-    "stop": 0.44561,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "not_top1",
-     "propr_h6": "not_top1"
-    }
-   },
    {
     "decision_utc": "2026-10-26T19:00Z",
     "or_hour_utc": "18:00",
@@ -410,8 +368,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.52939,
-     "r_so_far": -0.157
+     "mark": 0.52998,
+     "r_so_far": -0.194
     }
    },
    {
