@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T06:58:31Z",
+ "generated_utc": "2026-10-27T07:03:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T06:58:23+00:00",
+   "last_cycle_utc": "2026-10-27T07:03:20+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T06:57:42+00:00",
+   "last_cycle_utc": "2026-10-27T07:03:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T06:58:00+00:00",
+   "last_cycle_utc": "2026-10-27T07:02:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -257,10 +257,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-26T17:00Z .. 2026-10-27T06:00Z (decision times)",
+  "window": "2026-10-26T18:00Z .. 2026-10-27T07:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-26T17:00Z": 25,
    "2026-10-26T18:00Z": 25,
    "2026-10-26T19:00Z": 24,
    "2026-10-26T20:00Z": 21,
@@ -273,7 +272,8 @@
    "2026-10-27T03:00Z": 25,
    "2026-10-27T04:00Z": 25,
    "2026-10-27T05:00Z": 25,
-   "2026-10-27T06:00Z": 25
+   "2026-10-27T06:00Z": 25,
+   "2026-10-27T07:00Z": 25
   },
   "signals": [
    {
@@ -410,7 +410,7 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.52869,
+     "mark": 0.52868,
      "r_so_far": -0.113
     }
    },
