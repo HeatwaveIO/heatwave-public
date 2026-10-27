@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T09:58:33Z",
+ "generated_utc": "2026-10-27T10:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T09:58:28+00:00",
+   "last_cycle_utc": "2026-10-27T10:03:29+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T09:57:42+00:00",
+   "last_cycle_utc": "2026-10-27T10:03:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T09:57:52+00:00",
+   "last_cycle_utc": "2026-10-27T10:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -257,10 +257,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-26T20:00Z .. 2026-10-27T09:00Z (decision times)",
+  "window": "2026-10-26T21:00Z .. 2026-10-27T10:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-26T20:00Z": 21,
    "2026-10-26T21:00Z": 25,
    "2026-10-26T22:00Z": 24,
    "2026-10-26T23:00Z": 23,
@@ -273,7 +272,8 @@
    "2026-10-27T06:00Z": 25,
    "2026-10-27T07:00Z": 25,
    "2026-10-27T08:00Z": 25,
-   "2026-10-27T09:00Z": 25
+   "2026-10-27T09:00Z": 25,
+   "2026-10-27T10:00Z": 25
   },
   "signals": [
    {
@@ -342,8 +342,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.52177,
-     "r_so_far": 0.32
+     "mark": 0.52158,
+     "r_so_far": 0.332
     }
    },
    {
@@ -370,8 +370,34 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.43059,
-     "r_so_far": 0.096
+     "mark": 0.43004,
+     "r_so_far": 0.155
+    }
+   },
+   {
+    "decision_utc": "2026-10-27T10:00Z",
+    "or_hour_utc": "09:00",
+    "coin": "ENA",
+    "side": "SHORT",
+    "rank": 1,
+    "rvol": 3.495,
+    "width_pct": 2.994,
+    "level": 0.19842,
+    "stop": 0.20436,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
