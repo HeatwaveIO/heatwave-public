@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T06:28:40Z
+# Heatwave public snapshot 2026-10-27T06:33:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T06:28:33+00:00 |  |
-| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T06:28:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T06:27:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T06:33:19+00:00 |  |
+| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T06:33:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T06:32:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 3.936% |  | 0 | 2026-10-27T06:26:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 3.488% |  | 0 | 2026-10-27T06:31:32Z |  |
 
 ## Open Propr positions
 
@@ -28,6 +28,6 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-26T19:00Z | HYPE | SHORT | 1 | 2.607 | 1.835 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | closed -0.0099R |
 | 2026-10-27T00:00Z | XRP | SHORT | 1 | 4.255 | 2.094 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-27T00:00Z | SUI | SHORT | 2 | 2.726 | 1.568 | skipped_off_hours | skipped_off_hours |  |
-| 2026-10-27T02:00Z | TIA | SHORT | 1 | 2.544 | 2.247 | skipped_off_hours | skipped_off_hours | open 0.019R so far |
+| 2026-10-27T02:00Z | TIA | SHORT | 1 | 2.544 | 2.247 | skipped_off_hours | skipped_off_hours | open -0.123R so far |
 | 2026-10-27T04:00Z | WLD | SHORT | 1 | 2.862 | 1.585 | skipped_off_hours | skipped_off_hours | pending |
 
