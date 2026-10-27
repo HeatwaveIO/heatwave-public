@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T17:23:34Z
+# Heatwave public snapshot 2026-10-27T17:28:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T17:16:23+00:00 |  |
 | propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T17:16:43+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T17:22:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T17:27:52+00:00 | HyroError: list_challenges: Could not reach the HyroTrader API: Request timed out after 15000ms.. Check the network and the HYRO_API_URL setting, then retry. |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 0.838% |  | 0 | 2026-10-27T17:21:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 0.378% |  | 0 | 2026-10-27T17:26:31Z |  |
 
 ## Open Propr positions
 
