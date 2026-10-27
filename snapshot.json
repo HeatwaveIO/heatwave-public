@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T22:13:34Z",
+ "generated_utc": "2026-10-27T22:18:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,9 +8,9 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T22:13:18+00:00",
+   "last_cycle_utc": "2026-10-27T22:17:27+00:00",
    "error": null,
-   "warning": null,
+   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
    "refuse": [],
    "equity_pct_vs_start": -0.543,
    "balance_pct_vs_start": -0.543,
@@ -106,13 +106,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T22:12:41+00:00",
-   "error": null,
+   "last_cycle_utc": "2026-10-27T22:17:42+00:00",
+   "error": "signal / management step failed: HTTP Error 429: Too Many Requests (2 consecutive cycles)",
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.543,
+   "equity_pct_vs_start": -5.532,
    "balance_pct_vs_start": -5.525,
-   "cushion_pct_of_start_to_floor": 0.457,
+   "cushion_pct_of_start_to_floor": 0.468,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -129,15 +129,15 @@
      "be_trigger_px": 82.329,
      "be_stop_px": 81.419,
      "be_moved": false,
-     "mark": 81.0305,
-     "unrealized_R": -0.249,
-     "distance_to_be_trigger_R": 0.999,
+     "mark": 81.2435,
+     "unrealized_R": -0.085,
+     "distance_to_be_trigger_R": 0.835,
      "time_exit_utc": "2026-10-28T03:55Z",
      "venue": {
       "open": true,
       "quantity": "2.91",
       "entryPrice": "81.354",
-      "markPrice": "81.0425"
+      "markPrice": "81.2435"
      },
      "orders": {
       "entry": [
@@ -282,14 +282,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T22:12:52+00:00",
+   "last_cycle_utc": "2026-10-27T22:17:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
    "open_positions": 0,
    "resting_orders": 0,
    "saver_why": null,
-   "error": "HyroError: list_challenges: Could not reach the HyroTrader API: Request timed out after 15000ms.. Check the network and the HYRO_API_URL setting, then retry."
+   "error": "HyroError: need exactly one active Hyro trial challenge"
   },
   "alp100": {
    "account": "alp100",
@@ -337,11 +337,11 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-27T21:56:31Z",
-   "equity_pct_vs_start": 0.09,
+   "as_of": "2026-10-27T22:16:30Z",
+   "equity_pct_vs_start": 0.192,
    "open": 0,
    "closed": 2,
-   "wins": 1,
+   "wins": 2,
    "config": "AUTO (2h + RAPID 5m) @ 2.25%",
    "guard_halted": false
   }
