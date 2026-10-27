@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T13:58:40Z",
+ "generated_utc": "2026-10-27T14:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T13:58:28+00:00",
+   "last_cycle_utc": "2026-10-27T14:03:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T13:58:42+00:00",
+   "last_cycle_utc": "2026-10-27T14:03:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T13:57:52+00:00",
+   "last_cycle_utc": "2026-10-27T14:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -204,7 +204,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-27T13:55:56+00:00",
+    "at": "2026-10-27T14:00:57+00:00",
     "day": "2026-10-27",
     "picks": [],
     "equity_pct_vs_sleeve_start": 0.0,
@@ -225,10 +225,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-27T00:00Z .. 2026-10-27T13:00Z (decision times)",
+  "window": "2026-10-27T01:00Z .. 2026-10-27T14:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-27T00:00Z": 25,
    "2026-10-27T01:00Z": 24,
    "2026-10-27T02:00Z": 23,
    "2026-10-27T03:00Z": 25,
@@ -241,51 +240,10 @@
    "2026-10-27T10:00Z": 25,
    "2026-10-27T11:00Z": 25,
    "2026-10-27T12:00Z": 25,
-   "2026-10-27T13:00Z": 25
+   "2026-10-27T13:00Z": 25,
+   "2026-10-27T14:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-27T00:00Z",
-    "or_hour_utc": "23:00",
-    "coin": "XRP",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 4.255,
-    "width_pct": 2.094,
-    "level": 1.2847,
-    "stop": 1.3116,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    },
-    "replay_be075": {
-     "status": "none",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
-    }
-   },
-   {
-    "decision_utc": "2026-10-27T00:00Z",
-    "or_hour_utc": "23:00",
-    "coin": "SUI",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 2.726,
-    "width_pct": 1.568,
-    "level": 0.90398,
-    "stop": 0.91815,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    }
-   },
    {
     "decision_utc": "2026-10-27T02:00Z",
     "or_hour_utc": "01:00",
@@ -328,16 +286,14 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-27T09:41Z",
      "entry": 0.43149,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-27T13:56Z",
+     "exit": 0.42779,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.42545,
-     "r_so_far": 0.644
+     "net_R": 0.3347
     }
    },
    {
