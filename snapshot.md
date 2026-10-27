@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T20:28:40Z
+# Heatwave public snapshot 2026-10-27T20:33:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,18 +6,18 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -0.326% | 4.22 | 1 | 2026-10-27T20:28:23+00:00 |  |
-| propr_h6 | live | -5.539% | 0.461 | 1 | 2026-10-27T20:28:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T20:27:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -0.444% | 4.102 | 1 | 2026-10-27T20:33:18+00:00 |  |
+| propr_h6 | live | -5.546% | 0.454 | 1 | 2026-10-27T20:32:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T20:32:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 0.57% |  | 0 | 2026-10-27T20:26:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 0.79% |  | 0 | 2026-10-27T20:31:31Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | HYPE | LONG | 81.489 | 81.1075 | -0.266 | 82.56525 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:YmV6dgdsm5ej @ 80.054 | urn:prp-order:Z8sYFnQVRJLa @ 84.078 |
-| propr_h6 | HYPE | LONG | 81.354 | 81.0805 | -0.21 | 82.329 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:Zoncrsf5otv2 @ 80.054 | urn:prp-order:3FzWDz3yf7Jx @ 84.078 |
+| propr_2s | HYPE | LONG | 81.489 | 80.8425 | -0.451 | 82.56525 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:YmV6dgdsm5ej @ 80.054 | urn:prp-order:Z8sYFnQVRJLa @ 84.078 |
+| propr_h6 | HYPE | LONG | 81.354 | 80.843 | -0.393 | 82.329 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:Zoncrsf5otv2 @ 80.054 | urn:prp-order:3FzWDz3yf7Jx @ 84.078 |
 
 ## Signal scan 2026-10-27T07:00Z .. 2026-10-27T20:00Z (decision times)
 
