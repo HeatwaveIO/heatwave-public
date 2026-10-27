@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T22:38:40Z",
+ "generated_utc": "2026-10-27T22:43:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T22:38:34+00:00",
+   "last_cycle_utc": "2026-10-27T22:43:17+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -0.713,
+   "equity_pct_vs_start": -0.716,
    "balance_pct_vs_start": -0.57,
-   "cushion_pct_of_start_to_floor": 3.833,
+   "cushion_pct_of_start_to_floor": 3.83,
    "open_positions": [
     {
      "coin": "TRX",
@@ -187,13 +187,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T22:38:42+00:00",
+   "last_cycle_utc": "2026-10-27T22:42:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.538,
+   "equity_pct_vs_start": -5.535,
    "balance_pct_vs_start": -5.525,
-   "cushion_pct_of_start_to_floor": 0.462,
+   "cushion_pct_of_start_to_floor": 0.465,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -210,15 +210,15 @@
      "be_trigger_px": 82.329,
      "be_stop_px": 81.419,
      "be_moved": false,
-     "mark": 81.1185,
-     "unrealized_R": -0.181,
-     "distance_to_be_trigger_R": 0.931,
+     "mark": 81.1715,
+     "unrealized_R": -0.14,
+     "distance_to_be_trigger_R": 0.89,
      "time_exit_utc": "2026-10-28T03:55Z",
      "venue": {
       "open": true,
       "quantity": "2.91",
       "entryPrice": "81.354",
-      "markPrice": "81.1295"
+      "markPrice": "81.1715"
      },
      "orders": {
       "entry": [
@@ -363,7 +363,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T22:37:52+00:00",
+   "last_cycle_utc": "2026-10-27T22:42:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -418,8 +418,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-27T22:36:30Z",
-   "equity_pct_vs_start": 0.612,
+   "as_of": "2026-10-27T22:41:32Z",
+   "equity_pct_vs_start": 0.362,
    "open": 0,
    "closed": 2,
    "wins": 2,
