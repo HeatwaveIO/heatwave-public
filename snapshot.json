@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T08:58:33Z",
+ "generated_utc": "2026-10-27T09:03:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T08:58:28+00:00",
+   "last_cycle_utc": "2026-10-27T09:03:26+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -98,7 +98,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T08:57:42+00:00",
+   "last_cycle_utc": "2026-10-27T09:02:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -178,7 +178,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T08:57:52+00:00",
+   "last_cycle_utc": "2026-10-27T09:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -257,10 +257,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-26T19:00Z .. 2026-10-27T08:00Z (decision times)",
+  "window": "2026-10-26T20:00Z .. 2026-10-27T09:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-26T19:00Z": 24,
    "2026-10-26T20:00Z": 21,
    "2026-10-26T21:00Z": 25,
    "2026-10-26T22:00Z": 24,
@@ -273,35 +272,10 @@
    "2026-10-27T05:00Z": 25,
    "2026-10-27T06:00Z": 25,
    "2026-10-27T07:00Z": 25,
-   "2026-10-27T08:00Z": 25
+   "2026-10-27T08:00Z": 25,
+   "2026-10-27T09:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-26T19:00Z",
-    "or_hour_utc": "18:00",
-    "coin": "HYPE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 2.607,
-    "width_pct": 1.835,
-    "level": 78.401,
-    "stop": 79.84,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
-     "propr_h6": "not_picked_by_executor (data / timing)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-26T20:07Z",
-     "entry": 78.401,
-     "exit_utc": "2026-10-26T23:46Z",
-     "exit": 78.32905,
-     "exit_kind": "trailed_stop",
-     "breakeven_utc": "2026-10-26T21:11Z",
-     "net_R": -0.0099
-    }
-   },
    {
     "decision_utc": "2026-10-27T00:00Z",
     "or_hour_utc": "23:00",
@@ -368,8 +342,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.52726,
-     "r_so_far": -0.024
+     "mark": 0.52731,
+     "r_so_far": -0.027
     }
    },
    {
