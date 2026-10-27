@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T02:58:40Z
+# Heatwave public snapshot 2026-10-27T03:03:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T02:58:27+00:00 |  |
-| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T02:58:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T02:57:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | 0.021% | 4.567 | 0 | 2026-10-27T03:03:18+00:00 |  |
+| propr_h6 | live | -5.524% | 0.476 | 0 | 2026-10-27T03:03:43+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T03:02:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 3.634% |  | 0 | 2026-10-27T02:56:31Z |  |
 
@@ -17,13 +17,13 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-10-26T13:00Z .. 2026-10-27T02:00Z (decision times)
+## Signal scan 2026-10-26T14:00Z .. 2026-10-27T03:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-26T18:00Z | HYPE | SHORT | 1 | 5.727 | 2.826 | no_breakout | no_breakout | open 0.259R so far |
+| 2026-10-26T18:00Z | HYPE | SHORT | 1 | 5.727 | 2.826 | no_breakout | no_breakout | open 0.323R so far |
 | 2026-10-26T18:00Z | WLD | SHORT | 2 | 2.905 | 1.503 | not_top1 | not_top1 |  |
 | 2026-10-26T19:00Z | HYPE | SHORT | 1 | 2.607 | 1.835 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | closed -0.0099R |
 | 2026-10-27T00:00Z | XRP | SHORT | 1 | 4.255 | 2.094 | skipped_off_hours | skipped_off_hours | pending |
