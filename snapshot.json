@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-27T21:43:31Z",
+ "generated_utc": "2026-10-27T21:48:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T21:43:28+00:00",
+   "last_cycle_utc": "2026-10-27T21:48:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,13 +106,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-27T21:42:42+00:00",
+   "last_cycle_utc": "2026-10-27T21:47:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.523,
+   "equity_pct_vs_start": -5.527,
    "balance_pct_vs_start": -5.525,
-   "cushion_pct_of_start_to_floor": 0.477,
+   "cushion_pct_of_start_to_floor": 0.473,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -129,15 +129,15 @@
      "be_trigger_px": 82.329,
      "be_stop_px": 81.419,
      "be_moved": false,
-     "mark": 81.376,
-     "unrealized_R": 0.017,
-     "distance_to_be_trigger_R": 0.733,
+     "mark": 81.2825,
+     "unrealized_R": -0.055,
+     "distance_to_be_trigger_R": 0.805,
      "time_exit_utc": "2026-10-28T03:55Z",
      "venue": {
       "open": true,
       "quantity": "2.91",
       "entryPrice": "81.354",
-      "markPrice": "81.3785"
+      "markPrice": "81.2825"
      },
      "orders": {
       "entry": [
@@ -282,7 +282,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-27T21:42:49+00:00",
+   "last_cycle_utc": "2026-10-27T21:47:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -337,11 +337,11 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-27T21:41:30Z",
-   "equity_pct_vs_start": 0.13,
+   "as_of": "2026-10-27T21:46:31Z",
+   "equity_pct_vs_start": 0.012,
    "open": 0,
    "closed": 2,
-   "wins": 2,
+   "wins": 1,
    "config": "AUTO (2h + RAPID 5m) @ 2.25%",
    "guard_halted": false
   }
