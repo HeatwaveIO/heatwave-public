@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T22:03:33Z",
+ "generated_utc": "2026-10-28T22:08:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T22:03:21+00:00",
+   "last_cycle_utc": "2026-10-28T22:08:34+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -2.441,
+   "equity_pct_vs_start": -2.357,
    "balance_pct_vs_start": -2.569,
-   "cushion_pct_of_start_to_floor": 2.105,
+   "cushion_pct_of_start_to_floor": 2.189,
    "open_positions": [
     {
      "coin": "ARB",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.17615,
      "be_stop_px": 0.172146,
      "be_moved": true,
-     "mark": 0.17428,
-     "unrealized_R": 0.423,
-     "distance_to_be_trigger_R": 0.327,
+     "mark": 0.17436,
+     "unrealized_R": 0.437,
+     "distance_to_be_trigger_R": 0.313,
      "time_exit_utc": "2026-10-29T04:55Z",
      "venue": {
       "open": true,
       "quantity": "6278.1",
       "entryPrice": "0.17186",
-      "markPrice": "0.174355"
+      "markPrice": "0.17437"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 0.215182,
      "be_stop_px": 0.210233,
      "be_moved": false,
-     "mark": 0.20926,
-     "unrealized_R": -0.088,
-     "distance_to_be_trigger_R": 0.838,
+     "mark": 0.20919,
+     "unrealized_R": -0.098,
+     "distance_to_be_trigger_R": 0.848,
      "time_exit_utc": "2026-10-29T05:55Z",
      "venue": {
       "open": true,
       "quantity": "8839",
       "entryPrice": "0.20988",
-      "markPrice": "0.209395"
+      "markPrice": "0.2093"
      },
      "orders": {
       "entry": [
@@ -282,74 +282,17 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T22:02:42+00:00",
+   "last_cycle_utc": "2026-10-28T22:07:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
    "equity_pct_vs_start": -5.589,
-   "balance_pct_vs_start": -5.59,
+   "balance_pct_vs_start": -5.589,
    "cushion_pct_of_start_to_floor": 0.411,
-   "open_positions": [
-    {
-     "coin": "ENA",
-     "side": "LONG",
-     "status": "open",
-     "decision_utc": "2026-10-28T20:00Z",
-     "fill_utc": "2026-10-28T20:19Z",
-     "entry": 0.20881,
-     "stop0": 0.20281,
-     "tp_3R": 0.22909,
-     "qty": 78.0,
-     "risk_pct_of_start": 0.010297,
-     "be_trigger_R": 0.75,
-     "be_trigger_px": 0.21331,
-     "be_stop_px": 0.20911,
-     "be_moved": true,
-     "mark": 0.20926,
-     "unrealized_R": 0.075,
-     "distance_to_be_trigger_R": 0.675,
-     "time_exit_utc": "2026-10-29T05:55Z",
-     "venue": {
-      "open": false,
-      "quantity": null,
-      "entryPrice": null,
-      "markPrice": null
-     },
-     "orders": {
-      "entry": [
-       {
-        "orderId": "urn:prp-order:cEyYMW3WHPx4",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "buy",
-        "status": "filled",
-        "timeInForce": "GTX",
-        "price": "0.20938",
-        "triggerPrice": null,
-        "quantity": "78",
-        "cumulativeQuantity": "78",
-        "createdAt": "2026-10-28T20:18:46.165Z",
-        "filledAt": "2026-10-28T20:18:46.359Z",
-        "cancelledAt": null
-       }
-      ],
-      "stop_market": [],
-      "take_profit_limit": [],
-      "other_live": []
-     }
-    }
-   ],
+   "open_positions": [],
    "venue_open_positions": 0,
    "venue_live_orders": 0,
    "recent_closed": [
-    {
-     "coin": "HYPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-27T18:00Z",
-     "exit_reason": "stagnation exit: held >= 4h without momentum",
-     "net_R": -0.103,
-     "closed_at": "2026-10-28T00:21:02.078Z"
-    },
     {
      "coin": "kPEPE",
      "side": "LONG",
@@ -421,13 +364,21 @@
      "exit_reason": "stagnation exit: held >= 2h without momentum",
      "net_R": -0.343,
      "closed_at": "2026-10-28T15:20:44.670Z"
+    },
+    {
+     "coin": "ENA",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T20:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.03,
+     "closed_at": "2026-10-28T22:02:52.762Z"
     }
    ]
   },
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T22:02:48+00:00",
+   "last_cycle_utc": "2026-10-28T22:07:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -653,8 +604,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.005014,
-     "r_so_far": -0.428
+     "mark": 0.005019,
+     "r_so_far": -0.411
     }
    },
    {
@@ -803,8 +754,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.209,
-     "r_so_far": -0.265
+     "mark": 0.20923,
+     "r_so_far": -0.238
     }
    },
    {
