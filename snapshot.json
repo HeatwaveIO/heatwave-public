@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T08:13:40Z",
+ "generated_utc": "2026-10-28T08:18:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:13:20+00:00",
+   "last_cycle_utc": "2026-10-28T08:18:36+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.701,
+   "equity_pct_vs_start": -1.833,
    "balance_pct_vs_start": -1.686,
-   "cushion_pct_of_start_to_floor": 2.844,
+   "cushion_pct_of_start_to_floor": 2.713,
    "open_positions": [
     {
      "coin": "AVAX",
@@ -31,15 +31,15 @@
      "be_trigger_px": 9.07545,
      "be_stop_px": 9.02519,
      "be_moved": false,
-     "mark": 9.0126,
-     "unrealized_R": -0.125,
-     "distance_to_be_trigger_R": 0.875,
+     "mark": 9.0004,
+     "unrealized_R": -0.295,
+     "distance_to_be_trigger_R": 1.045,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": true,
       "quantity": "346.5",
       "entryPrice": "9.0216",
-      "markPrice": "9.01705"
+      "markPrice": "9.00045"
      },
      "orders": {
       "entry": [
@@ -126,9 +126,9 @@
      "be_trigger_px": 1.333375,
      "be_stop_px": 1.329385,
      "be_moved": false,
-     "mark": 1.33025,
-     "unrealized_R": 0.202,
-     "distance_to_be_trigger_R": 0.548,
+     "mark": 1.33005,
+     "unrealized_R": 0.167,
+     "distance_to_be_trigger_R": 0.583,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -237,9 +237,9 @@
      "be_trigger_px": 0.004948,
      "be_stop_px": 0.004869,
      "be_moved": false,
-     "mark": 0.004887,
-     "unrealized_R": 0.212,
-     "distance_to_be_trigger_R": 0.538,
+     "mark": 0.004884,
+     "unrealized_R": 0.186,
+     "distance_to_be_trigger_R": 0.564,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -250,7 +250,7 @@
      "orders": {
       "entry": [
        {
-        "orderId": "urn:prp-order:S7jmpd28NMUG",
+        "orderId": "urn:prp-order:jJVxpg69foud",
         "exchangeOrderId": null,
         "type": "limit",
         "side": "buy",
@@ -260,14 +260,29 @@
         "triggerPrice": null,
         "quantity": "331858",
         "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T08:12:39.946Z",
+        "createdAt": "2026-10-28T08:17:31.480Z",
         "filledAt": null,
         "cancelledAt": null
+       },
+       {
+        "orderId": "urn:prp-order:S7jmpd28NMUG",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "cancelled",
+        "timeInForce": "GTX",
+        "price": "0.004863",
+        "triggerPrice": null,
+        "quantity": "331858",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:12:39.946Z",
+        "filledAt": null,
+        "cancelledAt": "2026-10-28T08:17:29.784Z"
        }
       ],
       "stop_market": [
        {
-        "orderId": "urn:prp-order:UCRJ3pZLvzHH",
+        "orderId": "urn:prp-order:YVoY6WkuB4Zg",
         "exchangeOrderId": null,
         "type": "stop_market",
         "side": "sell",
@@ -277,14 +292,14 @@
         "triggerPrice": "0.00475",
         "quantity": "331858",
         "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T08:12:39.946Z",
+        "createdAt": "2026-10-28T08:17:31.480Z",
         "filledAt": null,
         "cancelledAt": null
        }
       ],
       "take_profit_limit": [
        {
-        "orderId": "urn:prp-order:dUxVkq2UsfhL",
+        "orderId": "urn:prp-order:TEp8h5A5Ctk8",
         "exchangeOrderId": null,
         "type": "take_profit_limit",
         "side": "sell",
@@ -294,14 +309,14 @@
         "triggerPrice": "0.005202",
         "quantity": "331858",
         "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T08:12:39.946Z",
+        "createdAt": "2026-10-28T08:17:31.480Z",
         "filledAt": null,
         "cancelledAt": null
        }
       ],
       "other_live": [
        {
-        "orderId": "urn:prp-order:S7jmpd28NMUG",
+        "orderId": "urn:prp-order:jJVxpg69foud",
         "exchangeOrderId": null,
         "type": "limit",
         "side": "buy",
@@ -311,7 +326,7 @@
         "triggerPrice": null,
         "quantity": "331858",
         "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T08:12:39.946Z",
+        "createdAt": "2026-10-28T08:17:31.480Z",
         "filledAt": null,
         "cancelledAt": null
        }
@@ -409,13 +424,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:13:43+00:00",
+   "last_cycle_utc": "2026-10-28T08:17:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.363,
+   "equity_pct_vs_start": -5.409,
    "balance_pct_vs_start": -5.346,
-   "cushion_pct_of_start_to_floor": 0.637,
+   "cushion_pct_of_start_to_floor": 0.591,
    "open_positions": [
     {
      "coin": "AVAX",
@@ -432,15 +447,15 @@
      "be_trigger_px": 9.07545,
      "be_stop_px": 9.02519,
      "be_moved": false,
-     "mark": 9.0126,
-     "unrealized_R": -0.125,
-     "distance_to_be_trigger_R": 0.875,
+     "mark": 9.00045,
+     "unrealized_R": -0.295,
+     "distance_to_be_trigger_R": 1.045,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": true,
       "quantity": "179.92",
       "entryPrice": "9.0216",
-      "markPrice": "9.01705"
+      "markPrice": "9.00045"
      },
      "orders": {
       "entry": [
@@ -601,7 +616,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T08:12:52+00:00",
+   "last_cycle_utc": "2026-10-28T08:17:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -656,11 +671,11 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T07:56:33Z",
-   "equity_pct_vs_start": -0.092,
+   "as_of": "2026-10-28T08:16:33Z",
+   "equity_pct_vs_start": -0.53,
    "open": 0,
    "closed": 2,
-   "wins": 1,
+   "wins": 0,
    "config": "AUTO (2h + RAPID 5m) @ 2.25%",
    "guard_halted": false
   }
@@ -709,8 +724,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004886,
-     "r_so_far": -0.162
+     "mark": 0.004887,
+     "r_so_far": -0.159
     }
    },
    {
