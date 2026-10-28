@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T18:48:36Z",
+ "generated_utc": "2026-10-28T18:53:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T18:48:34+00:00",
+   "last_cycle_utc": "2026-10-28T18:53:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,13 +106,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T18:48:41+00:00",
+   "last_cycle_utc": "2026-10-28T18:53:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.442,
+   "equity_pct_vs_start": -5.452,
    "balance_pct_vs_start": -5.476,
-   "cushion_pct_of_start_to_floor": 0.558,
+   "cushion_pct_of_start_to_floor": 0.548,
    "open_positions": [
     {
      "coin": "ENA",
@@ -129,15 +129,15 @@
      "be_trigger_px": 0.200495,
      "be_stop_px": 0.203001,
      "be_moved": false,
-     "mark": 0.20253,
-     "unrealized_R": 0.182,
-     "distance_to_be_trigger_R": 0.568,
+     "mark": 0.202375,
+     "unrealized_R": 0.225,
+     "distance_to_be_trigger_R": 0.525,
      "time_exit_utc": "2026-10-28T21:55Z",
      "venue": {
       "open": true,
       "quantity": "1539",
       "entryPrice": "0.20318",
-      "markPrice": "0.20209"
+      "markPrice": "0.20241"
      },
      "orders": {
       "entry": [
@@ -298,7 +298,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T18:47:52+00:00",
+   "last_cycle_utc": "2026-10-28T18:52:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -324,13 +324,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-28T18:45:58+00:00",
+    "at": "2026-10-28T18:50:56+00:00",
     "day": "2026-10-28",
     "picks": [
      "NBIS",
      "CRWV"
     ],
-    "equity_pct_vs_sleeve_start": 3.572,
+    "equity_pct_vs_sleeve_start": 3.411,
     "closed": 0,
     "legs": {
      "CRWV": {
@@ -367,8 +367,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T18:46:30Z",
-   "equity_pct_vs_start": 0.87,
+   "as_of": "2026-10-28T18:51:31Z",
+   "equity_pct_vs_start": 0.722,
    "open": 0,
    "closed": 2,
    "wins": 2,
