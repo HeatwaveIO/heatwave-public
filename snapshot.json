@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T19:48:40Z",
+ "generated_utc": "2026-10-28T19:53:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T19:48:24+00:00",
+   "last_cycle_utc": "2026-10-28T19:52:28+00:00",
    "error": null,
-   "warning": null,
+   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
    "refuse": [],
-   "equity_pct_vs_start": -2.141,
+   "equity_pct_vs_start": -2.085,
    "balance_pct_vs_start": -2.633,
-   "cushion_pct_of_start_to_floor": 2.405,
+   "cushion_pct_of_start_to_floor": 2.461,
    "open_positions": [
     {
      "coin": "AAVE",
@@ -31,15 +31,15 @@
      "be_trigger_px": 137.300873,
      "be_stop_px": 135.076524,
      "be_moved": false,
-     "mark": 135.96,
-     "unrealized_R": 0.328,
-     "distance_to_be_trigger_R": 0.422,
+     "mark": 136.355,
+     "unrealized_R": 0.452,
+     "distance_to_be_trigger_R": 0.298,
      "time_exit_utc": "2026-10-29T04:55Z",
      "venue": {
       "open": true,
       "quantity": "11.07",
       "entryPrice": "134.917642",
-      "markPrice": "136.005"
+      "markPrice": "136.345"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 0.17615,
      "be_stop_px": 0.172146,
      "be_moved": false,
-     "mark": 0.17318,
-     "unrealized_R": 0.231,
-     "distance_to_be_trigger_R": 0.519,
+     "mark": 0.17341,
+     "unrealized_R": 0.271,
+     "distance_to_be_trigger_R": 0.479,
      "time_exit_utc": "2026-10-29T04:55Z",
      "venue": {
       "open": true,
       "quantity": "6278.1",
       "entryPrice": "0.17186",
-      "markPrice": "0.173085"
+      "markPrice": "0.173395"
      },
      "orders": {
       "entry": [
@@ -191,15 +191,15 @@
      "be_trigger_px": 0.955677,
      "be_stop_px": 0.942738,
      "be_moved": false,
-     "mark": 0.94766,
-     "unrealized_R": 0.316,
-     "distance_to_be_trigger_R": 0.434,
+     "mark": 0.94785,
+     "unrealized_R": 0.327,
+     "distance_to_be_trigger_R": 0.423,
      "time_exit_utc": "2026-10-29T04:55Z",
      "venue": {
       "open": true,
       "quantity": "530",
       "entryPrice": "0.941814",
-      "markPrice": "0.94711"
+      "markPrice": "0.948085"
      },
      "orders": {
       "entry": [
@@ -347,9 +347,9 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T19:48:42+00:00",
+   "last_cycle_utc": "2026-10-28T19:52:42+00:00",
    "error": null,
-   "warning": null,
+   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
    "refuse": [],
    "equity_pct_vs_start": -5.59,
    "balance_pct_vs_start": -5.59,
@@ -443,7 +443,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T19:47:51+00:00",
+   "last_cycle_utc": "2026-10-28T19:52:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -469,28 +469,28 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-28T19:45:58+00:00",
+    "at": "2026-10-28T19:50:56+00:00",
     "day": "2026-10-28",
     "picks": [
      "NBIS",
      "CRWV"
     ],
-    "equity_pct_vs_sleeve_start": 4.091,
-    "closed": 0,
+    "equity_pct_vs_sleeve_start": 4.412,
+    "closed": 1,
     "legs": {
      "CRWV": {
       "day": "2026-10-28",
-      "status": "open",
+      "status": "closed",
       "limit": 60.59,
       "fill": 60.588,
       "stop": 58.56,
       "target": 63.63,
-      "exit": null,
-      "exit_why": null,
-      "net_R": null,
+      "exit": 63.644,
+      "exit_why": "target",
+      "net_R": 1.507,
       "oid": "75023409-6f0a-447e-ba9d-a8a147143052",
-      "stop_oid": "a308093a-cffe-4fa1-83c6-38915b29a0f4",
-      "exit_oid": null
+      "stop_oid": null,
+      "exit_oid": "d792e790-05e1-4883-9a4b-7786f85a3694"
      },
      "NBIS": {
       "day": "2026-10-28",
@@ -512,8 +512,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T19:46:31Z",
-   "equity_pct_vs_start": 0.582,
+   "as_of": "2026-10-28T19:51:31Z",
+   "equity_pct_vs_start": 0.542,
    "open": 0,
    "closed": 2,
    "wins": 1,
