@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T21:58:40Z",
+ "generated_utc": "2026-10-28T22:03:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T21:58:26+00:00",
+   "last_cycle_utc": "2026-10-28T22:03:21+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.813,
+   "equity_pct_vs_start": -2.441,
    "balance_pct_vs_start": -2.569,
-   "cushion_pct_of_start_to_floor": 2.733,
+   "cushion_pct_of_start_to_floor": 2.105,
    "open_positions": [
     {
      "coin": "ARB",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.17615,
      "be_stop_px": 0.172146,
      "be_moved": true,
-     "mark": 0.17593,
-     "unrealized_R": 0.712,
-     "distance_to_be_trigger_R": 0.038,
+     "mark": 0.17428,
+     "unrealized_R": 0.423,
+     "distance_to_be_trigger_R": 0.327,
      "time_exit_utc": "2026-10-29T04:55Z",
      "venue": {
       "open": true,
       "quantity": "6278.1",
       "entryPrice": "0.17186",
-      "markPrice": "0.176005"
+      "markPrice": "0.174355"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 0.215182,
      "be_stop_px": 0.210233,
      "be_moved": false,
-     "mark": 0.211175,
-     "unrealized_R": 0.183,
-     "distance_to_be_trigger_R": 0.567,
+     "mark": 0.20926,
+     "unrealized_R": -0.088,
+     "distance_to_be_trigger_R": 0.838,
      "time_exit_utc": "2026-10-29T05:55Z",
      "venue": {
       "open": true,
       "quantity": "8839",
       "entryPrice": "0.20988",
-      "markPrice": "0.211385"
+      "markPrice": "0.209395"
      },
      "orders": {
       "entry": [
@@ -282,13 +282,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T21:58:42+00:00",
+   "last_cycle_utc": "2026-10-28T22:02:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.586,
+   "equity_pct_vs_start": -5.589,
    "balance_pct_vs_start": -5.59,
-   "cushion_pct_of_start_to_floor": 0.414,
+   "cushion_pct_of_start_to_floor": 0.411,
    "open_positions": [
     {
      "coin": "ENA",
@@ -305,15 +305,15 @@
      "be_trigger_px": 0.21331,
      "be_stop_px": 0.20911,
      "be_moved": true,
-     "mark": 0.21113,
-     "unrealized_R": 0.387,
-     "distance_to_be_trigger_R": 0.363,
+     "mark": 0.20926,
+     "unrealized_R": 0.075,
+     "distance_to_be_trigger_R": 0.675,
      "time_exit_utc": "2026-10-29T05:55Z",
      "venue": {
-      "open": true,
-      "quantity": "78",
-      "entryPrice": "0.20881",
-      "markPrice": "0.211385"
+      "open": false,
+      "quantity": null,
+      "entryPrice": null,
+      "markPrice": null
      },
      "orders": {
       "entry": [
@@ -333,46 +333,14 @@
         "cancelledAt": null
        }
       ],
-      "stop_market": [
-       {
-        "orderId": "urn:prp-order:f7aAyVpHMxtY",
-        "exchangeOrderId": null,
-        "type": "stop_market",
-        "side": "sell",
-        "status": "pending",
-        "timeInForce": "GTC",
-        "price": null,
-        "triggerPrice": "0.20914",
-        "quantity": "78",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T21:01:46.297Z",
-        "filledAt": null,
-        "cancelledAt": null
-       }
-      ],
-      "take_profit_limit": [
-       {
-        "orderId": "urn:prp-order:gFvYkkE7fSEA",
-        "exchangeOrderId": null,
-        "type": "take_profit_limit",
-        "side": "sell",
-        "status": "pending",
-        "timeInForce": "GTC",
-        "price": "0.22909",
-        "triggerPrice": "0.22909",
-        "quantity": "78",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T20:18:46.165Z",
-        "filledAt": null,
-        "cancelledAt": null
-       }
-      ],
+      "stop_market": [],
+      "take_profit_limit": [],
       "other_live": []
      }
     }
    ],
-   "venue_open_positions": 1,
-   "venue_live_orders": 2,
+   "venue_open_positions": 0,
+   "venue_live_orders": 0,
    "recent_closed": [
     {
      "coin": "HYPE",
@@ -459,7 +427,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T21:57:52+00:00",
+   "last_cycle_utc": "2026-10-28T22:02:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -538,10 +506,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-28T08:00Z .. 2026-10-28T21:00Z (decision times)",
+  "window": "2026-10-28T09:00Z .. 2026-10-28T22:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-28T08:00Z": 25,
    "2026-10-28T09:00Z": 25,
    "2026-10-28T10:00Z": 25,
    "2026-10-28T11:00Z": 25,
@@ -554,7 +521,8 @@
    "2026-10-28T18:00Z": 25,
    "2026-10-28T19:00Z": 25,
    "2026-10-28T20:00Z": 25,
-   "2026-10-28T21:00Z": 25
+   "2026-10-28T21:00Z": 25,
+   "2026-10-28T22:00Z": 25
   },
   "signals": [
    {
@@ -685,8 +653,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.005071,
-     "r_so_far": -0.236
+     "mark": 0.005014,
+     "r_so_far": -0.428
     }
    },
    {
@@ -835,8 +803,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.21134,
-     "r_so_far": 0.013
+     "mark": 0.209,
+     "r_so_far": -0.265
     }
    },
    {
@@ -895,6 +863,32 @@
     "accounts": {
      "propr_2s": "not_top1",
      "propr_h6": "not_top1"
+    }
+   },
+   {
+    "decision_utc": "2026-10-28T22:00Z",
+    "or_hour_utc": "21:00",
+    "coin": "kPEPE",
+    "side": "LONG",
+    "rank": 1,
+    "rvol": 5.54,
+    "width_pct": 3.223,
+    "level": 0.005182,
+    "stop": 0.005015,
+    "in_core_hours": false,
+    "accounts": {
+     "propr_2s": "skipped_off_hours",
+     "propr_h6": "skipped_off_hours"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
