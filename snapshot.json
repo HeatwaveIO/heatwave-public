@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T01:53:11Z",
+ "generated_utc": "2026-10-28T01:53:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T01:52:27+00:00",
+   "last_cycle_utc": "2026-10-28T01:53:19+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,7 +106,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T01:52:41+00:00",
+   "last_cycle_utc": "2026-10-28T01:53:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
