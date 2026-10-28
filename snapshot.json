@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T03:13:33Z",
+ "generated_utc": "2026-10-28T03:18:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T03:13:24+00:00",
+   "last_cycle_utc": "2026-10-28T03:17:24+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.296,
+   "equity_pct_vs_start": -1.219,
    "balance_pct_vs_start": -0.846,
-   "cushion_pct_of_start_to_floor": 3.25,
+   "cushion_pct_of_start_to_floor": 3.327,
    "open_positions": [
     {
      "coin": "ADA",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.208558,
      "be_stop_px": 0.207262,
      "be_moved": false,
-     "mark": 0.206515,
-     "unrealized_R": -0.354,
-     "distance_to_be_trigger_R": 1.104,
+     "mark": 0.206525,
+     "unrealized_R": -0.349,
+     "distance_to_be_trigger_R": 1.099,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "17949",
       "entryPrice": "0.20717",
-      "markPrice": "0.206515"
+      "markPrice": "0.206525"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 0.174138,
      "be_stop_px": 0.172591,
      "be_moved": false,
-     "mark": 0.171665,
-     "unrealized_R": -0.369,
-     "distance_to_be_trigger_R": 1.119,
+     "mark": 0.171615,
+     "unrealized_R": -0.391,
+     "distance_to_be_trigger_R": 1.141,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "8626",
       "entryPrice": "0.17248",
-      "markPrice": "0.171665"
+      "markPrice": "0.171615"
      },
      "orders": {
       "entry": [
@@ -191,15 +191,15 @@
      "be_trigger_px": 748.982081,
      "be_stop_px": 746.097248,
      "be_moved": false,
-     "mark": 745.165,
-     "unrealized_R": -0.176,
-     "distance_to_be_trigger_R": 0.926,
+     "mark": 745.845,
+     "unrealized_R": -0.011,
+     "distance_to_be_trigger_R": 0.761,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "4.986",
       "entryPrice": "745.891189",
-      "markPrice": "745.155"
+      "markPrice": "745.835"
      },
      "orders": {
       "entry": [
@@ -347,13 +347,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T03:12:42+00:00",
+   "last_cycle_utc": "2026-10-28T03:18:41+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.29,
+   "equity_pct_vs_start": -5.263,
    "balance_pct_vs_start": -5.335,
-   "cushion_pct_of_start_to_floor": 0.71,
+   "cushion_pct_of_start_to_floor": 0.737,
    "open_positions": [
     {
      "coin": "ATOM",
@@ -370,15 +370,15 @@
      "be_trigger_px": 1.654411,
      "be_stop_px": 1.644487,
      "be_moved": false,
-     "mark": 1.6461,
-     "unrealized_R": 0.164,
-     "distance_to_be_trigger_R": 0.586,
+     "mark": 1.64755,
+     "unrealized_R": 0.266,
+     "distance_to_be_trigger_R": 0.484,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "943.56",
       "entryPrice": "1.643778",
-      "markPrice": "1.64615"
+      "markPrice": "1.64755"
      },
      "orders": {
       "entry": [
@@ -539,7 +539,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T03:12:52+00:00",
+   "last_cycle_utc": "2026-10-28T03:17:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -594,8 +594,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T02:56:30Z",
-   "equity_pct_vs_start": -0.942,
+   "as_of": "2026-10-28T03:16:30Z",
+   "equity_pct_vs_start": -0.764,
    "open": 0,
    "closed": 2,
    "wins": 1,
@@ -647,8 +647,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004859,
-     "r_so_far": -0.237
+     "mark": 0.004854,
+     "r_so_far": -0.251
     }
    },
    {
@@ -667,14 +667,8 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    }
   ]
