@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-28T04:18:40Z
+# Heatwave public snapshot 2026-10-28T04:23:33Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,17 +6,17 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -1.223% | 3.323 | 2 | 2026-10-28T04:18:18+00:00 |  |
-| propr_h6 | live | -5.342% | 0.658 | 0 | 2026-10-28T04:18:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-28T04:17:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -1.384% | 3.161 | 2 | 2026-10-28T04:22:27+00:00 |  |
+| propr_h6 | live | -5.342% | 0.658 | 0 | 2026-10-28T04:23:41+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-28T04:22:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -0.462% |  | 0 | 2026-10-28T04:16:31Z |  |
+| coinbase | SHADOW (real orders blocked) | -0.222% |  | 0 | 2026-10-28T04:21:33Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | ADA | LONG | 0.20717 | 0.20642 | -0.405 | 0.208558 (+0.75R) | False | 2026-10-28T11:55Z | urn:prp-order:2HbEtSGnMUKq @ 0.20532 | urn:prp-order:ULDuuB4GEaRw @ 0.21288 |
+| propr_2s | ADA | LONG | 0.20717 | 0.205985 | -0.641 | 0.208558 (+0.75R) | False | 2026-10-28T11:55Z | urn:prp-order:2HbEtSGnMUKq @ 0.20532 | urn:prp-order:ULDuuB4GEaRw @ 0.21288 |
 | propr_2s | BNB | LONG | 745.891189 | 746.195 | 0.074 | 748.982081 (+0.75R) | False | 2026-10-28T11:55Z | urn:prp-order:nw7HA1n5qZRZ @ 741.77 | urn:prp-order:KmWrAkw5acH1 @ 758.29 |
 
 ## Signal scan 2026-10-27T15:00Z .. 2026-10-28T04:00Z (decision times)
@@ -25,7 +25,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-28T02:00Z | kPEPE | LONG | 1 | 12.713 | 7.261 | skipped_off_hours | skipped_off_hours | open -0.12R so far |
+| 2026-10-28T02:00Z | kPEPE | LONG | 1 | 12.713 | 7.261 | skipped_off_hours | skipped_off_hours | open -0.195R so far |
 | 2026-10-28T03:00Z | kPEPE | LONG | 1 | 4.657 | 3.123 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-28T04:00Z | kPEPE | LONG | 1 | 3.099 | 4.186 | skipped_off_hours | skipped_off_hours | pending |
 
