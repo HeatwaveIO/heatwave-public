@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T08:48:40Z",
+ "generated_utc": "2026-10-28T08:53:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:48:26+00:00",
+   "last_cycle_utc": "2026-10-28T08:52:27+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.579,
+   "equity_pct_vs_start": -1.625,
    "balance_pct_vs_start": -1.686,
-   "cushion_pct_of_start_to_floor": 2.967,
+   "cushion_pct_of_start_to_floor": 2.921,
    "open_positions": [
     {
      "coin": "AVAX",
@@ -31,15 +31,15 @@
      "be_trigger_px": 9.07545,
      "be_stop_px": 9.02519,
      "be_moved": true,
-     "mark": 9.0335,
-     "unrealized_R": 0.166,
-     "distance_to_be_trigger_R": 0.584,
+     "mark": 9.0317,
+     "unrealized_R": 0.141,
+     "distance_to_be_trigger_R": 0.609,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": true,
       "quantity": "346.5",
       "entryPrice": "9.0216",
-      "markPrice": "9.03465"
+      "markPrice": "9.03045"
      },
      "orders": {
       "entry": [
@@ -126,9 +126,9 @@
      "be_trigger_px": 1.333375,
      "be_stop_px": 1.329385,
      "be_moved": false,
-     "mark": 1.33395,
-     "unrealized_R": 0.851,
-     "distance_to_be_trigger_R": -0.101,
+     "mark": 1.33315,
+     "unrealized_R": 0.711,
+     "distance_to_be_trigger_R": 0.039,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -237,9 +237,9 @@
      "be_trigger_px": 0.004948,
      "be_stop_px": 0.004869,
      "be_moved": false,
-     "mark": 0.004953,
-     "unrealized_R": 0.796,
-     "distance_to_be_trigger_R": -0.046,
+     "mark": 0.004949,
+     "unrealized_R": 0.761,
+     "distance_to_be_trigger_R": -0.011,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -424,13 +424,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:48:42+00:00",
+   "last_cycle_utc": "2026-10-28T08:52:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.3,
+   "equity_pct_vs_start": -5.322,
    "balance_pct_vs_start": -5.346,
-   "cushion_pct_of_start_to_floor": 0.7,
+   "cushion_pct_of_start_to_floor": 0.678,
    "open_positions": [
     {
      "coin": "AVAX",
@@ -447,15 +447,15 @@
      "be_trigger_px": 9.07545,
      "be_stop_px": 9.02519,
      "be_moved": true,
-     "mark": 9.03465,
-     "unrealized_R": 0.182,
-     "distance_to_be_trigger_R": 0.568,
+     "mark": 9.029,
+     "unrealized_R": 0.103,
+     "distance_to_be_trigger_R": 0.647,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": true,
       "quantity": "179.92",
       "entryPrice": "9.0216",
-      "markPrice": "9.03465"
+      "markPrice": "9.03045"
      },
      "orders": {
       "entry": [
@@ -616,7 +616,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T08:48:04+00:00",
+   "last_cycle_utc": "2026-10-28T08:52:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -671,8 +671,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T08:46:31Z",
-   "equity_pct_vs_start": -1.138,
+   "as_of": "2026-10-28T08:51:31Z",
+   "equity_pct_vs_start": -1.018,
    "open": 0,
    "closed": 2,
    "wins": 0,
@@ -716,8 +716,16 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-10-28T02:20Z",
+     "entry": 0.004944,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null,
+     "mark": 0.004948,
+     "r_so_far": 0.011
     }
    },
    {
@@ -762,14 +770,8 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    }
   ]
