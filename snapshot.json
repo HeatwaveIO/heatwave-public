@@ -1,20 +1,208 @@
 {
- "generated_utc": "2026-10-28T23:13:40Z",
+ "generated_utc": "2026-10-28T23:18:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
   "propr_2s": {
    "account": "propr_2s",
-   "error": "snapshot read failed (rc 1)"
+   "mode": "live",
+   "exit": "be075",
+   "cell": "US_Core_London",
+   "last_cycle_utc": "2026-10-28T23:18:32+00:00",
+   "error": null,
+   "warning": null,
+   "refuse": [],
+   "equity_pct_vs_start": -2.653,
+   "balance_pct_vs_start": -2.653,
+   "cushion_pct_of_start_to_floor": 1.892,
+   "open_positions": [],
+   "venue_open_positions": 0,
+   "venue_live_orders": 0,
+   "recent_closed": [
+    {
+     "coin": "BNB",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T09:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": -0.015,
+     "closed_at": "2026-10-28T13:18:12.816Z"
+    },
+    {
+     "coin": "xyz:BRENTOIL",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T11:00Z",
+     "exit_reason": "stagnation exit: held >= 2h without momentum",
+     "net_R": 0.009,
+     "closed_at": "2026-10-28T13:15:25.692Z"
+    },
+    {
+     "coin": "AAVE",
+     "side": "SHORT",
+     "decision_utc": "2026-10-28T13:00Z",
+     "exit_reason": "stagnation exit: held >= 2h without momentum",
+     "net_R": -0.295,
+     "closed_at": "2026-10-28T15:20:24.631Z"
+    },
+    {
+     "coin": "ENA",
+     "side": "SHORT",
+     "decision_utc": "2026-10-28T13:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.021,
+     "closed_at": "2026-10-28T18:02:36.415Z"
+    },
+    {
+     "coin": "UNI",
+     "side": "SHORT",
+     "decision_utc": "2026-10-28T13:00Z",
+     "exit_reason": "decay exit: stalled loser flipped",
+     "net_R": -0.423,
+     "closed_at": "2026-10-28T15:11:40.455Z"
+    },
+    {
+     "coin": "AAVE",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T19:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.018,
+     "closed_at": "2026-10-28T20:28:36.464Z"
+    },
+    {
+     "coin": "ARB",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T19:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.047,
+     "closed_at": "2026-10-28T23:14:28.905Z"
+    },
+    {
+     "coin": "SUI",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T19:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.018,
+     "closed_at": "2026-10-28T20:24:08.450Z"
+    },
+    {
+     "coin": "ENA",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T20:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": -0.102,
+     "closed_at": "2026-10-28T23:14:29.839Z"
+    },
+    {
+     "coin": "kPEPE",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T20:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.481,
+     "closed_at": "2026-10-28T21:27:08.502Z"
+    }
+   ]
   },
   "propr_h6": {
    "account": "propr_h6",
-   "error": "snapshot read failed (rc 1)"
+   "mode": "live",
+   "exit": "be075",
+   "cell": "US_Core_London",
+   "last_cycle_utc": "2026-10-28T23:18:42+00:00",
+   "error": null,
+   "warning": null,
+   "refuse": [],
+   "equity_pct_vs_start": -5.589,
+   "balance_pct_vs_start": -5.589,
+   "cushion_pct_of_start_to_floor": 0.411,
+   "open_positions": [],
+   "venue_open_positions": 0,
+   "venue_live_orders": 0,
+   "recent_closed": [
+    {
+     "coin": "kPEPE",
+     "side": "LONG",
+     "decision_utc": "2026-10-27T23:00Z",
+     "exit_reason": "take_profit",
+     "net_R": 2.981,
+     "closed_at": "2026-10-28T01:36:35.678Z"
+    },
+    {
+     "coin": "ATOM",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T02:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": -0.044,
+     "closed_at": "2026-10-28T04:04:39.599Z"
+    },
+    {
+     "coin": "AVAX",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T08:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": -0.068,
+     "closed_at": "2026-10-28T08:56:44.572Z"
+    },
+    {
+     "coin": "kPEPE",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T09:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.009,
+     "closed_at": "2026-10-28T10:37:27.161Z"
+    },
+    {
+     "coin": "BNB",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T09:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": -0.01,
+     "closed_at": "2026-10-28T13:18:12.820Z"
+    },
+    {
+     "coin": "TRX",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T09:00Z",
+     "exit_reason": "decay exit: stalled loser flipped",
+     "net_R": -0.515,
+     "closed_at": "2026-10-28T12:07:45.289Z"
+    },
+    {
+     "coin": "xyz:BRENTOIL",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T11:00Z",
+     "exit_reason": "stagnation exit: held >= 2h without momentum",
+     "net_R": 0.009,
+     "closed_at": "2026-10-28T13:15:44.248Z"
+    },
+    {
+     "coin": "ENA",
+     "side": "SHORT",
+     "decision_utc": "2026-10-28T12:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": -0.993,
+     "closed_at": "2026-10-28T19:29:57.095Z"
+    },
+    {
+     "coin": "AAVE",
+     "side": "SHORT",
+     "decision_utc": "2026-10-28T13:00Z",
+     "exit_reason": "stagnation exit: held >= 2h without momentum",
+     "net_R": -0.343,
+     "closed_at": "2026-10-28T15:20:44.670Z"
+    },
+    {
+     "coin": "ENA",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T20:00Z",
+     "exit_reason": "stop_loss",
+     "net_R": 0.03,
+     "closed_at": "2026-10-28T22:02:52.762Z"
+    }
+   ]
   },
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T23:12:52+00:00",
+   "last_cycle_utc": "2026-10-28T23:17:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -83,8 +271,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T22:56:31Z",
-   "equity_pct_vs_start": 1.2,
+   "as_of": "2026-10-28T23:16:31Z",
+   "equity_pct_vs_start": 1.128,
    "open": 0,
    "closed": 3,
    "wins": 2,
@@ -124,8 +312,8 @@
     "stop": 0.004938,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "no_breakout",
+     "propr_h6": "no_breakout"
     },
     "replay_be075": {
      "status": "none",
@@ -150,8 +338,8 @@
     "stop": 0.004862,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
     },
     "replay_be075": {
      "status": "none",
@@ -176,8 +364,8 @@
     "stop": 134.93,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "filled",
+     "propr_h6": "filled"
     },
     "replay_be075": {
      "status": "closed",
@@ -202,8 +390,8 @@
     "stop": 0.004844,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
     },
     "replay_be075": {
      "status": "open",
@@ -214,8 +402,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.005062,
-     "r_so_far": -0.266
+     "mark": 0.005045,
+     "r_so_far": -0.323
     }
    },
    {
@@ -230,8 +418,8 @@
     "stop": 11.524,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -246,8 +434,8 @@
     "stop": 131.74,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -262,8 +450,8 @@
     "stop": 1276.7,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -278,8 +466,8 @@
     "stop": 0.92333,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -294,8 +482,8 @@
     "stop": 0.20521,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
     },
     "replay_be075": {
      "status": "pending",
@@ -320,8 +508,8 @@
     "stop": 0.20446,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -336,8 +524,8 @@
     "stop": 8.9707,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -352,8 +540,8 @@
     "stop": 0.20281,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "filled",
+     "propr_h6": "filled"
     },
     "replay_be075": {
      "status": "open",
@@ -364,8 +552,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.20928,
-     "r_so_far": -0.232
+     "mark": 0.20907,
+     "r_so_far": -0.257
     }
    },
    {
@@ -380,8 +568,8 @@
     "stop": 0.004941,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
     },
     "replay_be075": {
      "status": "pending",
@@ -406,8 +594,8 @@
     "stop": 0.20663,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -422,8 +610,8 @@
     "stop": 80.425,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
     }
    },
    {
@@ -438,8 +626,8 @@
     "stop": 0.005015,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
+     "propr_2s": "skipped_off_hours",
+     "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
      "status": "pending",
