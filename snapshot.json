@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T08:03:36Z",
+ "generated_utc": "2026-10-28T08:08:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,16 +8,209 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:03:34+00:00",
+   "last_cycle_utc": "2026-10-28T08:08:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
    "equity_pct_vs_start": -1.677,
    "balance_pct_vs_start": -1.677,
    "cushion_pct_of_start_to_floor": 2.869,
-   "open_positions": [],
+   "open_positions": [
+    {
+     "coin": "AVAX",
+     "side": "LONG",
+     "status": "resting",
+     "decision_utc": "2026-10-28T08:00Z",
+     "fill_utc": null,
+     "entry": 9.0106,
+     "stop0": 8.9498,
+     "tp_3R": 9.193,
+     "qty": 409.19,
+     "risk_pct_of_start": 0.497585,
+     "be_trigger_R": 0.75,
+     "be_trigger_px": 9.0562,
+     "be_stop_px": 9.01364,
+     "be_moved": false,
+     "mark": 9.0224,
+     "unrealized_R": 0.194,
+     "distance_to_be_trigger_R": 0.556,
+     "time_exit_utc": "2026-10-28T17:55Z",
+     "venue": {
+      "open": false,
+      "quantity": null,
+      "entryPrice": null,
+      "markPrice": null
+     },
+     "orders": {
+      "entry": [
+       {
+        "orderId": "urn:prp-order:A46NYu9NzpEB",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "open",
+        "timeInForce": "GTX",
+        "price": "9.0106",
+        "triggerPrice": null,
+        "quantity": "409.19",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.320Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "stop_market": [
+       {
+        "orderId": "urn:prp-order:NfXUhssuHUt9",
+        "exchangeOrderId": null,
+        "type": "stop_market",
+        "side": "sell",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": null,
+        "triggerPrice": "8.9498",
+        "quantity": "409.19",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.320Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "take_profit_limit": [
+       {
+        "orderId": "urn:prp-order:WXW2snDEb72g",
+        "exchangeOrderId": null,
+        "type": "take_profit_limit",
+        "side": "sell",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": "9.193",
+        "triggerPrice": "9.193",
+        "quantity": "409.19",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.320Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "other_live": [
+       {
+        "orderId": "urn:prp-order:A46NYu9NzpEB",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "open",
+        "timeInForce": "GTX",
+        "price": "9.0106",
+        "triggerPrice": null,
+        "quantity": "409.19",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.320Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ]
+     }
+    },
+    {
+     "coin": "XRP",
+     "side": "LONG",
+     "status": "resting",
+     "decision_utc": "2026-10-28T08:00Z",
+     "fill_utc": null,
+     "entry": 1.3291,
+     "stop0": 1.3234,
+     "tp_3R": 1.3462,
+     "qty": 2774,
+     "risk_pct_of_start": 0.316253,
+     "be_trigger_R": 0.75,
+     "be_trigger_px": 1.333375,
+     "be_stop_px": 1.329385,
+     "be_moved": false,
+     "mark": 1.33035,
+     "unrealized_R": 0.219,
+     "distance_to_be_trigger_R": 0.531,
+     "time_exit_utc": "2026-10-28T17:55Z",
+     "venue": {
+      "open": false,
+      "quantity": null,
+      "entryPrice": null,
+      "markPrice": null
+     },
+     "orders": {
+      "entry": [
+       {
+        "orderId": "urn:prp-order:XBHnpGGHv6FJ",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "open",
+        "timeInForce": "GTX",
+        "price": "1.3291",
+        "triggerPrice": null,
+        "quantity": "2774",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.894Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "stop_market": [
+       {
+        "orderId": "urn:prp-order:cPCzngtPSY54",
+        "exchangeOrderId": null,
+        "type": "stop_market",
+        "side": "sell",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": null,
+        "triggerPrice": "1.3234",
+        "quantity": "2774",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.894Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "take_profit_limit": [
+       {
+        "orderId": "urn:prp-order:VYCz1phWBZjQ",
+        "exchangeOrderId": null,
+        "type": "take_profit_limit",
+        "side": "sell",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": "1.3462",
+        "triggerPrice": "1.3462",
+        "quantity": "2774",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.894Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "other_live": [
+       {
+        "orderId": "urn:prp-order:XBHnpGGHv6FJ",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "open",
+        "timeInForce": "GTX",
+        "price": "1.3291",
+        "triggerPrice": null,
+        "quantity": "2774",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:01.894Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ]
+     }
+    }
+   ],
    "venue_open_positions": 0,
-   "venue_live_orders": 0,
+   "venue_live_orders": 6,
    "recent_closed": [
     {
      "coin": "kPEPE",
@@ -106,16 +299,113 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:03:41+00:00",
+   "last_cycle_utc": "2026-10-28T08:08:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
    "equity_pct_vs_start": -5.342,
    "balance_pct_vs_start": -5.342,
    "cushion_pct_of_start_to_floor": 0.658,
-   "open_positions": [],
+   "open_positions": [
+    {
+     "coin": "AVAX",
+     "side": "LONG",
+     "status": "resting",
+     "decision_utc": "2026-10-28T08:00Z",
+     "fill_utc": null,
+     "entry": 9.0106,
+     "stop0": 8.9498,
+     "tp_3R": 9.193,
+     "qty": 212.48,
+     "risk_pct_of_start": 0.258383,
+     "be_trigger_R": 0.75,
+     "be_trigger_px": 9.0562,
+     "be_stop_px": 9.01364,
+     "be_moved": false,
+     "mark": 9.0226,
+     "unrealized_R": 0.197,
+     "distance_to_be_trigger_R": 0.553,
+     "time_exit_utc": "2026-10-28T17:55Z",
+     "venue": {
+      "open": false,
+      "quantity": null,
+      "entryPrice": null,
+      "markPrice": null
+     },
+     "orders": {
+      "entry": [
+       {
+        "orderId": "urn:prp-order:8JXAM8rNqbFE",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "open",
+        "timeInForce": "GTX",
+        "price": "9.0106",
+        "triggerPrice": null,
+        "quantity": "212.48",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:00.988Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "stop_market": [
+       {
+        "orderId": "urn:prp-order:H6YZjrUQmwMr",
+        "exchangeOrderId": null,
+        "type": "stop_market",
+        "side": "sell",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": null,
+        "triggerPrice": "8.9498",
+        "quantity": "212.48",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:00.988Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "take_profit_limit": [
+       {
+        "orderId": "urn:prp-order:fYcWiwHpU3e7",
+        "exchangeOrderId": null,
+        "type": "take_profit_limit",
+        "side": "sell",
+        "status": "pending",
+        "timeInForce": "GTC",
+        "price": "9.193",
+        "triggerPrice": "9.193",
+        "quantity": "212.48",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:00.988Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ],
+      "other_live": [
+       {
+        "orderId": "urn:prp-order:8JXAM8rNqbFE",
+        "exchangeOrderId": null,
+        "type": "limit",
+        "side": "buy",
+        "status": "open",
+        "timeInForce": "GTX",
+        "price": "9.0106",
+        "triggerPrice": null,
+        "quantity": "212.48",
+        "cumulativeQuantity": "0",
+        "createdAt": "2026-10-28T08:07:00.988Z",
+        "filledAt": null,
+        "cancelledAt": null
+       }
+      ]
+     }
+    }
+   ],
    "venue_open_positions": 0,
-   "venue_live_orders": 0,
+   "venue_live_orders": 3,
    "recent_closed": [
     {
      "coin": "DOT",
@@ -202,7 +492,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T08:02:52+00:00",
+   "last_cycle_utc": "2026-10-28T08:07:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -310,8 +600,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004865,
-     "r_so_far": -0.22
+     "mark": 0.004904,
+     "r_so_far": -0.111
     }
    },
    {
