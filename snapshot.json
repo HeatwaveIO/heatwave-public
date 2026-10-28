@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T02:38:40Z",
+ "generated_utc": "2026-10-28T02:43:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T02:37:27+00:00",
+   "last_cycle_utc": "2026-10-28T02:43:28+00:00",
    "error": null,
-   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
+   "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.219,
+   "equity_pct_vs_start": -1.442,
    "balance_pct_vs_start": -0.844,
-   "cushion_pct_of_start_to_floor": 3.327,
+   "cushion_pct_of_start_to_floor": 3.104,
    "open_positions": [
     {
      "coin": "ADA",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.208558,
      "be_stop_px": 0.207262,
      "be_moved": false,
-     "mark": 0.206745,
-     "unrealized_R": -0.23,
-     "distance_to_be_trigger_R": 0.98,
+     "mark": 0.206475,
+     "unrealized_R": -0.376,
+     "distance_to_be_trigger_R": 1.126,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "17949",
       "entryPrice": "0.20717",
-      "markPrice": "0.206745"
+      "markPrice": "0.206475"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 0.174138,
      "be_stop_px": 0.172591,
      "be_moved": false,
-     "mark": 0.17181,
-     "unrealized_R": -0.303,
-     "distance_to_be_trigger_R": 1.053,
+     "mark": 0.171525,
+     "unrealized_R": -0.432,
+     "distance_to_be_trigger_R": 1.182,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "8626",
       "entryPrice": "0.17248",
-      "markPrice": "0.17181"
+      "markPrice": "0.171525"
      },
      "orders": {
       "entry": [
@@ -191,15 +191,15 @@
      "be_trigger_px": 748.982081,
      "be_stop_px": 746.097248,
      "be_moved": false,
-     "mark": 744.625,
-     "unrealized_R": -0.307,
-     "distance_to_be_trigger_R": 1.057,
+     "mark": 744.45,
+     "unrealized_R": -0.35,
+     "distance_to_be_trigger_R": 1.1,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "4.986",
       "entryPrice": "745.891189",
-      "markPrice": "744.625"
+      "markPrice": "744.45"
      },
      "orders": {
       "entry": [
@@ -347,13 +347,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T02:38:42+00:00",
+   "last_cycle_utc": "2026-10-28T02:43:42+00:00",
    "error": null,
-   "warning": null,
+   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
    "refuse": [],
-   "equity_pct_vs_start": -5.366,
+   "equity_pct_vs_start": -5.376,
    "balance_pct_vs_start": -5.335,
-   "cushion_pct_of_start_to_floor": 0.634,
+   "cushion_pct_of_start_to_floor": 0.624,
    "open_positions": [
     {
      "coin": "ATOM",
@@ -370,15 +370,15 @@
      "be_trigger_px": 1.654411,
      "be_stop_px": 1.644487,
      "be_moved": false,
-     "mark": 1.6421,
-     "unrealized_R": -0.118,
-     "distance_to_be_trigger_R": 0.868,
+     "mark": 1.6416,
+     "unrealized_R": -0.154,
+     "distance_to_be_trigger_R": 0.904,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "943.56",
       "entryPrice": "1.643778",
-      "markPrice": "1.6421"
+      "markPrice": "1.6416"
      },
      "orders": {
       "entry": [
@@ -539,7 +539,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T02:37:49+00:00",
+   "last_cycle_utc": "2026-10-28T02:43:05+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -594,8 +594,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T02:36:30Z",
-   "equity_pct_vs_start": -0.882,
+   "as_of": "2026-10-28T02:41:31Z",
+   "equity_pct_vs_start": -0.824,
    "open": 0,
    "closed": 2,
    "wins": 1,
@@ -639,8 +639,16 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-10-28T02:20Z",
+     "entry": 0.004944,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null,
+     "mark": 0.004888,
+     "r_so_far": -0.156
     }
    }
   ]
