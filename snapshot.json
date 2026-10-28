@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T04:28:35Z",
+ "generated_utc": "2026-10-28T04:33:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T04:28:34+00:00",
+   "last_cycle_utc": "2026-10-28T04:33:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.392,
+   "equity_pct_vs_start": -1.313,
    "balance_pct_vs_start": -1.484,
-   "cushion_pct_of_start_to_floor": 3.154,
+   "cushion_pct_of_start_to_floor": 3.233,
    "open_positions": [
     {
      "coin": "BNB",
@@ -31,15 +31,15 @@
      "be_trigger_px": 748.982081,
      "be_stop_px": 746.097248,
      "be_moved": false,
-     "mark": 746.815,
-     "unrealized_R": 0.224,
-     "distance_to_be_trigger_R": 0.526,
+     "mark": 747.35,
+     "unrealized_R": 0.354,
+     "distance_to_be_trigger_R": 0.396,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "4.986",
       "entryPrice": "745.891189",
-      "markPrice": "746.815"
+      "markPrice": "747.185"
      },
      "orders": {
       "entry": [
@@ -187,7 +187,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T04:27:42+00:00",
+   "last_cycle_utc": "2026-10-28T04:33:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -283,7 +283,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T04:27:52+00:00",
+   "last_cycle_utc": "2026-10-28T04:32:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -338,8 +338,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T04:26:31Z",
-   "equity_pct_vs_start": -0.272,
+   "as_of": "2026-10-28T04:31:30Z",
+   "equity_pct_vs_start": -0.322,
    "open": 0,
    "closed": 2,
    "wins": 1,
