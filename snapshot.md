@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-27T22:43:33Z
+# Heatwave public snapshot 2026-10-28T01:51:54Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,26 +6,21 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -0.716% | 3.83 | 1 | 2026-10-27T22:43:17+00:00 |  |
-| propr_h6 | live | -5.535% | 0.465 | 1 | 2026-10-27T22:42:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-27T22:42:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -0.817% | 3.729 | 0 | 2026-10-28T01:51:22+00:00 |  |
+| propr_h6 | live | -5.33% | 0.67 | 0 | 2026-10-28T01:51:43+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-28T01:47:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 0.362% |  | 0 | 2026-10-27T22:41:32Z |  |
+| coinbase | SHADOW (real orders blocked) | -0.854% |  | 0 | 2026-10-28T01:51:31Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | TRX | LONG | 0.331505 | 0.33124 | -0.176 | 0.332634 (+0.75R) | False | 2026-10-28T06:55Z | urn:prp-order:PEHeVzEjQ4s2 @ 0.33 | urn:prp-order:CZHjHgzbnpnN @ 0.3362 |
-| propr_h6 | HYPE | LONG | 81.354 | 81.1715 | -0.14 | 82.329 (+0.75R) | False | 2026-10-28T03:55Z | urn:prp-order:Zoncrsf5otv2 @ 80.054 | urn:prp-order:3FzWDz3yf7Jx @ 84.078 |
 
-## Signal scan 2026-10-27T09:00Z .. 2026-10-27T22:00Z (decision times)
+## Signal scan 2026-10-27T12:00Z .. 2026-10-28T01:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-27T10:00Z | ENA | SHORT | 1 | 3.495 | 2.994 | no_breakout | no_breakout | closed -1.0393R |
-| 2026-10-27T11:00Z | ENA | SHORT | 1 | 7.111 | 3.706 | no_breakout | no_breakout | none |
-| 2026-10-27T11:00Z | AAVE | SHORT | 2 | 2.569 | 1.839 | not_top1 | not_top1 |  |
 
