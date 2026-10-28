@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-28T19:18:40Z
+# Heatwave public snapshot 2026-10-28T19:23:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,19 +6,20 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -2.594% | 1.952 | 2 | 2026-10-28T19:18:28+00:00 |  |
-| propr_h6 | live | -5.52% | 0.48 | 1 | 2026-10-28T19:18:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-28T19:17:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -2.42% | 2.125 | 3 | 2026-10-28T19:23:26+00:00 |  |
+| propr_h6 | live | -5.559% | 0.441 | 1 | 2026-10-28T19:23:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-28T19:22:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 0.712% |  | 0 | 2026-10-28T19:16:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 0.73% |  | 0 | 2026-10-28T19:21:31Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | AAVE | LONG | 134.917642 | 135.1 | 0.057 | 137.300873 (+0.75R) | False | 2026-10-29T04:55Z | urn:prp-order:TEpLLXkjxSqz @ 131.74 | urn:prp-order:usPw8TTRC55B @ 145.62 |
-| propr_2s | ARB | LONG | 0.17186 | 0.17219 | 0.058 | 0.17615 (+0.75R) | False | 2026-10-29T04:55Z | urn:prp-order:4mrZCeEN8ua7 @ 0.16614 | urn:prp-order:ecT1noVYL7YQ @ 0.19014 |
-| propr_h6 | ENA | SHORT | 0.20318 | 0.204705 | -0.426 | 0.200495 (+0.75R) | False | 2026-10-28T21:55Z | urn:prp-order:nGNUxaf6JLSK @ 0.20676 | urn:prp-order:EWBsXk5zhdED @ 0.19172 |
+| propr_2s | AAVE | LONG | 134.917642 | 135.38 | 0.146 | 137.300873 (+0.75R) | False | 2026-10-29T04:55Z | urn:prp-order:TEpLLXkjxSqz @ 131.74 | urn:prp-order:usPw8TTRC55B @ 145.62 |
+| propr_2s | ARB | LONG | 0.17186 | 0.17278 | 0.161 | 0.17615 (+0.75R) | False | 2026-10-29T04:55Z | urn:prp-order:4mrZCeEN8ua7 @ 0.16614 | urn:prp-order:ecT1noVYL7YQ @ 0.19014 |
+| propr_2s | SUI | LONG | 0.94249 | 0.94163 | -0.045 | 0.95686 (+0.75R) | False | 2026-10-29T04:55Z | urn:prp-order:9Ag8tCvVNs2G @ 0.92333 | urn:prp-order:wzb2o8W1P1gj @ 0.99997 |
+| propr_h6 | ENA | SHORT | 0.20318 | 0.20576 | -0.721 | 0.200495 (+0.75R) | False | 2026-10-28T21:55Z | urn:prp-order:nGNUxaf6JLSK @ 0.20676 | urn:prp-order:EWBsXk5zhdED @ 0.19172 |
 
 ## Signal scan 2026-10-28T06:00Z .. 2026-10-28T19:00Z (decision times)
 
