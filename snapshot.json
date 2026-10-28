@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T09:08:40Z",
+ "generated_utc": "2026-10-28T09:13:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T09:08:28+00:00",
+   "last_cycle_utc": "2026-10-28T09:13:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -31,9 +31,9 @@
      "be_trigger_px": 1.333375,
      "be_stop_px": 1.329385,
      "be_moved": false,
-     "mark": 1.33075,
-     "unrealized_R": 0.289,
-     "distance_to_be_trigger_R": 0.461,
+     "mark": 1.33205,
+     "unrealized_R": 0.518,
+     "distance_to_be_trigger_R": 0.232,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -142,9 +142,9 @@
      "be_trigger_px": 0.004948,
      "be_stop_px": 0.004869,
      "be_moved": false,
-     "mark": 0.004941,
-     "unrealized_R": 0.69,
-     "distance_to_be_trigger_R": 0.06,
+     "mark": 0.004973,
+     "unrealized_R": 0.973,
+     "distance_to_be_trigger_R": -0.223,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -329,7 +329,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T09:08:42+00:00",
+   "last_cycle_utc": "2026-10-28T09:13:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -425,7 +425,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T09:07:52+00:00",
+   "last_cycle_utc": "2026-10-28T09:12:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -533,8 +533,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.00494,
-     "r_so_far": -0.011
+     "mark": 0.004985,
+     "r_so_far": 0.114
     }
    },
    {
