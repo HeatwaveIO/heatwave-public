@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T06:48:39Z",
+ "generated_utc": "2026-10-28T06:53:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,106 +8,17 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T06:48:28+00:00",
+   "last_cycle_utc": "2026-10-28T06:53:18+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.632,
-   "balance_pct_vs_start": -1.486,
-   "cushion_pct_of_start_to_floor": 2.914,
-   "open_positions": [
-    {
-     "coin": "BNB",
-     "side": "LONG",
-     "status": "open",
-     "decision_utc": "2026-10-28T02:00Z",
-     "fill_utc": "2026-10-28T02:20Z",
-     "entry": 745.891189,
-     "stop0": 741.77,
-     "tp_3R": 758.29,
-     "qty": 4.986,
-     "risk_pct_of_start": 0.411878,
-     "be_trigger_R": 0.75,
-     "be_trigger_px": 748.982081,
-     "be_stop_px": 746.097248,
-     "be_moved": false,
-     "mark": 744.565,
-     "unrealized_R": -0.322,
-     "distance_to_be_trigger_R": 1.072,
-     "time_exit_utc": "2026-10-28T11:55Z",
-     "venue": {
-      "open": true,
-      "quantity": "4.986",
-      "entryPrice": "745.891189",
-      "markPrice": "744.535"
-     },
-     "orders": {
-      "entry": [
-       {
-        "orderId": "urn:prp-order:LuMcNKW2nMuF",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "buy",
-        "status": "filled",
-        "timeInForce": "GTX",
-        "price": "745.9",
-        "triggerPrice": null,
-        "quantity": "4.986",
-        "cumulativeQuantity": "4.986",
-        "createdAt": "2026-10-28T02:19:29.174Z",
-        "filledAt": "2026-10-28T02:19:39.995Z",
-        "cancelledAt": null
-       }
-      ],
-      "stop_market": [
-       {
-        "orderId": "urn:prp-order:nw7HA1n5qZRZ",
-        "exchangeOrderId": null,
-        "type": "stop_market",
-        "side": "sell",
-        "status": "pending",
-        "timeInForce": "GTC",
-        "price": null,
-        "triggerPrice": "741.77",
-        "quantity": "4.986",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T02:19:29.174Z",
-        "filledAt": null,
-        "cancelledAt": null
-       }
-      ],
-      "take_profit_limit": [
-       {
-        "orderId": "urn:prp-order:KmWrAkw5acH1",
-        "exchangeOrderId": null,
-        "type": "take_profit_limit",
-        "side": "sell",
-        "status": "pending",
-        "timeInForce": "GTC",
-        "price": "758.29",
-        "triggerPrice": "758.29",
-        "quantity": "4.986",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T02:19:29.174Z",
-        "filledAt": null,
-        "cancelledAt": null
-       }
-      ],
-      "other_live": []
-     }
-    }
-   ],
-   "venue_open_positions": 1,
-   "venue_live_orders": 2,
+   "equity_pct_vs_start": -1.677,
+   "balance_pct_vs_start": -1.677,
+   "cushion_pct_of_start_to_floor": 2.869,
+   "open_positions": [],
+   "venue_open_positions": 0,
+   "venue_live_orders": 0,
    "recent_closed": [
-    {
-     "coin": "ARB",
-     "side": "SHORT",
-     "decision_utc": "2026-10-24T00:00Z",
-     "exit_reason": "time exit",
-     "net_R": -0.279,
-     "closed_at": "2026-10-24T09:56:23.539Z"
-    },
     {
      "coin": "kPEPE",
      "side": "LONG",
@@ -179,6 +90,14 @@
      "exit_reason": "decay exit: stalled loser flipped",
      "net_R": -0.482,
      "closed_at": "2026-10-28T03:19:03.292Z"
+    },
+    {
+     "coin": "BNB",
+     "side": "LONG",
+     "decision_utc": "2026-10-28T02:00Z",
+     "exit_reason": "decay exit: stalled loser flipped",
+     "net_R": -0.491,
+     "closed_at": "2026-10-28T06:51:47.831Z"
     }
    ]
   },
@@ -187,7 +106,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T06:48:42+00:00",
+   "last_cycle_utc": "2026-10-28T06:52:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -283,7 +202,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T06:48:04+00:00",
+   "last_cycle_utc": "2026-10-28T06:52:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -338,11 +257,11 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T06:46:32Z",
-   "equity_pct_vs_start": 0.018,
+   "as_of": "2026-10-28T06:51:30Z",
+   "equity_pct_vs_start": 0.148,
    "open": 0,
    "closed": 2,
-   "wins": 1,
+   "wins": 2,
    "config": "AUTO (2h + RAPID 5m) @ 2.25%",
    "guard_halted": false
   }
@@ -383,8 +302,16 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-10-28T02:20Z",
+     "entry": 0.004944,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null,
+     "mark": 0.004734,
+     "r_so_far": -0.585
     }
    },
    {
