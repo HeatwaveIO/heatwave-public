@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T04:58:31Z",
+ "generated_utc": "2026-10-28T05:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T04:58:28+00:00",
+   "last_cycle_utc": "2026-10-28T05:03:19+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.445,
+   "equity_pct_vs_start": -1.475,
    "balance_pct_vs_start": -1.484,
-   "cushion_pct_of_start_to_floor": 3.1,
+   "cushion_pct_of_start_to_floor": 3.071,
    "open_positions": [
     {
      "coin": "BNB",
@@ -31,15 +31,15 @@
      "be_trigger_px": 748.982081,
      "be_stop_px": 746.097248,
      "be_moved": false,
-     "mark": 746.275,
-     "unrealized_R": 0.093,
-     "distance_to_be_trigger_R": 0.657,
+     "mark": 745.695,
+     "unrealized_R": -0.048,
+     "distance_to_be_trigger_R": 0.798,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "4.986",
       "entryPrice": "745.891189",
-      "markPrice": "746.275"
+      "markPrice": "745.77"
      },
      "orders": {
       "entry": [
@@ -187,7 +187,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T04:57:42+00:00",
+   "last_cycle_utc": "2026-10-28T05:03:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -283,7 +283,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T04:57:52+00:00",
+   "last_cycle_utc": "2026-10-28T05:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -348,10 +348,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-27T15:00Z .. 2026-10-28T04:00Z (decision times)",
+  "window": "2026-10-27T16:00Z .. 2026-10-28T05:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-27T15:00Z": 25,
    "2026-10-27T16:00Z": 25,
    "2026-10-27T17:00Z": 25,
    "2026-10-27T18:00Z": 25,
@@ -364,7 +363,8 @@
    "2026-10-28T01:00Z": 25,
    "2026-10-28T02:00Z": 25,
    "2026-10-28T03:00Z": 25,
-   "2026-10-28T04:00Z": 25
+   "2026-10-28T04:00Z": 25,
+   "2026-10-28T05:00Z": 25
   },
   "signals": [
    {
@@ -391,8 +391,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004829,
-     "r_so_far": -0.32
+     "mark": 0.004809,
+     "r_so_far": -0.376
     }
    },
    {
