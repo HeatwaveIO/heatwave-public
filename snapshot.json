@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T08:33:40Z",
+ "generated_utc": "2026-10-28T08:38:38Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:33:21+00:00",
+   "last_cycle_utc": "2026-10-28T08:38:22+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -1.596,
+   "equity_pct_vs_start": -1.513,
    "balance_pct_vs_start": -1.686,
-   "cushion_pct_of_start_to_floor": 2.95,
+   "cushion_pct_of_start_to_floor": 3.033,
    "open_positions": [
     {
      "coin": "AVAX",
@@ -31,15 +31,15 @@
      "be_trigger_px": 9.07545,
      "be_stop_px": 9.02519,
      "be_moved": true,
-     "mark": 9.0316,
-     "unrealized_R": 0.139,
-     "distance_to_be_trigger_R": 0.611,
+     "mark": 9.0514,
+     "unrealized_R": 0.415,
+     "distance_to_be_trigger_R": 0.335,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": true,
       "quantity": "346.5",
       "entryPrice": "9.0216",
-      "markPrice": "9.0316"
+      "markPrice": "9.04255"
      },
      "orders": {
       "entry": [
@@ -126,9 +126,9 @@
      "be_trigger_px": 1.333375,
      "be_stop_px": 1.329385,
      "be_moved": false,
-     "mark": 1.3291,
-     "unrealized_R": 0.0,
-     "distance_to_be_trigger_R": 0.75,
+     "mark": 1.33655,
+     "unrealized_R": 1.307,
+     "distance_to_be_trigger_R": -0.557,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -237,9 +237,9 @@
      "be_trigger_px": 0.004948,
      "be_stop_px": 0.004869,
      "be_moved": false,
-     "mark": 0.004863,
-     "unrealized_R": 0.0,
-     "distance_to_be_trigger_R": 0.75,
+     "mark": 0.004944,
+     "unrealized_R": 0.717,
+     "distance_to_be_trigger_R": 0.033,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": false,
@@ -424,13 +424,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T08:33:42+00:00",
+   "last_cycle_utc": "2026-10-28T08:38:41+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.311,
+   "equity_pct_vs_start": -5.271,
    "balance_pct_vs_start": -5.346,
-   "cushion_pct_of_start_to_floor": 0.689,
+   "cushion_pct_of_start_to_floor": 0.729,
    "open_positions": [
     {
      "coin": "AVAX",
@@ -447,15 +447,15 @@
      "be_trigger_px": 9.07545,
      "be_stop_px": 9.02519,
      "be_moved": true,
-     "mark": 9.0316,
-     "unrealized_R": 0.139,
-     "distance_to_be_trigger_R": 0.611,
+     "mark": 9.049,
+     "unrealized_R": 0.382,
+     "distance_to_be_trigger_R": 0.368,
      "time_exit_utc": "2026-10-28T17:55Z",
      "venue": {
       "open": true,
       "quantity": "179.92",
       "entryPrice": "9.0216",
-      "markPrice": "9.0316"
+      "markPrice": "9.04255"
      },
      "orders": {
       "entry": [
@@ -616,7 +616,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T08:32:52+00:00",
+   "last_cycle_utc": "2026-10-28T08:37:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -671,8 +671,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T08:31:31Z",
-   "equity_pct_vs_start": -0.988,
+   "as_of": "2026-10-28T08:36:30Z",
+   "equity_pct_vs_start": -1.826,
    "open": 0,
    "closed": 2,
    "wins": 0,
@@ -724,8 +724,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004946,
-     "r_so_far": 0.006
+     "mark": 0.004932,
+     "r_so_far": -0.033
     }
    },
    {
