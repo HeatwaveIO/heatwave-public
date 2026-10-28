@@ -1,304 +1,20 @@
 {
- "generated_utc": "2026-10-28T18:38:33Z",
+ "generated_utc": "2026-10-28T18:43:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
   "propr_2s": {
    "account": "propr_2s",
-   "mode": "live",
-   "exit": "be075",
-   "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T18:38:34+00:00",
-   "error": null,
-   "warning": null,
-   "refuse": [],
-   "equity_pct_vs_start": -2.624,
-   "balance_pct_vs_start": -2.624,
-   "cushion_pct_of_start_to_floor": 1.922,
-   "open_positions": [],
-   "venue_open_positions": 0,
-   "venue_live_orders": 0,
-   "recent_closed": [
-    {
-     "coin": "XLM",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T02:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.482,
-     "closed_at": "2026-10-28T03:19:03.292Z"
-    },
-    {
-     "coin": "BNB",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T02:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.491,
-     "closed_at": "2026-10-28T06:51:47.831Z"
-    },
-    {
-     "coin": "AVAX",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T08:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -0.076,
-     "closed_at": "2026-10-28T08:56:44.573Z"
-    },
-    {
-     "coin": "XRP",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T08:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.684,
-     "closed_at": "2026-10-28T11:04:26.575Z"
-    },
-    {
-     "coin": "kPEPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T08:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.385,
-     "closed_at": "2026-10-28T14:32:23.659Z"
-    },
-    {
-     "coin": "BNB",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T09:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -0.015,
-     "closed_at": "2026-10-28T13:18:12.816Z"
-    },
-    {
-     "coin": "xyz:BRENTOIL",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T11:00Z",
-     "exit_reason": "stagnation exit: held >= 2h without momentum",
-     "net_R": 0.009,
-     "closed_at": "2026-10-28T13:15:25.692Z"
-    },
-    {
-     "coin": "AAVE",
-     "side": "SHORT",
-     "decision_utc": "2026-10-28T13:00Z",
-     "exit_reason": "stagnation exit: held >= 2h without momentum",
-     "net_R": -0.295,
-     "closed_at": "2026-10-28T15:20:24.631Z"
-    },
-    {
-     "coin": "ENA",
-     "side": "SHORT",
-     "decision_utc": "2026-10-28T13:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.021,
-     "closed_at": "2026-10-28T18:02:36.415Z"
-    },
-    {
-     "coin": "UNI",
-     "side": "SHORT",
-     "decision_utc": "2026-10-28T13:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.423,
-     "closed_at": "2026-10-28T15:11:40.455Z"
-    }
-   ]
+   "error": "snapshot read failed (rc 1)"
   },
   "propr_h6": {
    "account": "propr_h6",
-   "mode": "live",
-   "exit": "be075",
-   "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T18:37:42+00:00",
-   "error": null,
-   "warning": null,
-   "refuse": [],
-   "equity_pct_vs_start": -5.49,
-   "balance_pct_vs_start": -5.476,
-   "cushion_pct_of_start_to_floor": 0.51,
-   "open_positions": [
-    {
-     "coin": "ENA",
-     "side": "SHORT",
-     "status": "open",
-     "decision_utc": "2026-10-28T12:00Z",
-     "fill_utc": "2026-10-28T18:36Z",
-     "entry": 0.20318,
-     "stop0": 0.20676,
-     "tp_3R": 0.19172,
-     "qty": 1539.0,
-     "risk_pct_of_start": 0.115743,
-     "be_trigger_R": 0.75,
-     "be_trigger_px": 0.200495,
-     "be_stop_px": 0.203001,
-     "be_moved": false,
-     "mark": 0.202665,
-     "unrealized_R": 0.144,
-     "distance_to_be_trigger_R": 0.606,
-     "time_exit_utc": "2026-10-28T21:55Z",
-     "venue": {
-      "open": true,
-      "quantity": "1539",
-      "entryPrice": "0.20318",
-      "markPrice": "0.20339"
-     },
-     "orders": {
-      "entry": [
-       {
-        "orderId": "urn:prp-order:vyBiv8krouyt",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "sell",
-        "status": "filled",
-        "timeInForce": "GTX",
-        "price": "0.203",
-        "triggerPrice": null,
-        "quantity": "1539",
-        "cumulativeQuantity": "1539",
-        "createdAt": "2026-10-28T12:31:47.001Z",
-        "filledAt": "2026-10-28T18:36:23.403Z",
-        "cancelledAt": null
-       },
-       {
-        "orderId": "urn:prp-order:ikxXDKNdVoSy",
-        "exchangeOrderId": null,
-        "type": "limit",
-        "side": "sell",
-        "status": "cancelled",
-        "timeInForce": "GTX",
-        "price": "0.203",
-        "triggerPrice": null,
-        "quantity": "1539",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T12:26:46.219Z",
-        "filledAt": null,
-        "cancelledAt": "2026-10-28T12:31:45.718Z"
-       }
-      ],
-      "stop_market": [
-       {
-        "orderId": "urn:prp-order:nGNUxaf6JLSK",
-        "exchangeOrderId": null,
-        "type": "stop_market",
-        "side": "buy",
-        "status": "pending",
-        "timeInForce": "GTC",
-        "price": null,
-        "triggerPrice": "0.20676",
-        "quantity": "1539",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T12:31:47.001Z",
-        "filledAt": null,
-        "cancelledAt": null
-       }
-      ],
-      "take_profit_limit": [
-       {
-        "orderId": "urn:prp-order:EWBsXk5zhdED",
-        "exchangeOrderId": null,
-        "type": "take_profit_limit",
-        "side": "buy",
-        "status": "pending",
-        "timeInForce": "GTC",
-        "price": "0.19172",
-        "triggerPrice": "0.19172",
-        "quantity": "1539",
-        "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T12:31:47.001Z",
-        "filledAt": null,
-        "cancelledAt": null
-       }
-      ],
-      "other_live": []
-     }
-    }
-   ],
-   "venue_open_positions": 1,
-   "venue_live_orders": 2,
-   "recent_closed": [
-    {
-     "coin": "ENA",
-     "side": "SHORT",
-     "decision_utc": "2026-10-26T08:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -1.02,
-     "closed_at": "2026-10-26T08:39:15.237Z"
-    },
-    {
-     "coin": "HYPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-27T18:00Z",
-     "exit_reason": "stagnation exit: held >= 4h without momentum",
-     "net_R": -0.103,
-     "closed_at": "2026-10-28T00:21:02.078Z"
-    },
-    {
-     "coin": "kPEPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-27T23:00Z",
-     "exit_reason": "take_profit",
-     "net_R": 2.981,
-     "closed_at": "2026-10-28T01:36:35.678Z"
-    },
-    {
-     "coin": "ATOM",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T02:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -0.044,
-     "closed_at": "2026-10-28T04:04:39.599Z"
-    },
-    {
-     "coin": "AVAX",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T08:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -0.068,
-     "closed_at": "2026-10-28T08:56:44.572Z"
-    },
-    {
-     "coin": "kPEPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T09:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.009,
-     "closed_at": "2026-10-28T10:37:27.161Z"
-    },
-    {
-     "coin": "BNB",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T09:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -0.01,
-     "closed_at": "2026-10-28T13:18:12.820Z"
-    },
-    {
-     "coin": "TRX",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T09:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.515,
-     "closed_at": "2026-10-28T12:07:45.289Z"
-    },
-    {
-     "coin": "xyz:BRENTOIL",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T11:00Z",
-     "exit_reason": "stagnation exit: held >= 2h without momentum",
-     "net_R": 0.009,
-     "closed_at": "2026-10-28T13:15:44.248Z"
-    },
-    {
-     "coin": "AAVE",
-     "side": "SHORT",
-     "decision_utc": "2026-10-28T13:00Z",
-     "exit_reason": "stagnation exit: held >= 2h without momentum",
-     "net_R": -0.343,
-     "closed_at": "2026-10-28T15:20:44.670Z"
-    }
-   ]
+   "error": "snapshot read failed (rc 1)"
   },
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T18:37:53+00:00",
+   "last_cycle_utc": "2026-10-28T18:42:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -324,13 +40,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-28T18:35:58+00:00",
+    "at": "2026-10-28T18:40:58+00:00",
     "day": "2026-10-28",
     "picks": [
      "NBIS",
      "CRWV"
     ],
-    "equity_pct_vs_sleeve_start": 2.395,
+    "equity_pct_vs_sleeve_start": 3.036,
     "closed": 0,
     "legs": {
      "CRWV": {
@@ -367,11 +83,11 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T18:36:31Z",
-   "equity_pct_vs_start": 0.92,
+   "as_of": "2026-10-28T18:41:32Z",
+   "equity_pct_vs_start": 0.692,
    "open": 0,
    "closed": 2,
-   "wins": 2,
+   "wins": 1,
    "config": "AUTO (2h + RAPID 5m) @ 2.25%",
    "guard_halted": false
   }
@@ -408,8 +124,8 @@
     "stop": 0.004854,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "skipped_symbol_in_use",
-     "propr_h6": "filled"
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
      "status": "closed",
@@ -434,8 +150,8 @@
     "stop": 0.004938,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "no_breakout",
-     "propr_h6": "no_breakout"
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
      "status": "none",
@@ -460,8 +176,8 @@
     "stop": 0.004862,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
-     "propr_h6": "not_picked_by_executor (data / timing)"
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
      "status": "pending",
@@ -486,8 +202,8 @@
     "stop": 134.93,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "filled",
-     "propr_h6": "filled"
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
      "status": "closed",
