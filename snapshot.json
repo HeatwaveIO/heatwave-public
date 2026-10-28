@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T03:33:39Z",
+ "generated_utc": "2026-10-28T03:38:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T03:33:23+00:00",
+   "last_cycle_utc": "2026-10-28T03:38:18+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -0.428,
+   "equity_pct_vs_start": -0.674,
    "balance_pct_vs_start": -1.025,
-   "cushion_pct_of_start_to_floor": 4.118,
+   "cushion_pct_of_start_to_floor": 3.872,
    "open_positions": [
     {
      "coin": "ADA",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.208558,
      "be_stop_px": 0.207262,
      "be_moved": false,
-     "mark": 0.207985,
-     "unrealized_R": 0.441,
-     "distance_to_be_trigger_R": 0.309,
+     "mark": 0.207835,
+     "unrealized_R": 0.359,
+     "distance_to_be_trigger_R": 0.391,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "17949",
       "entryPrice": "0.20717",
-      "markPrice": "0.207985"
+      "markPrice": "0.207835"
      },
      "orders": {
       "entry": [
@@ -111,15 +111,15 @@
      "be_trigger_px": 748.982081,
      "be_stop_px": 746.097248,
      "be_moved": false,
-     "mark": 746.97,
-     "unrealized_R": 0.262,
-     "distance_to_be_trigger_R": 0.488,
+     "mark": 747.16,
+     "unrealized_R": 0.308,
+     "distance_to_be_trigger_R": 0.442,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "4.986",
       "entryPrice": "745.891189",
-      "markPrice": "746.97"
+      "markPrice": "747.16"
      },
      "orders": {
       "entry": [
@@ -267,13 +267,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T03:32:42+00:00",
+   "last_cycle_utc": "2026-10-28T03:37:42+00:00",
    "error": null,
-   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
+   "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -5.114,
+   "equity_pct_vs_start": -5.165,
    "balance_pct_vs_start": -5.335,
-   "cushion_pct_of_start_to_floor": 0.886,
+   "cushion_pct_of_start_to_floor": 0.835,
    "open_positions": [
     {
      "coin": "ATOM",
@@ -289,16 +289,16 @@
      "be_trigger_R": 0.75,
      "be_trigger_px": 1.654411,
      "be_stop_px": 1.644487,
-     "be_moved": false,
-     "mark": 1.6543,
-     "unrealized_R": 0.742,
-     "distance_to_be_trigger_R": 0.008,
+     "be_moved": true,
+     "mark": 1.653,
+     "unrealized_R": 0.65,
+     "distance_to_be_trigger_R": 0.1,
      "time_exit_utc": "2026-10-28T11:55Z",
      "venue": {
       "open": true,
       "quantity": "943.56",
       "entryPrice": "1.643778",
-      "markPrice": "1.6543"
+      "markPrice": "1.653"
      },
      "orders": {
       "entry": [
@@ -335,17 +335,17 @@
       ],
       "stop_market": [
        {
-        "orderId": "urn:prp-order:R3jChtY5sc7a",
+        "orderId": "urn:prp-order:Zd8nb7dHHaoJ",
         "exchangeOrderId": null,
         "type": "stop_market",
         "side": "sell",
         "status": "pending",
         "timeInForce": "GTC",
         "price": null,
-        "triggerPrice": "1.6296",
+        "triggerPrice": "1.6445",
         "quantity": "943.56",
         "cumulativeQuantity": "0",
-        "createdAt": "2026-10-28T02:18:44.797Z",
+        "createdAt": "2026-10-28T03:33:52.310Z",
         "filledAt": null,
         "cancelledAt": null
        }
@@ -459,7 +459,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T03:32:51+00:00",
+   "last_cycle_utc": "2026-10-28T03:37:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -514,8 +514,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T03:31:30Z",
-   "equity_pct_vs_start": -1.722,
+   "as_of": "2026-10-28T03:36:31Z",
+   "equity_pct_vs_start": -1.502,
    "open": 0,
    "closed": 2,
    "wins": 0,
@@ -567,8 +567,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004989,
-     "r_so_far": 0.125
+     "mark": 0.004966,
+     "r_so_far": 0.061
     }
    },
    {
