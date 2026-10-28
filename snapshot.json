@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T16:03:39Z",
+ "generated_utc": "2026-10-28T16:08:30Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T16:03:36+00:00",
+   "last_cycle_utc": "2026-10-28T16:08:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -2.523,
+   "equity_pct_vs_start": -2.528,
    "balance_pct_vs_start": -2.633,
-   "cushion_pct_of_start_to_floor": 2.023,
+   "cushion_pct_of_start_to_floor": 2.018,
    "open_positions": [
     {
      "coin": "ENA",
@@ -31,15 +31,15 @@
      "be_trigger_px": 0.194285,
      "be_stop_px": 0.198107,
      "be_moved": true,
-     "mark": 0.196575,
-     "unrealized_R": 0.331,
-     "distance_to_be_trigger_R": 0.419,
+     "mark": 0.196275,
+     "unrealized_R": 0.386,
+     "distance_to_be_trigger_R": 0.364,
      "time_exit_utc": "2026-10-28T22:55Z",
      "venue": {
       "open": true,
       "quantity": "3192",
       "entryPrice": "0.19838",
-      "markPrice": "0.196655"
+      "markPrice": "0.196255"
      },
      "orders": {
       "entry": [
@@ -187,7 +187,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T16:03:42+00:00",
+   "last_cycle_utc": "2026-10-28T16:07:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -210,9 +210,9 @@
      "be_trigger_px": 0.20018,
      "be_stop_px": 0.202812,
      "be_moved": false,
-     "mark": 0.19664,
-     "unrealized_R": 1.691,
-     "distance_to_be_trigger_R": -0.941,
+     "mark": 0.196285,
+     "unrealized_R": 1.786,
+     "distance_to_be_trigger_R": -1.036,
      "time_exit_utc": "2026-10-28T21:55Z",
      "venue": {
       "open": false,
@@ -395,7 +395,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T16:02:52+00:00",
+   "last_cycle_utc": "2026-10-28T16:07:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -421,13 +421,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-28T16:00:57+00:00",
+    "at": "2026-10-28T16:05:58+00:00",
     "day": "2026-10-28",
     "picks": [
      "NBIS",
      "CRWV"
     ],
-    "equity_pct_vs_sleeve_start": -0.089,
+    "equity_pct_vs_sleeve_start": -0.139,
     "closed": 0,
     "legs": {
      "CRWV": {
@@ -633,8 +633,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 132.58,
-     "r_so_far": -0.078
+     "mark": 132.52,
+     "r_so_far": -0.055
     }
    }
   ]
