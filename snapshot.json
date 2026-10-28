@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-28T18:13:34Z",
+ "generated_utc": "2026-10-28T18:18:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T18:13:34+00:00",
+   "last_cycle_utc": "2026-10-28T18:18:25+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,7 +106,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-28T18:12:42+00:00",
+   "last_cycle_utc": "2026-10-28T18:17:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -129,9 +129,9 @@
      "be_trigger_px": 0.20018,
      "be_stop_px": 0.202812,
      "be_moved": false,
-     "mark": 0.19836,
-     "unrealized_R": 1.234,
-     "distance_to_be_trigger_R": -0.484,
+     "mark": 0.19794,
+     "unrealized_R": 1.346,
+     "distance_to_be_trigger_R": -0.596,
      "time_exit_utc": "2026-10-28T21:55Z",
      "venue": {
       "open": false,
@@ -314,7 +314,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-28T18:12:52+00:00",
+   "last_cycle_utc": "2026-10-28T18:17:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -340,13 +340,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-28T18:10:57+00:00",
+    "at": "2026-10-28T18:15:58+00:00",
     "day": "2026-10-28",
     "picks": [
      "NBIS",
      "CRWV"
     ],
-    "equity_pct_vs_sleeve_start": -0.139,
+    "equity_pct_vs_sleeve_start": -0.081,
     "closed": 0,
     "legs": {
      "CRWV": {
@@ -369,8 +369,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-28T17:56:31Z",
-   "equity_pct_vs_start": 0.95,
+   "as_of": "2026-10-28T18:16:30Z",
+   "equity_pct_vs_start": 1.08,
    "open": 0,
    "closed": 2,
    "wins": 2,
@@ -500,8 +500,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 132.66,
-     "r_so_far": -0.11
+     "mark": 132.26,
+     "r_so_far": 0.047
     }
    }
   ]
