@@ -1,108 +1,11 @@
 {
- "generated_utc": "2026-10-29T22:43:33Z",
+ "generated_utc": "2026-10-29T22:48:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
   "propr_2s": {
    "account": "propr_2s",
-   "mode": "live",
-   "exit": "be075",
-   "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T22:43:27+00:00",
-   "error": null,
-   "warning": null,
-   "refuse": [
-    "entries paused by owner",
-    "account has positions / orders this executor does not track: ['ENA']"
-   ],
-   "equity_pct_vs_start": -3.233,
-   "balance_pct_vs_start": -2.61,
-   "cushion_pct_of_start_to_floor": 1.313,
-   "open_positions": [],
-   "venue_open_positions": 1,
-   "venue_live_orders": 2,
-   "recent_closed": [
-    {
-     "coin": "ENA",
-     "side": "SHORT",
-     "decision_utc": "2026-10-28T13:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.021,
-     "closed_at": "2026-10-28T18:02:36.415Z"
-    },
-    {
-     "coin": "UNI",
-     "side": "SHORT",
-     "decision_utc": "2026-10-28T13:00Z",
-     "exit_reason": "decay exit: stalled loser flipped",
-     "net_R": -0.423,
-     "closed_at": "2026-10-28T15:11:40.455Z"
-    },
-    {
-     "coin": "AAVE",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T19:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.018,
-     "closed_at": "2026-10-28T20:28:36.464Z"
-    },
-    {
-     "coin": "ARB",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T19:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.047,
-     "closed_at": "2026-10-28T23:14:28.905Z"
-    },
-    {
-     "coin": "SUI",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T19:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.018,
-     "closed_at": "2026-10-28T20:24:08.450Z"
-    },
-    {
-     "coin": "ENA",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T20:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": -0.102,
-     "closed_at": "2026-10-28T23:14:29.839Z"
-    },
-    {
-     "coin": "kPEPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-28T20:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 0.481,
-     "closed_at": "2026-10-28T21:27:08.502Z"
-    },
-    {
-     "coin": "HYPE",
-     "side": "SHORT",
-     "decision_utc": "2026-10-29T02:00Z",
-     "exit_reason": "stagnation exit: held >= 2h without momentum",
-     "net_R": -0.056,
-     "closed_at": "2026-10-29T04:13:23.483Z"
-    },
-    {
-     "coin": "SUI",
-     "side": "SHORT",
-     "decision_utc": "2026-10-29T02:00Z",
-     "exit_reason": "stagnation exit: held >= 2h without momentum",
-     "net_R": -0.054,
-     "closed_at": "2026-10-29T04:18:36.853Z"
-    },
-    {
-     "coin": "HYPE",
-     "side": "LONG",
-     "decision_utc": "2026-10-29T12:00Z",
-     "exit_reason": "stop_loss",
-     "net_R": 1.231,
-     "closed_at": "2026-10-29T20:35:09.245Z"
-    }
-   ]
+   "error": "snapshot read failed (rc 1)"
   },
   "propr_h6": {
    "account": "propr_h6",
@@ -111,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T22:42:48+00:00",
+   "last_cycle_utc": "2026-10-29T22:47:47+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -151,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-29T22:41:30Z",
+   "as_of": "2026-10-29T22:46:30Z",
    "equity_pct_vs_start": -1.764,
    "open": 0,
    "closed": 4,
@@ -192,7 +95,7 @@
     "stop": 0.004963,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -218,7 +121,7 @@
     "stop": 79.152,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -244,7 +147,7 @@
     "stop": 0.004784,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -260,7 +163,7 @@
     "stop": 84.97,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "filled",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -286,7 +189,7 @@
     "stop": 0.004851,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -302,7 +205,7 @@
     "stop": 87.371,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "skipped_symbol_in_use",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -328,7 +231,7 @@
     "stop": 89.58,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -354,7 +257,7 @@
     "stop": 0.004833,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -380,7 +283,7 @@
     "stop": 90.626,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -406,7 +309,7 @@
     "stop": 0.005024,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -422,7 +325,7 @@
     "stop": 1.0004,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -438,7 +341,7 @@
     "stop": 1297.4,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -454,7 +357,7 @@
     "stop": 11.785,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -470,7 +373,7 @@
     "stop": 0.005282,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -496,7 +399,7 @@
     "stop": 93.9,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -512,7 +415,7 @@
     "stop": 1341.2,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -528,7 +431,7 @@
     "stop": 0.21271,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -544,7 +447,7 @@
     "stop": 93.0,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -570,7 +473,7 @@
     "stop": 0.005365,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -586,7 +489,7 @@
     "stop": 0.005237,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -612,7 +515,7 @@
     "stop": 93.83,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -628,7 +531,7 @@
     "stop": 89.9,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -654,7 +557,7 @@
     "stop": 0.004763,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -670,7 +573,7 @@
     "stop": 1198.0,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -686,7 +589,7 @@
     "stop": 744.96,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -712,7 +615,7 @@
     "stop": 0.16914,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -728,7 +631,7 @@
     "stop": 11.679,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -744,7 +647,7 @@
     "stop": 1.2826,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -760,7 +663,7 @@
     "stop": 0.20222,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -776,7 +679,7 @@
     "stop": 2336.0,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -792,7 +695,7 @@
     "stop": 0.98463,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -808,7 +711,7 @@
     "stop": 8.8567,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -824,7 +727,7 @@
     "stop": 133.48,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -840,7 +743,7 @@
     "stop": 99.929,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -856,7 +759,7 @@
     "stop": 0.079272,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -872,7 +775,7 @@
     "stop": 0.2098,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -888,7 +791,7 @@
     "stop": 80824.0,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -904,7 +807,7 @@
     "stop": 0.93025,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -920,7 +823,7 @@
     "stop": 0.6728,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -936,7 +839,7 @@
     "stop": 0.53859,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -952,7 +855,7 @@
     "stop": 0.41795,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -968,7 +871,7 @@
     "stop": 0.16822,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -984,7 +887,7 @@
     "stop": 58.01,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1000,7 +903,7 @@
     "stop": 0.11011,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1016,7 +919,7 @@
     "stop": 7.9578,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1032,7 +935,7 @@
     "stop": 4.4094,
     "in_core_hours": true,
     "accounts": {
-     "propr_2s": "not_top1",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1048,7 +951,7 @@
     "stop": 0.00462,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -1074,7 +977,7 @@
     "stop": 91.482,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1090,7 +993,7 @@
     "stop": 1233.2,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1106,7 +1009,7 @@
     "stop": 727.57,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
@@ -1132,7 +1035,7 @@
     "stop": 129.67,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1148,7 +1051,7 @@
     "stop": 11.301,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1164,7 +1067,7 @@
     "stop": 0.193,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1180,7 +1083,7 @@
     "stop": 8.6019,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1196,7 +1099,7 @@
     "stop": 79802.0,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1212,7 +1115,7 @@
     "stop": 2294.5,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1228,7 +1131,7 @@
     "stop": 98.054,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1244,7 +1147,7 @@
     "stop": 0.90008,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1260,7 +1163,7 @@
     "stop": 0.19518,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1276,7 +1179,7 @@
     "stop": 0.16598,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1292,7 +1195,7 @@
     "stop": 0.39943,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1308,7 +1211,7 @@
     "stop": 1.2646,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1324,7 +1227,7 @@
     "stop": 0.16025,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    },
@@ -1340,7 +1243,7 @@
     "stop": 0.93906,
     "in_core_hours": false,
     "accounts": {
-     "propr_2s": "skipped_off_hours",
+     "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
     }
    }
