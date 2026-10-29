@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-29T17:33:40Z
+# Heatwave public snapshot 2026-10-29T17:38:32Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,17 +6,17 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -1.385% | 3.161 | 1 | 2026-10-29T17:33:28+00:00 |  |
-| propr_h6 | live | -5.59% | 0.41 | 0 | 2026-10-29T17:33:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T17:32:49+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -1.408% | 3.138 | 1 | 2026-10-29T17:38:28+00:00 |  |
+| propr_h6 | live | -5.59% | 0.41 | 0 | 2026-10-29T17:37:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T17:37:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -3.424% |  | 0 | 2026-10-29T17:31:31Z |  |
+| coinbase | SHADOW (real orders blocked) | -3.374% |  | 0 | 2026-10-29T17:36:31Z |  |
 
 ## Open Propr positions
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | HYPE | LONG | 88.132 | 95.2735 | 2.259 | 90.5035 (+0.75R) | True | 2026-10-29T21:55Z | urn:prp-order:HAEJdc7WWNnn @ 92.106 | urn:prp-order:hdNu6QY54FD5 @ 97.686 |
+| propr_2s | HYPE | LONG | 88.132 | 95.2555 | 2.253 | 90.5035 (+0.75R) | True | 2026-10-29T21:55Z | urn:prp-order:HAEJdc7WWNnn @ 92.106 | urn:prp-order:hdNu6QY54FD5 @ 97.686 |
 
 ## Signal scan 2026-10-29T04:00Z .. 2026-10-29T17:00Z (decision times)
 
@@ -30,14 +30,14 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-29T07:00Z | NEAR | SHORT | 1 | 3.966 | 4.855 | skipped_off_hours | skipped_off_hours | closed -1.0166R |
 | 2026-10-29T08:00Z | kPEPE | LONG | 1 | 6.084 | 3.219 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-29T10:00Z | kPEPE | LONG | 1 | 3.847 | 2.014 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | closed 2.9672R |
-| 2026-10-29T11:00Z | HYPE | LONG | 1 | 22.043 | 8.3 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 1.12R so far |
+| 2026-10-29T11:00Z | HYPE | LONG | 1 | 22.043 | 8.3 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 1.104R so far |
 | 2026-10-29T11:00Z | kPEPE | LONG | 2 | 3.797 | 3.936 | not_top1 | not_top1 |  |
-| 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | filled | skipped_refused | open 1.752R so far |
+| 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | filled | skipped_refused | open 1.719R so far |
 | 2026-10-29T12:00Z | kPEPE | LONG | 2 | 2.966 | 2.04 | not_top1 | not_top1 |  |
-| 2026-10-29T13:00Z | HYPE | LONG | 1 | 8.971 | 2.705 | skipped_symbol_in_use | skipped_refused | open 1.054R so far |
-| 2026-10-29T14:00Z | HYPE | LONG | 1 | 9.429 | 2.774 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 0.36R so far |
-| 2026-10-29T15:00Z | kPEPE | LONG | 1 | 2.717 | 4.656 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 1.622R so far |
-| 2026-10-29T16:00Z | HYPE | LONG | 1 | 7.9 | 4.245 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open -0.073R so far |
+| 2026-10-29T13:00Z | HYPE | LONG | 1 | 8.971 | 2.705 | skipped_symbol_in_use | skipped_refused | open 1.022R so far |
+| 2026-10-29T14:00Z | HYPE | LONG | 1 | 9.429 | 2.774 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 0.331R so far |
+| 2026-10-29T15:00Z | kPEPE | LONG | 1 | 2.717 | 4.656 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 1.406R so far |
+| 2026-10-29T16:00Z | HYPE | LONG | 1 | 7.9 | 4.245 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open -0.098R so far |
 | 2026-10-29T16:00Z | kPEPE | LONG | 2 | 6.249 | 8.853 | not_top1 | not_top1 |  |
 | 2026-10-29T16:00Z | DOT | LONG | 3 | 2.988 | 1.767 | not_top1 | not_top1 |  |
 | 2026-10-29T16:00Z | ZEC | LONG | 4 | 2.801 | 4.82 | not_top1 | not_top1 |  |
