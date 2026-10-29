@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T21:13:40Z",
+ "generated_utc": "2026-10-29T21:18:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T21:13:27+00:00",
+   "last_cycle_utc": "2026-10-29T21:18:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [
@@ -108,9 +108,9 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T21:13:44+00:00",
+   "last_cycle_utc": "2026-10-29T21:17:42+00:00",
    "error": null,
-   "warning": null,
+   "warning": "signal / management step failed: HTTP Error 429: Too Many Requests (cycle 1; alert from cycle 2; venue stops / targets unchanged)",
    "refuse": [],
    "equity_pct_vs_start": -5.59,
    "balance_pct_vs_start": -5.59,
@@ -204,14 +204,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T21:12:53+00:00",
+   "last_cycle_utc": "2026-10-29T21:17:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
    "open_positions": 0,
    "resting_orders": 0,
    "saver_why": null,
-   "error": "HyroError: need exactly one active Hyro trial challenge"
+   "error": "HyroError: list_challenges: Could not reach the HyroTrader API: Request timed out after 15000ms.. Check the network and the HYRO_API_URL setting, then retry."
   },
   "alp100": {
    "account": "alp100",
@@ -244,8 +244,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-29T20:56:32Z",
-   "equity_pct_vs_start": -1.762,
+   "as_of": "2026-10-29T21:16:31Z",
+   "equity_pct_vs_start": -1.764,
    "open": 0,
    "closed": 4,
    "wins": 2,
@@ -391,8 +391,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T13:19Z",
      "net_R": null,
-     "mark": 92.842,
-     "r_so_far": 1.094
+     "mark": 94.411,
+     "r_so_far": 1.511
     }
    },
    {
