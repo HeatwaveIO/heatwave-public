@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-29T14:58:34Z
+# Heatwave public snapshot 2026-10-29T15:03:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -2.212% | 2.334 | 1 | 2026-10-29T14:58:25+00:00 |  |
-| propr_h6 | live | -5.59% | 0.41 | 0 | 2026-10-29T14:57:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T14:57:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -2.202% | 2.344 | 1 | 2026-10-29T15:03:28+00:00 |  |
+| propr_h6 | live | -5.59% | 0.41 | 0 | 2026-10-29T15:02:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T15:02:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | -1.804% |  | 0 | 2026-10-29T14:56:30Z |  |
 
@@ -16,15 +16,14 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
-| propr_2s | HYPE | LONG | 88.132 | 90.949 | 0.891 | 90.5035 (+0.75R) | True | 2026-10-29T21:55Z | urn:prp-order:aCFP9wfhA3R3 @ 89.722 | urn:prp-order:hdNu6QY54FD5 @ 97.686 |
+| propr_2s | HYPE | LONG | 88.132 | 90.7175 | 0.818 | 90.5035 (+0.75R) | True | 2026-10-29T21:55Z | urn:prp-order:aCFP9wfhA3R3 @ 89.722 | urn:prp-order:hdNu6QY54FD5 @ 97.686 |
 
-## Signal scan 2026-10-29T01:00Z .. 2026-10-29T14:00Z (decision times)
+## Signal scan 2026-10-29T02:00Z .. 2026-10-29T15:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-29T01:00Z | kPEPE | LONG | 1 | 5.777 | 2.5 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-29T02:00Z | ZEC | LONG | 1 | 2.825 | 3.842 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-29T02:00Z | ADA | SHORT | 1 | 3.992 | 3.662 | skipped_off_hours | skipped_off_hours | closed -0.5154R |
 | 2026-10-29T02:00Z | HYPE | SHORT | 2 | 3.768 | 2.02 | skipped_off_hours | skipped_off_hours |  |
@@ -38,10 +37,11 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-29T07:00Z | NEAR | SHORT | 1 | 3.966 | 4.855 | skipped_off_hours | skipped_off_hours | closed -1.0166R |
 | 2026-10-29T08:00Z | kPEPE | LONG | 1 | 6.084 | 3.219 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-29T10:00Z | kPEPE | LONG | 1 | 3.847 | 2.014 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | pending |
-| 2026-10-29T11:00Z | HYPE | LONG | 1 | 22.043 | 8.3 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 0.544R so far |
+| 2026-10-29T11:00Z | HYPE | LONG | 1 | 22.043 | 8.3 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open 0.552R so far |
 | 2026-10-29T11:00Z | kPEPE | LONG | 2 | 3.797 | 3.936 | not_top1 | not_top1 |  |
-| 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | filled | skipped_refused | open 0.584R so far |
+| 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | filled | skipped_refused | open 0.6R so far |
 | 2026-10-29T12:00Z | kPEPE | LONG | 2 | 2.966 | 2.04 | not_top1 | not_top1 |  |
-| 2026-10-29T13:00Z | HYPE | LONG | 1 | 8.971 | 2.705 | skipped_symbol_in_use | skipped_refused | open -0.081R so far |
+| 2026-10-29T13:00Z | HYPE | LONG | 1 | 8.971 | 2.705 | skipped_symbol_in_use | skipped_refused | open -0.065R so far |
 | 2026-10-29T14:00Z | HYPE | LONG | 1 | 9.429 | 2.774 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | pending |
+| 2026-10-29T15:00Z | kPEPE | LONG | 1 | 2.717 | 4.656 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | pending |
 
