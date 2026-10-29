@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T12:58:40Z",
+ "generated_utc": "2026-10-29T13:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,13 +8,13 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T12:58:28+00:00",
+   "last_cycle_utc": "2026-10-29T13:03:20+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
-   "equity_pct_vs_start": -2.481,
+   "equity_pct_vs_start": -2.408,
    "balance_pct_vs_start": -2.737,
-   "cushion_pct_of_start_to_floor": 2.065,
+   "cushion_pct_of_start_to_floor": 2.138,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -30,16 +30,16 @@
      "be_trigger_R": 0.75,
      "be_trigger_px": 90.5035,
      "be_stop_px": 88.2901,
-     "be_moved": false,
-     "mark": 89.5275,
-     "unrealized_R": 0.441,
-     "distance_to_be_trigger_R": 0.309,
+     "be_moved": true,
+     "mark": 89.8995,
+     "unrealized_R": 0.559,
+     "distance_to_be_trigger_R": 0.191,
      "time_exit_utc": "2026-10-29T21:55Z",
      "venue": {
       "open": true,
       "quantity": "9.43",
       "entryPrice": "88.132",
-      "markPrice": "89.584"
+      "markPrice": "89.8815"
      },
      "orders": {
       "entry": [
@@ -76,17 +76,17 @@
       ],
       "stop_market": [
        {
-        "orderId": "urn:prp-order:eF4hvFTqH3PL",
+        "orderId": "urn:prp-order:vr2fMKief8uh",
         "exchangeOrderId": null,
         "type": "stop_market",
         "side": "sell",
         "status": "pending",
         "timeInForce": "GTC",
         "price": null,
-        "triggerPrice": "84.97",
+        "triggerPrice": "88.291",
         "quantity": "9.43",
         "cumulativeQuantity": "0",
-        "createdAt": "2026-10-29T12:21:32.646Z",
+        "createdAt": "2026-10-29T12:59:37.863Z",
         "filledAt": null,
         "cancelledAt": null
        }
@@ -202,7 +202,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T12:58:42+00:00",
+   "last_cycle_utc": "2026-10-29T13:03:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -298,7 +298,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T12:57:49+00:00",
+   "last_cycle_utc": "2026-10-29T13:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -377,10 +377,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-28T23:00Z .. 2026-10-29T12:00Z (decision times)",
+  "window": "2026-10-29T00:00Z .. 2026-10-29T13:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-28T23:00Z": 25,
    "2026-10-29T00:00Z": 25,
    "2026-10-29T01:00Z": 25,
    "2026-10-29T02:00Z": 25,
@@ -393,7 +392,8 @@
    "2026-10-29T09:00Z": 25,
    "2026-10-29T10:00Z": 25,
    "2026-10-29T11:00Z": 25,
-   "2026-10-29T12:00Z": 25
+   "2026-10-29T12:00Z": 25,
+   "2026-10-29T13:00Z": 25
   },
   "signals": [
    {
@@ -548,16 +548,14 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-29T03:31Z",
      "entry": 57.305,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-29T12:56Z",
+     "exit": 58.057,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 58.066,
-     "r_so_far": -0.563
+     "net_R": -0.6113
     }
    },
    {
@@ -678,8 +676,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 4.438,
-     "r_so_far": -0.665
+     "mark": 4.4906,
+     "r_so_far": -0.918
     }
    },
    {
@@ -758,8 +756,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 89.5,
-     "r_so_far": 0.357
+     "mark": 89.89,
+     "r_so_far": 0.408
     }
    },
    {
@@ -802,8 +800,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 89.5,
-     "r_so_far": 0.205
+     "mark": 89.89,
+     "r_so_far": 0.309
     }
    },
    {
@@ -820,6 +818,32 @@
     "accounts": {
      "propr_2s": "not_top1",
      "propr_h6": "not_top1"
+    }
+   },
+   {
+    "decision_utc": "2026-10-29T13:00Z",
+    "or_hour_utc": "12:00",
+    "coin": "HYPE",
+    "side": "LONG",
+    "rank": 1,
+    "rvol": 8.971,
+    "width_pct": 2.705,
+    "level": 89.8,
+    "stop": 87.371,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
