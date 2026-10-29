@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T20:38:40Z",
+ "generated_utc": "2026-10-29T20:43:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T20:38:34+00:00",
+   "last_cycle_utc": "2026-10-29T20:43:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [
@@ -108,7 +108,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T20:38:42+00:00",
+   "last_cycle_utc": "2026-10-29T20:43:42+00:00",
    "error": null,
    "warning": null,
    "refuse": [
@@ -206,7 +206,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T20:37:52+00:00",
+   "last_cycle_utc": "2026-10-29T20:42:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -246,8 +246,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-29T20:36:31Z",
-   "equity_pct_vs_start": -2.286,
+   "as_of": "2026-10-29T20:41:32Z",
+   "equity_pct_vs_start": -1.888,
    "open": 0,
    "closed": 4,
    "wins": 2,
@@ -377,8 +377,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T15:09Z",
      "net_R": null,
-     "mark": 91.707,
-     "r_so_far": 0.646
+     "mark": 90.996,
+     "r_so_far": 0.553
     }
    },
    {
@@ -421,8 +421,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T13:19Z",
      "net_R": null,
-     "mark": 91.707,
-     "r_so_far": 0.792
+     "mark": 90.996,
+     "r_so_far": 0.603
     }
    },
    {
@@ -457,16 +457,14 @@
      "propr_h6": "skipped_refused"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-29T13:11Z",
      "entry": 91.24,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-29T20:41Z",
+     "exit": 91.43345,
+     "exit_kind": "trailed_stop",
      "breakeven_utc": "2026-10-29T15:10Z",
-     "net_R": null,
-     "mark": 91.707,
-     "r_so_far": 0.121
+     "net_R": 0.0193
     }
    },
    {
@@ -545,8 +543,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 91.707,
-     "r_so_far": -0.786
+     "mark": 90.996,
+     "r_so_far": -0.927
     }
    },
    {
