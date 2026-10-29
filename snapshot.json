@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T16:08:30Z",
+ "generated_utc": "2026-10-29T16:13:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,15 +8,15 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T16:08:28+00:00",
+   "last_cycle_utc": "2026-10-29T16:13:20+00:00",
    "error": null,
    "warning": null,
    "refuse": [
     "entries paused by owner"
    ],
-   "equity_pct_vs_start": -1.451,
-   "balance_pct_vs_start": -2.74,
-   "cushion_pct_of_start_to_floor": 3.095,
+   "equity_pct_vs_start": -1.284,
+   "balance_pct_vs_start": -2.741,
+   "cushion_pct_of_start_to_floor": 3.262,
    "open_positions": [
     {
      "coin": "HYPE",
@@ -33,15 +33,15 @@
      "be_trigger_px": 90.5035,
      "be_stop_px": 88.2901,
      "be_moved": true,
-     "mark": 95.063,
-     "unrealized_R": 2.192,
-     "distance_to_be_trigger_R": -1.442,
+     "mark": 96.076,
+     "unrealized_R": 2.512,
+     "distance_to_be_trigger_R": -1.762,
      "time_exit_utc": "2026-10-29T21:55Z",
      "venue": {
       "open": true,
       "quantity": "9.43",
       "entryPrice": "88.132",
-      "markPrice": "95.074"
+      "markPrice": "96.0015"
      },
      "orders": {
       "entry": [
@@ -204,7 +204,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T16:07:42+00:00",
+   "last_cycle_utc": "2026-10-29T16:13:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [
@@ -302,7 +302,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T16:07:52+00:00",
+   "last_cycle_utc": "2026-10-29T16:12:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -328,7 +328,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-10-29T16:05:57+00:00",
+    "at": "2026-10-29T16:10:58+00:00",
     "day": "2026-10-29",
     "picks": [
      "LABU",
@@ -619,8 +619,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T15:09Z",
      "net_R": null,
-     "mark": 94.97,
-     "r_so_far": 1.074
+     "mark": 95.857,
+     "r_so_far": 1.191
     }
    },
    {
@@ -663,8 +663,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T13:19Z",
      "net_R": null,
-     "mark": 94.97,
-     "r_so_far": 1.66
+     "mark": 95.857,
+     "r_so_far": 1.895
     }
    },
    {
@@ -707,8 +707,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T15:10Z",
      "net_R": null,
-     "mark": 94.97,
-     "r_so_far": 0.964
+     "mark": 95.857,
+     "r_so_far": 1.193
     }
    },
    {
@@ -735,8 +735,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 94.97,
-     "r_so_far": 0.278
+     "mark": 95.857,
+     "r_so_far": 0.488
     }
    },
    {
@@ -763,8 +763,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-29T15:41Z",
      "net_R": null,
-     "mark": 0.005576,
-     "r_so_far": 1.925
+     "mark": 0.005603,
+     "r_so_far": 2.031
     }
    },
    {
