@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-29T21:53:33Z
+# Heatwave public snapshot 2026-10-29T21:58:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -2.001% | 2.545 | 0 | 2026-10-29T21:53:22+00:00 |  |
+| propr_2s | live | -2.001% | 2.545 | 0 | 2026-10-29T21:58:19+00:00 |  |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T21:52:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T21:57:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -1.762% |  | 0 | 2026-10-29T21:51:31Z |  |
+| coinbase | SHADOW (real orders blocked) | -1.762% |  | 0 | 2026-10-29T21:56:30Z |  |
 
 ## Open Propr positions
 
@@ -27,7 +27,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-29T10:00Z | kPEPE | LONG | 1 | 3.847 | 2.014 | not_picked_by_executor (data / timing) | unknown (account read failed) | closed 2.9672R |
 | 2026-10-29T11:00Z | HYPE | LONG | 1 | 22.043 | 8.3 | not_picked_by_executor (data / timing) | unknown (account read failed) | closed 0.8672R |
 | 2026-10-29T11:00Z | kPEPE | LONG | 2 | 3.797 | 3.936 | not_top1 | unknown (account read failed) |  |
-| 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | filled | unknown (account read failed) | open 1.024R so far |
+| 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | filled | unknown (account read failed) | open 1.175R so far |
 | 2026-10-29T12:00Z | kPEPE | LONG | 2 | 2.966 | 2.04 | not_top1 | unknown (account read failed) |  |
 | 2026-10-29T13:00Z | HYPE | LONG | 1 | 8.971 | 2.705 | skipped_symbol_in_use | unknown (account read failed) | closed 0.0193R |
 | 2026-10-29T14:00Z | HYPE | LONG | 1 | 9.429 | 2.774 | not_picked_by_executor (data / timing) | unknown (account read failed) | closed 0.0211R |
