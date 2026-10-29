@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T22:28:40Z",
+ "generated_utc": "2026-10-29T22:33:32Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,16 +8,16 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T22:28:34+00:00",
+   "last_cycle_utc": "2026-10-29T22:33:28+00:00",
    "error": null,
    "warning": null,
    "refuse": [
     "entries paused by owner",
     "account has positions / orders this executor does not track: ['ENA']"
    ],
-   "equity_pct_vs_start": -2.959,
+   "equity_pct_vs_start": -3.371,
    "balance_pct_vs_start": -2.61,
-   "cushion_pct_of_start_to_floor": 1.586,
+   "cushion_pct_of_start_to_floor": 1.174,
    "open_positions": [],
    "venue_open_positions": 1,
    "venue_live_orders": 2,
@@ -111,7 +111,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T22:27:56+00:00",
+   "last_cycle_utc": "2026-10-29T22:32:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -151,7 +151,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-29T22:26:31Z",
+   "as_of": "2026-10-29T22:31:31Z",
    "equity_pct_vs_start": -1.764,
    "open": 0,
    "closed": 4,
