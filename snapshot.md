@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-29T02:03:33Z
+# Heatwave public snapshot 2026-10-29T02:08:33Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,9 +6,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -2.653% | 1.892 | 0 | 2026-10-29T02:03:23+00:00 |  |
-| propr_h6 | live | -5.589% | 0.411 | 0 | 2026-10-29T02:02:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T02:02:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -2.653% | 1.892 | 2 | 2026-10-29T02:08:20+00:00 |  |
+| propr_h6 | live | -5.589% | 0.411 | 1 | 2026-10-29T02:07:41+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T02:07:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | -0.804% |  | 0 | 2026-10-29T01:56:31Z |  |
 
@@ -16,6 +16,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
+| propr_2s | HYPE | SHORT | 78.647 | 78.559 | 0.055 | 77.45525 (+0.75R) | False | 2026-10-29T11:55Z | urn:prp-order:hVfkvucBSYt4 @ 80.236 | urn:prp-order:bCWivTPPQaRe @ 73.88 |
+| propr_2s | SUI | SHORT | 0.9112 | 0.90929 | 0.068 | 0.890245 (+0.75R) | False | 2026-10-29T11:55Z | urn:prp-order:vZpk5qAGZ2nd @ 0.93914 | urn:prp-order:qXuMiuGVfuMf @ 0.82738 |
+| propr_h6 | HYPE | SHORT | 78.647 | 78.559 | 0.055 | 77.45525 (+0.75R) | False | 2026-10-29T11:55Z | urn:prp-order:pcAtYDoeCHbZ @ 80.236 | urn:prp-order:Hhpv59csjn8U @ 73.88 |
 
 ## Signal scan 2026-10-28T13:00Z .. 2026-10-29T02:00Z (decision times)
 
@@ -25,7 +28,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-28T13:00Z | kPEPE | LONG | 1 | 3.279 | 2.682 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | none |
 | 2026-10-28T13:00Z | AAVE | SHORT | 1 | 3.66 | 2.39 | filled | filled | closed -1.0571R |
-| 2026-10-28T19:00Z | kPEPE | LONG | 1 | 4.711 | 2.535 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open -0.401R so far |
+| 2026-10-28T19:00Z | kPEPE | LONG | 1 | 4.711 | 2.535 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | open -0.519R so far |
 | 2026-10-28T19:00Z | LINK | LONG | 2 | 4.004 | 1.907 | not_top1 | not_top1 |  |
 | 2026-10-28T19:00Z | AAVE | LONG | 3 | 3.681 | 2.566 | not_top1 | not_top1 |  |
 | 2026-10-28T19:00Z | ZEC | LONG | 4 | 2.958 | 1.845 | not_top1 | not_top1 |  |
