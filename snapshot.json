@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-29T11:58:31Z",
+ "generated_utc": "2026-10-29T12:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -8,7 +8,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T11:58:18+00:00",
+   "last_cycle_utc": "2026-10-29T12:03:23+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -106,7 +106,7 @@
    "mode": "live",
    "exit": "be075",
    "cell": "US_Core_London",
-   "last_cycle_utc": "2026-10-29T11:57:42+00:00",
+   "last_cycle_utc": "2026-10-29T12:03:43+00:00",
    "error": null,
    "warning": null,
    "refuse": [],
@@ -202,7 +202,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-29T11:57:52+00:00",
+   "last_cycle_utc": "2026-10-29T12:02:47+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -281,10 +281,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-28T22:00Z .. 2026-10-29T11:00Z (decision times)",
+  "window": "2026-10-28T23:00Z .. 2026-10-29T12:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-28T22:00Z": 25,
    "2026-10-28T23:00Z": 25,
    "2026-10-29T00:00Z": 25,
    "2026-10-29T01:00Z": 25,
@@ -297,35 +296,10 @@
    "2026-10-29T08:00Z": 25,
    "2026-10-29T09:00Z": 25,
    "2026-10-29T10:00Z": 25,
-   "2026-10-29T11:00Z": 25
+   "2026-10-29T11:00Z": 25,
+   "2026-10-29T12:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-28T22:00Z",
-    "or_hour_utc": "21:00",
-    "coin": "kPEPE",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 5.54,
-    "width_pct": 3.223,
-    "level": 0.005182,
-    "stop": 0.005015,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "skipped_off_hours",
-     "propr_h6": "skipped_off_hours"
-    },
-    "replay_be075": {
-     "status": "none",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
-    }
-   },
    {
     "decision_utc": "2026-10-29T01:00Z",
     "or_hour_utc": "00:00",
@@ -394,16 +368,14 @@
      "propr_h6": "skipped_off_hours"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-29T02:16Z",
      "entry": 0.19739,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-29T11:56Z",
+     "exit": 0.20103,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.20106,
-     "r_so_far": -0.485
+     "net_R": -0.5154
     }
    },
    {
@@ -488,8 +460,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 57.95,
-     "r_so_far": -0.477
+     "mark": 57.872,
+     "r_so_far": -0.419
     }
    },
    {
@@ -610,8 +582,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 4.4217,
-     "r_so_far": -0.586
+     "mark": 4.4057,
+     "r_so_far": -0.509
     }
    },
    {
@@ -690,8 +662,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 87.958,
-     "r_so_far": 0.155
+     "mark": 87.826,
+     "r_so_far": 0.137
     }
    },
    {
@@ -704,6 +676,48 @@
     "width_pct": 3.936,
     "level": 0.00498,
     "stop": 0.004784,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "not_top1",
+     "propr_h6": "not_top1"
+    }
+   },
+   {
+    "decision_utc": "2026-10-29T12:00Z",
+    "or_hour_utc": "11:00",
+    "coin": "HYPE",
+    "side": "LONG",
+    "rank": 1,
+    "rvol": 19.62,
+    "width_pct": 3.606,
+    "level": 88.149,
+    "stop": 84.97,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "not_picked_by_executor (data / timing)",
+     "propr_h6": "not_picked_by_executor (data / timing)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
+    }
+   },
+   {
+    "decision_utc": "2026-10-29T12:00Z",
+    "or_hour_utc": "11:00",
+    "coin": "kPEPE",
+    "side": "LONG",
+    "rank": 2,
+    "rvol": 2.966,
+    "width_pct": 2.04,
+    "level": 0.004952,
+    "stop": 0.004851,
     "in_core_hours": true,
     "accounts": {
      "propr_2s": "not_top1",
