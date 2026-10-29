@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-29T10:18:31Z
+# Heatwave public snapshot 2026-10-29T10:23:36Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -6,11 +6,11 @@ percent of each account's start and R; no dollar amounts, no account IDs
 
 | Account | Mode | Equity vs start | Cushion to floor | Open | Last cycle | Error |
 |---|---|---|---|---|---|---|
-| propr_2s | live | -2.735% | 1.811 | 0 | 2026-10-29T10:17:27+00:00 |  |
-| propr_h6 | live | -5.59% | 0.41 | 0 | 2026-10-29T10:17:42+00:00 |  |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T10:17:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| propr_2s | live | -2.735% | 1.811 | 0 | 2026-10-29T10:23:34+00:00 |  |
+| propr_h6 | live | -5.59% | 0.41 | 0 | 2026-10-29T10:22:42+00:00 |  |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-29T10:22:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -0.758% |  | 0 | 2026-10-29T10:16:31Z |  |
+| coinbase | SHADOW (real orders blocked) | -0.758% |  | 0 | 2026-10-29T10:21:31Z |  |
 
 ## Open Propr positions
 
@@ -29,16 +29,16 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-28T22:00Z | kPEPE | LONG | 1 | 5.54 | 3.223 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-29T01:00Z | kPEPE | LONG | 1 | 5.777 | 2.5 | skipped_off_hours | skipped_off_hours | none |
 | 2026-10-29T02:00Z | ZEC | LONG | 1 | 2.825 | 3.842 | skipped_off_hours | skipped_off_hours | none |
-| 2026-10-29T02:00Z | ADA | SHORT | 1 | 3.992 | 3.662 | skipped_off_hours | skipped_off_hours | open -0.237R so far |
+| 2026-10-29T02:00Z | ADA | SHORT | 1 | 3.992 | 3.662 | skipped_off_hours | skipped_off_hours | open -0.27R so far |
 | 2026-10-29T02:00Z | HYPE | SHORT | 2 | 3.768 | 2.02 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-29T02:00Z | SUI | SHORT | 3 | 2.922 | 3.066 | skipped_off_hours | skipped_off_hours |  |
-| 2026-10-29T03:00Z | kPEPE | LONG | 1 | 5.166 | 3.605 | skipped_off_hours | skipped_off_hours | open -0.615R so far |
-| 2026-10-29T03:00Z | LTC | SHORT | 1 | 3.098 | 1.736 | skipped_off_hours | skipped_off_hours | open 0.009R so far |
+| 2026-10-29T03:00Z | kPEPE | LONG | 1 | 5.166 | 3.605 | skipped_off_hours | skipped_off_hours | open -0.61R so far |
+| 2026-10-29T03:00Z | LTC | SHORT | 1 | 3.098 | 1.736 | skipped_off_hours | skipped_off_hours | open -0.046R so far |
 | 2026-10-29T03:00Z | ADA | SHORT | 2 | 2.887 | 1.867 | skipped_off_hours | skipped_off_hours |  |
 | 2026-10-29T04:00Z | kPEPE | LONG | 1 | 5.568 | 1.795 | skipped_off_hours | skipped_off_hours | closed -0.0113R |
 | 2026-10-29T05:00Z | kPEPE | LONG | 1 | 6.769 | 3.316 | skipped_off_hours | skipped_off_hours | closed -1.03R |
 | 2026-10-29T06:00Z | kPEPE | LONG | 1 | 3.602 | 3.069 | skipped_off_hours | skipped_off_hours | pending |
-| 2026-10-29T07:00Z | NEAR | SHORT | 1 | 3.966 | 4.855 | skipped_off_hours | skipped_off_hours | open -0.278R so far |
+| 2026-10-29T07:00Z | NEAR | SHORT | 1 | 3.966 | 4.855 | skipped_off_hours | skipped_off_hours | open -0.323R so far |
 | 2026-10-29T08:00Z | kPEPE | LONG | 1 | 6.084 | 3.219 | skipped_off_hours | skipped_off_hours | pending |
 | 2026-10-29T10:00Z | kPEPE | LONG | 1 | 3.847 | 2.014 | not_picked_by_executor (data / timing) | not_picked_by_executor (data / timing) | pending |
 
