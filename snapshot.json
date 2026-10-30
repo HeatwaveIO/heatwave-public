@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T21:58:40Z",
+ "generated_utc": "2026-10-30T22:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T21:57:52+00:00",
+   "last_cycle_utc": "2026-10-30T22:02:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-30T08:00Z .. 2026-10-30T21:00Z (decision times)",
+  "window": "2026-10-30T09:00Z .. 2026-10-30T22:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-30T08:00Z": 25,
    "2026-10-30T09:00Z": 25,
    "2026-10-30T10:00Z": 25,
    "2026-10-30T11:00Z": 25,
@@ -109,77 +108,10 @@
    "2026-10-30T18:00Z": 25,
    "2026-10-30T19:00Z": 25,
    "2026-10-30T20:00Z": 25,
-   "2026-10-30T21:00Z": 25
+   "2026-10-30T21:00Z": 25,
+   "2026-10-30T22:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-30T08:00Z",
-    "or_hour_utc": "07:00",
-    "coin": "kPEPE",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 6.797,
-    "width_pct": 3.228,
-    "level": 0.004987,
-    "stop": 0.004826,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-30T08:27Z",
-     "entry": 0.00498,
-     "exit_utc": "2026-10-30T11:17Z",
-     "exit": 0.004988,
-     "exit_kind": "trailed_stop",
-     "breakeven_utc": "2026-10-30T10:38Z",
-     "net_R": 0.0241
-    }
-   },
-   {
-    "decision_utc": "2026-10-30T08:00Z",
-    "or_hour_utc": "07:00",
-    "coin": "HYPE",
-    "side": "LONG",
-    "rank": 2,
-    "rvol": 6.02,
-    "width_pct": 3.346,
-    "level": 93.839,
-    "stop": 90.699,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-10-30T08:00Z",
-    "or_hour_utc": "07:00",
-    "coin": "APT",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 2.709,
-    "width_pct": 1.524,
-    "level": 0.6169,
-    "stop": 0.6263,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-30T08:51Z",
-     "entry": 0.616,
-     "exit_utc": "2026-10-30T10:54Z",
-     "exit": 0.6263,
-     "exit_kind": "stop",
-     "breakeven_utc": null,
-     "net_R": -1.0777
-    }
-   },
    {
     "decision_utc": "2026-10-30T09:00Z",
     "or_hour_utc": "08:00",
@@ -470,8 +402,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.18479,
-     "r_so_far": -0.208
+     "mark": 0.18633,
+     "r_so_far": -0.426
     }
    },
    {
