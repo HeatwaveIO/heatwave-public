@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T02:48:33Z",
+ "generated_utc": "2026-10-30T02:53:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T02:47:52+00:00",
+   "last_cycle_utc": "2026-10-30T02:52:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-30T02:46:31Z",
+   "as_of": "2026-10-30T02:51:30Z",
    "equity_pct_vs_start": -1.77,
    "open": 0,
    "closed": 4,
@@ -911,8 +911,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 711.84,
-     "r_so_far": -0.641
+     "mark": 709.75,
+     "r_so_far": -0.594
     }
    },
    {
@@ -1221,8 +1221,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 121.41,
-     "r_so_far": -0.322
+     "mark": 121.26,
+     "r_so_far": -0.299
     }
    },
    {
@@ -1409,8 +1409,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004742,
-     "r_so_far": -0.017
+     "mark": 0.004702,
+     "r_so_far": -0.133
     }
    },
    {
@@ -1469,8 +1469,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 10.704,
-     "r_so_far": -0.895
+     "mark": 10.675,
+     "r_so_far": -0.824
     }
    },
    {
@@ -1641,8 +1641,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004742,
-     "r_so_far": 0.36
+     "mark": 0.004702,
+     "r_so_far": 0.237
     }
    },
    {
@@ -2063,8 +2063,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004742,
-     "r_so_far": -0.029
+     "mark": 0.004702,
+     "r_so_far": -0.221
     }
    },
    {
