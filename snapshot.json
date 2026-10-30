@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T07:38:32Z",
+ "generated_utc": "2026-10-30T07:43:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T07:37:52+00:00",
+   "last_cycle_utc": "2026-10-30T07:43:04+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-30T07:36:31Z",
+   "as_of": "2026-10-30T07:41:32Z",
    "equity_pct_vs_start": -1.772,
    "open": 0,
    "closed": 4,
@@ -669,8 +669,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 709.19,
-     "r_so_far": -0.581
+     "mark": 707.36,
+     "r_so_far": -0.539
     }
    },
    {
@@ -1165,8 +1165,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T05:00Z",
      "net_R": null,
-     "mark": 0.004876,
-     "r_so_far": 0.371
+     "mark": 0.004847,
+     "r_so_far": 0.287
     }
    },
    {
@@ -1395,8 +1395,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T03:41Z",
      "net_R": null,
-     "mark": 0.004876,
-     "r_so_far": 0.772
+     "mark": 0.004847,
+     "r_so_far": 0.683
     }
    },
    {
@@ -1817,8 +1817,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T03:48Z",
      "net_R": null,
-     "mark": 0.004876,
-     "r_so_far": 0.615
+     "mark": 0.004847,
+     "r_so_far": 0.476
     }
    },
    {
@@ -1999,8 +1999,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T04:48Z",
      "net_R": null,
-     "mark": 0.004876,
-     "r_so_far": 0.347
+     "mark": 0.004847,
+     "r_so_far": 0.216
     }
    },
    {
@@ -2149,8 +2149,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004876,
-     "r_so_far": -0.257
+     "mark": 0.004847,
+     "r_so_far": -0.408
     }
    },
    {
@@ -2323,16 +2323,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-30T05:07Z",
      "entry": 0.004989,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-30T07:39Z",
+     "exit": 0.004844,
+     "exit_kind": "stop",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.004876,
-     "r_so_far": -0.779
+     "net_R": -1.0275
     }
    },
    {
