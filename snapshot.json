@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T10:53:40Z",
+ "generated_utc": "2026-10-30T10:58:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T10:52:53+00:00",
+   "last_cycle_utc": "2026-10-30T10:57:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-30T10:51:31Z",
+   "as_of": "2026-10-30T10:56:31Z",
    "equity_pct_vs_start": -1.772,
    "open": 0,
    "closed": 4,
@@ -1307,8 +1307,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T03:41Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 1.283
+     "mark": 0.005131,
+     "r_so_far": 1.557
     }
    },
    {
@@ -1729,8 +1729,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T03:48Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 1.413
+     "mark": 0.005131,
+     "r_so_far": 1.841
     }
    },
    {
@@ -1911,8 +1911,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T04:48Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 1.095
+     "mark": 0.005131,
+     "r_so_far": 1.495
     }
    },
    {
@@ -2061,8 +2061,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T10:35Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 0.613
+     "mark": 0.005131,
+     "r_so_far": 1.079
     }
    },
    {
@@ -2105,8 +2105,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T10:22Z",
      "net_R": null,
-     "mark": 702.54,
-     "r_so_far": 0.54
+     "mark": 702.8,
+     "r_so_far": 0.515
     }
    },
    {
@@ -2345,8 +2345,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": -0.083
+     "mark": 0.005131,
+     "r_so_far": 0.658
     }
    },
    {
@@ -2373,8 +2373,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 125.08,
-     "r_so_far": -0.207
+     "mark": 125.75,
+     "r_so_far": -0.434
     }
    },
    {
@@ -2431,10 +2431,10 @@
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
-     "breakeven_utc": null,
+     "breakeven_utc": "2026-10-30T10:57Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 0.0
+     "mark": 0.005131,
+     "r_so_far": 0.761
     }
    },
    {
@@ -2519,8 +2519,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T10:38Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 0.403
+     "mark": 0.005131,
+     "r_so_far": 0.981
     }
    },
    {
@@ -2555,16 +2555,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-30T08:51Z",
      "entry": 0.616,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-30T10:54Z",
+     "exit": 0.6263,
+     "exit_kind": "stop",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.6248,
-     "r_so_far": -0.854
+     "net_R": -1.0777
     }
    },
    {
@@ -2591,8 +2589,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": -0.058
+     "mark": 0.005131,
+     "r_so_far": 0.339
     }
    },
    {
@@ -2619,8 +2617,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.18846,
-     "r_so_far": -0.151
+     "mark": 0.19075,
+     "r_so_far": -0.791
     }
    },
    {
@@ -2647,8 +2645,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T10:34Z",
      "net_R": null,
-     "mark": 0.005042,
-     "r_so_far": 0.67
+     "mark": 0.005131,
+     "r_so_far": 1.56
     }
    }
   ]
