@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T03:53:31Z",
+ "generated_utc": "2026-10-30T03:58:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T03:52:48+00:00",
+   "last_cycle_utc": "2026-10-30T03:57:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-30T03:51:33Z",
+   "as_of": "2026-10-30T03:56:31Z",
    "equity_pct_vs_start": -1.77,
    "open": 0,
    "closed": 4,
@@ -885,8 +885,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 717.32,
-     "r_so_far": -0.766
+     "mark": 718.26,
+     "r_so_far": -0.788
     }
    },
    {
@@ -1195,8 +1195,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 124.13,
-     "r_so_far": -0.745
+     "mark": 123.93,
+     "r_so_far": -0.714
     }
    },
    {
@@ -1383,8 +1383,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004888,
-     "r_so_far": 0.406
+     "mark": 0.004906,
+     "r_so_far": 0.458
     }
    },
    {
@@ -1613,8 +1613,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T03:41Z",
      "net_R": null,
-     "mark": 0.004888,
-     "r_so_far": 0.809
+     "mark": 0.004906,
+     "r_so_far": 0.865
     }
    },
    {
@@ -2035,8 +2035,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-10-30T03:48Z",
      "net_R": null,
-     "mark": 0.004888,
-     "r_so_far": 0.673
+     "mark": 0.004906,
+     "r_so_far": 0.76
     }
    },
    {
@@ -2217,8 +2217,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004888,
-     "r_so_far": 0.401
+     "mark": 0.004906,
+     "r_so_far": 0.482
     }
    },
    {
