@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-30T00:58:40Z
+# Heatwave public snapshot 2026-10-30T01:03:39Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-30T00:57:54+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-30T01:02:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | -1.768% |  | 0 | 2026-10-30T00:56:30Z |  |
 
@@ -17,14 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-10-29T11:00Z .. 2026-10-30T00:00Z (decision times)
+## Signal scan 2026-10-29T12:00Z .. 2026-10-30T01:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-29T11:00Z | HYPE | LONG | 1 | 22.043 | 8.3 | unknown (account read failed) | unknown (account read failed) | closed 0.8672R |
-| 2026-10-29T11:00Z | kPEPE | LONG | 2 | 3.797 | 3.936 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T12:00Z | HYPE | LONG | 1 | 19.62 | 3.606 | unknown (account read failed) | unknown (account read failed) | closed 1.102R |
 | 2026-10-29T12:00Z | kPEPE | LONG | 2 | 2.966 | 2.04 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T13:00Z | HYPE | LONG | 1 | 8.971 | 2.705 | unknown (account read failed) | unknown (account read failed) | closed 0.0193R |
@@ -71,7 +69,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-29T22:00Z | kPEPE | LONG | 1 | 40.191 | 8.169 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-10-29T22:00Z | HYPE | LONG | 2 | 16.955 | 4.014 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T22:00Z | ZEC | LONG | 3 | 7.518 | 5.058 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-10-29T22:00Z | BNB | SHORT | 1 | 801.482 | 6.221 | unknown (account read failed) | unknown (account read failed) | open -0.232R so far |
+| 2026-10-29T22:00Z | BNB | SHORT | 1 | 801.482 | 6.221 | unknown (account read failed) | unknown (account read failed) | open -0.245R so far |
 | 2026-10-29T22:00Z | AAVE | SHORT | 2 | 27.841 | 3.836 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T22:00Z | LINK | SHORT | 3 | 26.16 | 3.253 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T22:00Z | ENA | SHORT | 4 | 14.071 | 5.223 | unknown (account read failed) | unknown (account read failed) |  |
@@ -89,7 +87,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-29T23:00Z | kPEPE | LONG | 1 | 108.297 | 5.858 | unknown (account read failed) | unknown (account read failed) | closed -1.014R |
 | 2026-10-29T23:00Z | HYPE | LONG | 2 | 6.989 | 2.006 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T23:00Z | ZEC | LONG | 3 | 4.615 | 2.873 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-10-29T23:00Z | AAVE | SHORT | 1 | 59.531 | 5.388 | unknown (account read failed) | unknown (account read failed) | open 0.112R so far |
+| 2026-10-29T23:00Z | AAVE | SHORT | 1 | 59.531 | 5.388 | unknown (account read failed) | unknown (account read failed) | open 0.07R so far |
 | 2026-10-29T23:00Z | LINK | SHORT | 2 | 57.914 | 3.298 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T23:00Z | ENA | SHORT | 3 | 21.227 | 7.306 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-29T23:00Z | ADA | SHORT | 4 | 8.134 | 2.118 | unknown (account read failed) | unknown (account read failed) |  |
@@ -103,7 +101,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-30T00:00Z | kPEPE | LONG | 1 | 68.514 | 6.259 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-10-30T00:00Z | HYPE | LONG | 2 | 9.736 | 2.844 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T00:00Z | ZEC | LONG | 3 | 3.149 | 2.538 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-10-30T00:00Z | LINK | SHORT | 1 | 79.487 | 2.08 | unknown (account read failed) | unknown (account read failed) | open -0.32R so far |
+| 2026-10-30T00:00Z | LINK | SHORT | 1 | 79.487 | 2.08 | unknown (account read failed) | unknown (account read failed) | open -0.473R so far |
 | 2026-10-30T00:00Z | AAVE | SHORT | 2 | 32.951 | 2.536 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T00:00Z | ENA | SHORT | 3 | 12.327 | 4.211 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T00:00Z | ADA | SHORT | 4 | 9.143 | 1.513 | unknown (account read failed) | unknown (account read failed) |  |
@@ -113,4 +111,29 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-30T00:00Z | SOL | SHORT | 8 | 3.449 | 1.62 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T00:00Z | NEAR | SHORT | 9 | 3.208 | 2.05 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T00:00Z | APT | SHORT | 10 | 2.523 | 1.597 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | kPEPE | LONG | 1 | 24.773 | 6.866 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-10-30T01:00Z | HYPE | LONG | 2 | 8.654 | 3.649 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | ZEC | LONG | 3 | 6.616 | 4.65 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | BNB | SHORT | 1 | 48.69 | 2.635 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-10-30T01:00Z | ENA | SHORT | 2 | 22.831 | 6.57 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | AAVE | SHORT | 3 | 14.256 | 4.152 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | WLD | SHORT | 4 | 11.625 | 6.309 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | OP | SHORT | 5 | 11.293 | 7.629 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | XRP | SHORT | 6 | 11.18 | 3.282 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | LINK | SHORT | 7 | 10.785 | 3.671 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | ETH | SHORT | 8 | 9.761 | 2.723 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | BTC | SHORT | 9 | 9.589 | 2.004 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | DOT | SHORT | 10 | 9.449 | 4.915 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | SUI | SHORT | 11 | 8.752 | 5.553 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | AVAX | SHORT | 12 | 8.581 | 3.707 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | SOL | SHORT | 13 | 8.389 | 3.787 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | DOGE | SHORT | 14 | 8.22 | 4.511 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | LTC | SHORT | 15 | 7.927 | 4.184 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | ADA | SHORT | 16 | 7.74 | 4.733 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | ARB | SHORT | 17 | 7.357 | 6.354 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | APT | SHORT | 18 | 6.682 | 7.401 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | TIA | SHORT | 19 | 6.126 | 11.656 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | NEAR | SHORT | 20 | 5.619 | 4.406 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | XLM | SHORT | 21 | 4.797 | 3.392 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-10-30T01:00Z | INJ | SHORT | 22 | 3.113 | 5.649 | unknown (account read failed) | unknown (account read failed) |  |
 
