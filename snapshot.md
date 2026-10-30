@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-30T15:48:40Z
+# Heatwave public snapshot 2026-10-30T15:53:33Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-30T15:47:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-30T15:52:48+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -1.776% |  | 0 | 2026-10-30T15:46:31Z |  |
+| coinbase | SHADOW (real orders blocked) | -1.776% |  | 0 | 2026-10-30T15:51:33Z |  |
 
 ## Open Propr positions
 
@@ -70,7 +70,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-30T09:00Z | kPEPE | LONG | 1 | 7.652 | 3.688 | unknown (account read failed) | unknown (account read failed) | closed 0.0207R |
 | 2026-10-30T09:00Z | ENA | SHORT | 1 | 7.343 | 1.905 | unknown (account read failed) | unknown (account read failed) | closed 0.008R |
 | 2026-10-30T10:00Z | kPEPE | LONG | 1 | 8.762 | 2.01 | unknown (account read failed) | unknown (account read failed) | closed 2.9851R |
-| 2026-10-30T11:00Z | kPEPE | LONG | 1 | 9.281 | 6.353 | unknown (account read failed) | unknown (account read failed) | open -0.785R so far |
+| 2026-10-30T11:00Z | kPEPE | LONG | 1 | 9.281 | 6.353 | unknown (account read failed) | unknown (account read failed) | open -0.58R so far |
 | 2026-10-30T11:00Z | ZEC | LONG | 2 | 2.707 | 2.508 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T12:00Z | kPEPE | LONG | 1 | 14.736 | 5.811 | unknown (account read failed) | unknown (account read failed) | closed -1.0165R |
 | 2026-10-30T12:00Z | ENA | SHORT | 1 | 3.398 | 3.767 | unknown (account read failed) | unknown (account read failed) | closed -1.0212R |
