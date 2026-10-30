@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T20:58:40Z",
+ "generated_utc": "2026-10-30T21:03:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T20:57:52+00:00",
+   "last_cycle_utc": "2026-10-30T21:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-30T07:00Z .. 2026-10-30T20:00Z (decision times)",
+  "window": "2026-10-30T08:00Z .. 2026-10-30T21:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-30T07:00Z": 25,
    "2026-10-30T08:00Z": 25,
    "2026-10-30T09:00Z": 25,
    "2026-10-30T10:00Z": 25,
@@ -109,93 +108,10 @@
    "2026-10-30T17:00Z": 25,
    "2026-10-30T18:00Z": 25,
    "2026-10-30T19:00Z": 25,
-   "2026-10-30T20:00Z": 25
+   "2026-10-30T20:00Z": 25,
+   "2026-10-30T21:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-30T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "kPEPE",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 8.841,
-    "width_pct": 2.321,
-    "level": 0.005042,
-    "stop": 0.004925,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-30T10:44Z",
-     "entry": 0.005042,
-     "exit_utc": "2026-10-30T11:17Z",
-     "exit": 0.005048,
-     "exit_kind": "trailed_stop",
-     "breakeven_utc": "2026-10-30T10:57Z",
-     "net_R": 0.0155
-    }
-   },
-   {
-    "decision_utc": "2026-10-30T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "HYPE",
-    "side": "LONG",
-    "rank": 2,
-    "rvol": 3.153,
-    "width_pct": 1.583,
-    "level": 93.802,
-    "stop": 92.317,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-10-30T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "ENA",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 3.339,
-    "width_pct": 2.697,
-    "level": 0.18574,
-    "stop": 0.19075,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-30T12:01Z",
-     "entry": 0.18453,
-     "exit_utc": "2026-10-30T14:50Z",
-     "exit": 0.19075,
-     "exit_kind": "stop",
-     "breakeven_utc": null,
-     "net_R": -1.0386
-    }
-   },
-   {
-    "decision_utc": "2026-10-30T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "AAVE",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 2.993,
-    "width_pct": 1.509,
-    "level": 125.87,
-    "stop": 127.77,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
    {
     "decision_utc": "2026-10-30T08:00Z",
     "or_hour_utc": "07:00",
@@ -358,16 +274,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-10-30T11:07Z",
      "entry": 0.00521,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-10-30T20:56Z",
+     "exit": 0.004946,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.004944,
-     "r_so_far": -0.804
+     "net_R": -0.8102
     }
    },
    {
@@ -556,8 +470,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.185,
-     "r_so_far": -0.238
+     "mark": 0.18607,
+     "r_so_far": -0.389
     }
    },
    {
