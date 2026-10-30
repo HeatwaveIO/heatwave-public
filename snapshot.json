@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-30T03:23:40Z",
+ "generated_utc": "2026-10-30T03:28:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-30T03:22:48+00:00",
+   "last_cycle_utc": "2026-10-30T03:27:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-10-30T03:21:31Z",
+   "as_of": "2026-10-30T03:26:31Z",
    "equity_pct_vs_start": -1.77,
    "open": 0,
    "closed": 4,
@@ -885,8 +885,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 708.02,
-     "r_so_far": -0.554
+     "mark": 708.5,
+     "r_so_far": -0.565
     }
    },
    {
@@ -1195,8 +1195,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 121.99,
-     "r_so_far": -0.412
+     "mark": 122.31,
+     "r_so_far": -0.462
     }
    },
    {
@@ -1383,8 +1383,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004794,
-     "r_so_far": 0.133
+     "mark": 0.004814,
+     "r_so_far": 0.191
     }
    },
    {
@@ -1613,8 +1613,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004794,
-     "r_so_far": 0.52
+     "mark": 0.004814,
+     "r_so_far": 0.582
     }
    },
    {
@@ -2035,8 +2035,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004794,
-     "r_so_far": 0.221
+     "mark": 0.004814,
+     "r_so_far": 0.317
     }
    },
    {
@@ -2217,8 +2217,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.004794,
-     "r_so_far": -0.023
+     "mark": 0.004814,
+     "r_so_far": 0.068
     }
    },
    {
