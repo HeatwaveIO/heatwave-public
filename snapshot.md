@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-31T09:28:31Z
+# Heatwave public snapshot 2026-10-31T09:33:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-31T09:27:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-31T09:32:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -1.778% |  | 0 | 2026-10-31T09:26:30Z |  |
+| coinbase | SHADOW (real orders blocked) | -1.778% |  | 0 | 2026-10-31T09:31:30Z |  |
 
 ## Open Propr positions
 
@@ -25,7 +25,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-30T20:00Z | kPEPE | LONG | 1 | 3.668 | 2.106 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-10-31T00:00Z | OP | LONG | 1 | 5.32 | 4.884 | unknown (account read failed) | unknown (account read failed) | closed -1.0164R |
-| 2026-10-31T05:00Z | kPEPE | LONG | 1 | 4.071 | 2.6 | unknown (account read failed) | unknown (account read failed) | open 1.164R so far |
+| 2026-10-31T05:00Z | kPEPE | LONG | 1 | 4.071 | 2.6 | unknown (account read failed) | unknown (account read failed) | replay unavailable |
 | 2026-10-31T05:00Z | WLD | SHORT | 1 | 4.54 | 2.248 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-10-31T07:00Z | AAVE | LONG | 1 | 4.487 | 1.941 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-10-31T07:00Z | kPEPE | LONG | 2 | 3.394 | 3.272 | unknown (account read failed) | unknown (account read failed) |  |
