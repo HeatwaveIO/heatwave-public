@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-31T02:58:33Z
+# Heatwave public snapshot 2026-10-31T03:03:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-31T02:57:48+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-31T03:03:00+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | -1.778% |  | 0 | 2026-10-31T02:56:30Z |  |
 
@@ -17,14 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-10-30T13:00Z .. 2026-10-31T02:00Z (decision times)
+## Signal scan 2026-10-30T14:00Z .. 2026-10-31T03:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-30T13:00Z | kPEPE | LONG | 1 | 8.673 | 2.749 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-10-30T13:00Z | AVAX | SHORT | 1 | 3.259 | 3.808 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-10-30T14:00Z | kPEPE | LONG | 1 | 8.176 | 5.39 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-10-30T14:00Z | ENA | SHORT | 1 | 6.205 | 3.857 | unknown (account read failed) | unknown (account read failed) | closed -1.0207R |
 | 2026-10-30T16:00Z | kPEPE | LONG | 1 | 2.817 | 6.925 | unknown (account read failed) | unknown (account read failed) | none |
@@ -34,5 +32,5 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-30T19:00Z | kPEPE | LONG | 2 | 3.237 | 3.101 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T19:00Z | ENA | SHORT | 1 | 3.082 | 3.134 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-10-30T20:00Z | kPEPE | LONG | 1 | 3.668 | 2.106 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-10-31T00:00Z | OP | LONG | 1 | 5.32 | 4.884 | unknown (account read failed) | unknown (account read failed) | open -0.59R so far |
+| 2026-10-31T00:00Z | OP | LONG | 1 | 5.32 | 4.884 | unknown (account read failed) | unknown (account read failed) | open -0.503R so far |
 
