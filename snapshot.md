@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-10-31T00:13:33Z
+# Heatwave public snapshot 2026-10-31T00:18:32Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-31T00:12:59+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-10-31T00:17:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -1.778% |  | 0 | 2026-10-30T23:56:30Z |  |
+| coinbase | SHADOW (real orders blocked) | -1.778% |  | 0 | 2026-10-31T00:16:31Z |  |
 
 ## Open Propr positions
 
@@ -34,7 +34,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-10-30T14:00Z | ENA | SHORT | 1 | 6.205 | 3.857 | unknown (account read failed) | unknown (account read failed) | closed -1.0207R |
 | 2026-10-30T16:00Z | kPEPE | LONG | 1 | 2.817 | 6.925 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-10-30T17:00Z | kPEPE | LONG | 1 | 3.095 | 2.748 | unknown (account read failed) | unknown (account read failed) | closed -1.0291R |
-| 2026-10-30T18:00Z | kPEPE | LONG | 1 | 5.32 | 4.467 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-10-30T18:00Z | kPEPE | LONG | 1 | 5.32 | 4.467 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-10-30T19:00Z | HYPE | LONG | 1 | 3.698 | 2.14 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-10-30T19:00Z | kPEPE | LONG | 2 | 3.237 | 3.101 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-10-30T19:00Z | ENA | SHORT | 1 | 3.082 | 3.134 | unknown (account read failed) | unknown (account read failed) | pending |
