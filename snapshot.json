@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-31T20:58:40Z",
+ "generated_utc": "2026-10-31T21:03:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-10-31T20:57:48+00:00",
+   "last_cycle_utc": "2026-10-31T21:02:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-10-31T07:00Z .. 2026-10-31T20:00Z (decision times)",
+  "window": "2026-10-31T08:00Z .. 2026-10-31T21:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-10-31T07:00Z": 25,
    "2026-10-31T08:00Z": 25,
    "2026-10-31T09:00Z": 25,
    "2026-10-31T10:00Z": 25,
@@ -109,67 +108,10 @@
    "2026-10-31T17:00Z": 25,
    "2026-10-31T18:00Z": 25,
    "2026-10-31T19:00Z": 25,
-   "2026-10-31T20:00Z": 25
+   "2026-10-31T20:00Z": 25,
+   "2026-10-31T21:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-10-31T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "AAVE",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 4.487,
-    "width_pct": 1.941,
-    "level": 132.92,
-    "stop": 130.34,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-10-31T10:46Z",
-     "entry": 133.14,
-     "exit_utc": "2026-10-31T16:56Z",
-     "exit": 135.7,
-     "exit_kind": "time",
-     "breakeven_utc": "2026-10-31T13:34Z",
-     "net_R": 0.8525
-    }
-   },
-   {
-    "decision_utc": "2026-10-31T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "kPEPE",
-    "side": "LONG",
-    "rank": 2,
-    "rvol": 3.394,
-    "width_pct": 3.272,
-    "level": 0.005012,
-    "stop": 0.004848,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-10-31T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "ENA",
-    "side": "LONG",
-    "rank": 3,
-    "rvol": 2.918,
-    "width_pct": 2.865,
-    "level": 0.19613,
-    "stop": 0.19051,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
    {
     "decision_utc": "2026-10-31T09:00Z",
     "or_hour_utc": "08:00",
