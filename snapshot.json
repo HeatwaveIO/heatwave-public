@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-01T21:58:40Z",
+ "generated_utc": "2026-11-01T22:03:32Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-01T21:57:47+00:00",
+   "last_cycle_utc": "2026-11-01T22:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-01T08:00Z .. 2026-11-01T21:00Z (decision times)",
+  "window": "2026-11-01T09:00Z .. 2026-11-01T22:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-01T08:00Z": 25,
    "2026-11-01T09:00Z": 25,
    "2026-11-01T10:00Z": 25,
    "2026-11-01T11:00Z": 25,
@@ -109,7 +108,8 @@
    "2026-11-01T18:00Z": 25,
    "2026-11-01T19:00Z": 25,
    "2026-11-01T20:00Z": 25,
-   "2026-11-01T21:00Z": 25
+   "2026-11-01T21:00Z": 25,
+   "2026-11-01T22:00Z": 25
   },
   "signals": [
    {
