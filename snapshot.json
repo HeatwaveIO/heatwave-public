@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-02T18:33:30Z",
+ "generated_utc": "2026-11-02T18:38:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-02T18:32:52+00:00",
+   "last_cycle_utc": "2026-11-02T18:37:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-02T18:30:57+00:00",
+    "at": "2026-11-02T18:35:57+00:00",
     "day": "2026-11-02",
     "picks": [
      "CRWV",
@@ -54,8 +54,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-02T18:31:32Z",
-   "equity_pct_vs_start": 0.678,
+   "as_of": "2026-11-02T18:36:31Z",
+   "equity_pct_vs_start": 0.698,
    "open": 0,
    "closed": 6,
    "wins": 3,
@@ -201,8 +201,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-02T16:21Z",
      "net_R": null,
-     "mark": 127.39,
-     "r_so_far": 1.847
+     "mark": 127.76,
+     "r_so_far": 1.665
     }
    },
    {
@@ -271,8 +271,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-02T17:22Z",
      "net_R": null,
-     "mark": 127.39,
-     "r_so_far": 1.455
+     "mark": 127.76,
+     "r_so_far": 1.29
     }
    },
    {
@@ -315,8 +315,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.3391,
-     "r_so_far": 0.244
+     "mark": 8.356,
+     "r_so_far": 0.17
     }
    },
    {
@@ -375,8 +375,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.10982,
-     "r_so_far": 0.264
+     "mark": 0.11036,
+     "r_so_far": 0.026
     }
    },
    {
@@ -421,14 +421,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-11-02T18:32Z",
+     "entry": 1168.2,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 1169.3,
+     "r_so_far": -0.016
     }
    },
    {
