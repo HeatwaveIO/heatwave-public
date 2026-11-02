@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-02T02:23:38Z
+# Heatwave public snapshot 2026-11-02T02:28:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-02T02:22:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-02T02:27:47+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 0.306% |  | 0 | 2026-11-02T02:21:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 0.126% |  | 0 | 2026-11-02T02:26:31Z |  |
 
 ## Open Propr positions
 
