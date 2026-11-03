@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T00:58:33Z",
+ "generated_utc": "2026-11-03T01:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-03T00:57:49+00:00",
+   "last_cycle_utc": "2026-11-03T01:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -64,10 +64,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-02T11:00Z .. 2026-11-03T00:00Z (decision times)",
+  "window": "2026-11-02T12:00Z .. 2026-11-03T01:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-02T11:00Z": 25,
    "2026-11-02T12:00Z": 25,
    "2026-11-02T13:00Z": 25,
    "2026-11-02T14:00Z": 25,
@@ -80,7 +79,8 @@
    "2026-11-02T21:00Z": 25,
    "2026-11-02T22:00Z": 25,
    "2026-11-02T23:00Z": 25,
-   "2026-11-03T00:00Z": 25
+   "2026-11-03T00:00Z": 25,
+   "2026-11-03T01:00Z": 25
   },
   "signals": [
    {
@@ -191,8 +191,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.3942,
-     "r_so_far": 0.001
+     "mark": 8.4094,
+     "r_so_far": -0.066
     }
    },
    {
@@ -251,8 +251,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.10946,
-     "r_so_far": 0.423
+     "mark": 0.10961,
+     "r_so_far": 0.357
     }
    },
    {
@@ -305,8 +305,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1149.6,
-     "r_so_far": 0.278
+     "mark": 1155.0,
+     "r_so_far": 0.198
     }
    },
    {
@@ -429,8 +429,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 84.295,
-     "r_so_far": -0.214
+     "mark": 84.479,
+     "r_so_far": -0.078
     }
    },
    {
