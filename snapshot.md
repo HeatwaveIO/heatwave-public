@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-03T01:53:40Z
+# Heatwave public snapshot 2026-11-03T01:58:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-03T01:52:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-03T01:57:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 2.016% |  | 0 | 2026-11-03T01:51:31Z |  |
+| coinbase | SHADOW (real orders blocked) | 1.956% |  | 0 | 2026-11-03T01:56:31Z |  |
 
 ## Open Propr positions
 
@@ -27,19 +27,19 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-02T14:00Z | kPEPE | LONG | 2 | 2.6 | 1.63 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T14:00Z | AAVE | SHORT | 1 | 5.81 | 1.808 | unknown (account read failed) | unknown (account read failed) | closed 1.7926R |
 | 2026-11-02T14:00Z | ARB | SHORT | 2 | 2.684 | 1.645 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-02T16:00Z | AVAX | SHORT | 1 | 3.388 | 2.059 | unknown (account read failed) | unknown (account read failed) | open 0.007R so far |
+| 2026-11-02T16:00Z | AVAX | SHORT | 1 | 3.388 | 2.059 | unknown (account read failed) | unknown (account read failed) | open 0.11R so far |
 | 2026-11-02T16:00Z | OP | SHORT | 2 | 3.044 | 1.876 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T16:00Z | AAVE | SHORT | 3 | 2.658 | 1.967 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-02T17:00Z | OP | SHORT | 1 | 2.633 | 1.532 | unknown (account read failed) | unknown (account read failed) | open 0.762R so far |
+| 2026-11-02T17:00Z | OP | SHORT | 1 | 2.633 | 1.532 | unknown (account read failed) | unknown (account read failed) | open 0.863R so far |
 | 2026-11-02T18:00Z | HYPE | LONG | 1 | 4.345 | 2.098 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-02T18:00Z | ZEC | SHORT | 1 | 9.21 | 5.718 | unknown (account read failed) | unknown (account read failed) | open 0.26R so far |
+| 2026-11-02T18:00Z | ZEC | SHORT | 1 | 9.21 | 5.718 | unknown (account read failed) | unknown (account read failed) | open 0.358R so far |
 | 2026-11-02T18:00Z | SOL | SHORT | 2 | 5.952 | 2.294 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T18:00Z | XLM | SHORT | 3 | 5.546 | 1.529 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T18:00Z | LINK | SHORT | 4 | 4.501 | 1.706 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T18:00Z | AVAX | SHORT | 5 | 4.41 | 1.882 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T18:00Z | AAVE | SHORT | 6 | 3.906 | 2.815 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T18:00Z | OP | SHORT | 7 | 2.673 | 1.929 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-02T19:00Z | HYPE | LONG | 1 | 3.202 | 1.611 | unknown (account read failed) | unknown (account read failed) | open -0.249R so far |
+| 2026-11-02T19:00Z | HYPE | LONG | 1 | 3.202 | 1.611 | unknown (account read failed) | unknown (account read failed) | open -0.404R so far |
 | 2026-11-02T19:00Z | ZEC | SHORT | 1 | 3.301 | 2.488 | unknown (account read failed) | unknown (account read failed) | closed 0.0062R |
 | 2026-11-02T19:00Z | OP | SHORT | 2 | 2.534 | 1.639 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-02T20:00Z | SOL | SHORT | 1 | 4.057 | 1.574 | unknown (account read failed) | unknown (account read failed) | pending |
