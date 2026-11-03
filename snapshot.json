@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T15:33:36Z",
+ "generated_utc": "2026-11-03T15:38:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,14 +14,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-03T15:32:51+00:00",
+   "last_cycle_utc": "2026-11-03T15:37:48+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
    "open_positions": 0,
    "resting_orders": 0,
    "saver_why": null,
-   "error": "HyroError: network error 56 on tools/call"
+   "error": "HyroError: need exactly one active Hyro trial challenge"
   },
   "alp100": {
    "account": "alp100",
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-03T15:31:53+00:00",
+    "at": "2026-11-03T15:35:58+00:00",
     "day": "2026-11-03",
     "picks": [
      "CRWV",
@@ -54,8 +54,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-03T15:33:20Z",
-   "equity_pct_vs_start": 3.834,
+   "as_of": "2026-11-03T15:36:30Z",
+   "equity_pct_vs_start": 3.864,
    "open": 0,
    "closed": 7,
    "wins": 5,
@@ -159,8 +159,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.15924,
-     "r_so_far": -0.513
+     "mark": 0.1594,
+     "r_so_far": -0.483
     }
    },
    {
@@ -203,8 +203,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1.2735,
-     "r_so_far": -0.452
+     "mark": 1.2757,
+     "r_so_far": -0.381
     }
    },
    {
