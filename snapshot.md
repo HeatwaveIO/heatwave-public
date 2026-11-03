@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-03T15:13:40Z
+# Heatwave public snapshot 2026-11-03T15:18:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-03T15:12:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-03T15:17:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 3.524% |  | 0 | 2026-11-03T14:56:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 3.874% |  | 0 | 2026-11-03T15:16:30Z |  |
 
 ## Open Propr positions
 
@@ -25,9 +25,9 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 |---|---|---|---|---|---|---|---|---|
 | 2026-11-03T03:00Z | WLD | SHORT | 1 | 2.976 | 2.113 | unknown (account read failed) | unknown (account read failed) | closed 0.0012R |
 | 2026-11-03T08:00Z | AAVE | SHORT | 1 | 12.651 | 2.004 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-03T12:00Z | ARB | LONG | 1 | 6.402 | 2.295 | unknown (account read failed) | unknown (account read failed) | open -0.301R so far |
+| 2026-11-03T12:00Z | ARB | LONG | 1 | 6.402 | 2.295 | unknown (account read failed) | unknown (account read failed) | open -0.41R so far |
 | 2026-11-03T12:00Z | ZEC | LONG | 2 | 2.625 | 2.421 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-03T13:00Z | XRP | LONG | 1 | 7.191 | 2.446 | unknown (account read failed) | unknown (account read failed) | open -0.332R so far |
+| 2026-11-03T13:00Z | XRP | LONG | 1 | 7.191 | 2.446 | unknown (account read failed) | unknown (account read failed) | replay unavailable |
 | 2026-11-03T13:00Z | ZEC | LONG | 2 | 4.514 | 3.036 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-03T15:00Z | HYPE | LONG | 1 | 5.032 | 2.455 | unknown (account read failed) | unknown (account read failed) | pending |
 
