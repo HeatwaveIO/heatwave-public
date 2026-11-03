@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T15:18:40Z",
+ "generated_utc": "2026-11-03T15:23:34Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-03T15:17:52+00:00",
+   "last_cycle_utc": "2026-11-03T15:22:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-03T15:15:56+00:00",
+    "at": "2026-11-03T15:21:12+00:00",
     "day": "2026-11-03",
     "picks": [],
     "equity_pct_vs_sleeve_start": 9.378,
@@ -51,8 +51,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-03T15:16:30Z",
-   "equity_pct_vs_start": 3.874,
+   "as_of": "2026-11-03T15:21:33Z",
+   "equity_pct_vs_start": 3.932,
    "open": 0,
    "closed": 7,
    "wins": 5,
@@ -156,8 +156,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.15979,
-     "r_so_far": -0.41
+     "mark": 0.15945,
+     "r_so_far": -0.474
     }
    },
    {
@@ -192,8 +192,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-11-03T13:52Z",
+     "entry": 1.2875,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null,
+     "mark": 1.2732,
+     "r_so_far": -0.461
     }
    },
    {
