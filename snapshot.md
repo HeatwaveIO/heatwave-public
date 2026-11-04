@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-04T14:58:37Z
+# Heatwave public snapshot 2026-11-04T15:03:39Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-04T14:57:49+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-04T15:02:49+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | -1.832% |  | 0 | 2026-11-04T14:56:30Z |  |
 
@@ -17,13 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-04T01:00Z .. 2026-11-04T14:00Z (decision times)
+## Signal scan 2026-11-04T02:00Z .. 2026-11-04T15:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-04T01:00Z | HYPE | LONG | 1 | 4.681 | 2.696 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-04T02:00Z | HYPE | LONG | 1 | 4.762 | 2.857 | unknown (account read failed) | unknown (account read failed) | closed 0.736R |
 | 2026-11-04T02:00Z | TIA | SHORT | 1 | 4.475 | 2.007 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-04T02:00Z | AAVE | SHORT | 2 | 3.578 | 1.583 | unknown (account read failed) | unknown (account read failed) |  |
@@ -39,7 +38,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-04T04:00Z | DOGE | SHORT | 7 | 4.304 | 1.65 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T04:00Z | APT | SHORT | 8 | 3.894 | 2.316 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T04:00Z | ZEC | SHORT | 9 | 2.872 | 2.677 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-04T05:00Z | AAVE | LONG | 1 | 6.542 | 2.504 | unknown (account read failed) | unknown (account read failed) | open 0.969R so far |
+| 2026-11-04T05:00Z | AAVE | LONG | 1 | 6.542 | 2.504 | unknown (account read failed) | unknown (account read failed) | closed 0.8236R |
 | 2026-11-04T05:00Z | ETH | LONG | 2 | 5.844 | 1.676 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T05:00Z | BTC | LONG | 3 | 5.818 | 1.531 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T05:00Z | NEAR | LONG | 4 | 4.312 | 3.157 | unknown (account read failed) | unknown (account read failed) |  |
@@ -47,7 +46,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-04T05:00Z | SOL | SHORT | 1 | 4.444 | 1.786 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-04T05:00Z | LINK | SHORT | 2 | 4.211 | 2.102 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T05:00Z | ADA | SHORT | 3 | 3.307 | 1.776 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-04T06:00Z | ADA | LONG | 1 | 5.555 | 1.726 | unknown (account read failed) | unknown (account read failed) | open 1.483R so far |
+| 2026-11-04T06:00Z | ADA | LONG | 1 | 5.555 | 1.726 | unknown (account read failed) | unknown (account read failed) | open 2.073R so far |
 | 2026-11-04T06:00Z | ZEC | LONG | 2 | 4.809 | 3.546 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T06:00Z | HYPE | LONG | 3 | 3.968 | 1.735 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T06:00Z | DOT | LONG | 4 | 3.954 | 1.628 | unknown (account read failed) | unknown (account read failed) |  |
@@ -55,6 +54,11 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-04T07:00Z | ZEC | LONG | 1 | 4.272 | 2.719 | unknown (account read failed) | unknown (account read failed) | closed 0.0063R |
 | 2026-11-04T08:00Z | WLD | LONG | 1 | 5.04 | 3.902 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-04T08:00Z | ZEC | LONG | 2 | 2.627 | 1.629 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-04T11:00Z | DOT | LONG | 1 | 4.328 | 2.243 | unknown (account read failed) | unknown (account read failed) | open -0.096R so far |
+| 2026-11-04T11:00Z | DOT | LONG | 1 | 4.328 | 2.243 | unknown (account read failed) | unknown (account read failed) | open 0.194R so far |
 | 2026-11-04T11:00Z | ZEC | LONG | 2 | 2.686 | 3.033 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-04T15:00Z | AVAX | LONG | 1 | 3.942 | 3.357 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-11-04T15:00Z | BNB | LONG | 2 | 3.68 | 1.79 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-04T15:00Z | XRP | LONG | 3 | 3.132 | 2.922 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-04T15:00Z | BTC | LONG | 4 | 2.912 | 1.823 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-04T15:00Z | ETH | LONG | 5 | 2.848 | 3.133 | unknown (account read failed) | unknown (account read failed) |  |
 
