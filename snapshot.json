@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T15:33:36Z",
+ "generated_utc": "2026-11-04T15:38:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-04T15:32:49+00:00",
+   "last_cycle_utc": "2026-11-04T15:37:56+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-04T15:31:55+00:00",
+    "at": "2026-11-04T15:35:58+00:00",
     "day": "2026-11-04",
     "picks": [
      "SOXS",
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-04T15:26:30Z",
+   "as_of": "2026-11-04T15:36:30Z",
    "equity_pct_vs_start": -1.83,
    "open": 0,
    "closed": 7,
@@ -695,8 +695,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-11-04T14:56Z",
+     "entry": 0.97647,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null,
+     "mark": 0.97448,
+     "r_so_far": -0.073
     }
    },
    {
@@ -731,8 +739,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "open",
+     "entry_utc": "2026-11-04T15:11Z",
+     "entry": 9.0881,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null,
+     "mark": 8.9801,
+     "r_so_far": -0.235
     }
    },
    {
