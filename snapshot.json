@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T09:28:33Z",
+ "generated_utc": "2026-11-04T09:33:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-04T09:28:04+00:00",
+   "last_cycle_utc": "2026-11-04T09:33:13+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,8 +54,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-04T09:26:30Z",
-   "equity_pct_vs_start": 0.622,
+   "as_of": "2026-11-04T09:31:34Z",
+   "equity_pct_vs_start": 0.73,
    "open": 0,
    "closed": 7,
    "wins": 4,
@@ -159,8 +159,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T08:44Z",
      "net_R": null,
-     "mark": 86.628,
-     "r_so_far": 0.836
+     "mark": 86.772,
+     "r_so_far": 0.889
     }
    },
    {
@@ -245,8 +245,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T05:16Z",
      "net_R": null,
-     "mark": 86.628,
-     "r_so_far": 2.237
+     "mark": 86.772,
+     "r_so_far": 2.326
     }
    },
    {
@@ -273,8 +273,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T07:26Z",
      "net_R": null,
-     "mark": 86.628,
-     "r_so_far": 1.33
+     "mark": 86.772,
+     "r_so_far": 1.39
     }
    },
    {
@@ -455,8 +455,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 130.68,
-     "r_so_far": 0.337
+     "mark": 131.01,
+     "r_so_far": 0.415
     }
    },
    {
@@ -605,8 +605,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.19097,
-     "r_so_far": 0.03
+     "mark": 0.19154,
+     "r_so_far": 0.22
     }
    },
    {
@@ -697,8 +697,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1283.9,
-     "r_so_far": 0.013
+     "mark": 1285.5,
+     "r_so_far": 0.055
     }
    },
    {
