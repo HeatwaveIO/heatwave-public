@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T11:43:37Z",
+ "generated_utc": "2026-11-04T11:48:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-04T11:43:04+00:00",
+   "last_cycle_utc": "2026-11-04T11:47:56+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,8 +54,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-04T11:41:30Z",
-   "equity_pct_vs_start": -0.39,
+   "as_of": "2026-11-04T11:46:30Z",
+   "equity_pct_vs_start": -0.34,
    "open": 0,
    "closed": 7,
    "wins": 3,
@@ -159,8 +159,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T08:44Z",
      "net_R": null,
-     "mark": 86.988,
-     "r_so_far": 0.968
+     "mark": 86.85,
+     "r_so_far": 0.918
     }
    },
    {
@@ -245,8 +245,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T05:16Z",
      "net_R": null,
-     "mark": 86.988,
-     "r_so_far": 2.459
+     "mark": 86.85,
+     "r_so_far": 2.374
     }
    },
    {
@@ -273,8 +273,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T07:26Z",
      "net_R": null,
-     "mark": 86.988,
-     "r_so_far": 1.48
+     "mark": 86.85,
+     "r_so_far": 1.422
     }
    },
    {
@@ -455,8 +455,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T11:12Z",
      "net_R": null,
-     "mark": 132.53,
-     "r_so_far": 0.774
+     "mark": 132.26,
+     "r_so_far": 0.71
     }
    },
    {
@@ -605,8 +605,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.19224,
-     "r_so_far": 0.453
+     "mark": 0.19237,
+     "r_so_far": 0.497
     }
    },
    {
@@ -697,8 +697,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-04T10:13Z",
      "net_R": null,
-     "mark": 1311.8,
-     "r_so_far": 0.743
+     "mark": 1309.5,
+     "r_so_far": 0.683
     }
    },
    {
