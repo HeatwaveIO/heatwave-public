@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-04T15:28:40Z",
+ "generated_utc": "2026-11-04T15:33:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-04T15:27:54+00:00",
+   "last_cycle_utc": "2026-11-04T15:32:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -34,15 +34,18 @@
    "equity_pct_vs_start": -0.51,
    "closed": 1,
    "orb_exec_last": {
-    "type": "eod_hybrid",
-    "day": "2026-11-03",
-    "at": "2026-11-03T21:21:03+00:00"
+    "type": "picks",
+    "day": "2026-11-04",
+    "at": "2026-11-04T15:31:54+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-04T15:25:56+00:00",
+    "at": "2026-11-04T15:31:55+00:00",
     "day": "2026-11-04",
-    "picks": [],
+    "picks": [
+     "SOXS",
+     "AMD"
+    ],
     "equity_pct_vs_sleeve_start": 9.378,
     "closed": 4,
     "legs": {}
@@ -692,16 +695,8 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
-     "entry_utc": "2026-11-04T14:56Z",
-     "entry": 0.97647,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.97121,
-     "r_so_far": -0.194
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
@@ -736,16 +731,8 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
-     "entry_utc": "2026-11-04T15:11Z",
-     "entry": 9.0881,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null,
-     "mark": 8.9986,
-     "r_so_far": -0.195
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
