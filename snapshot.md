@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-05T04:58:34Z
+# Heatwave public snapshot 2026-11-05T05:03:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-05T04:58:06+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-05T05:02:48+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | -1.832% |  | 0 | 2026-11-05T04:56:30Z |  |
 
@@ -17,17 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-04T15:00Z .. 2026-11-05T04:00Z (decision times)
+## Signal scan 2026-11-04T16:00Z .. 2026-11-05T05:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-04T15:00Z | AVAX | LONG | 1 | 3.942 | 3.357 | unknown (account read failed) | unknown (account read failed) | closed -0.774R |
-| 2026-11-04T15:00Z | BNB | LONG | 2 | 3.68 | 1.79 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-04T15:00Z | XRP | LONG | 3 | 3.132 | 2.922 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-04T15:00Z | BTC | LONG | 4 | 2.912 | 1.823 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-04T15:00Z | ETH | LONG | 5 | 2.848 | 3.133 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T16:00Z | BTC | LONG | 1 | 5.858 | 2.336 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-04T16:00Z | SOL | LONG | 2 | 5.74 | 3.078 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-04T16:00Z | BNB | LONG | 3 | 5.644 | 1.648 | unknown (account read failed) | unknown (account read failed) |  |
