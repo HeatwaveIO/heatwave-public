@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-05T15:48:36Z",
+ "generated_utc": "2026-11-05T15:53:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-05T15:47:49+00:00",
+   "last_cycle_utc": "2026-11-05T15:52:55+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -34,13 +34,13 @@
    "equity_pct_vs_start": -0.51,
    "closed": 1,
    "orb_exec_last": {
-    "type": "picks",
+    "type": "intent",
     "day": "2026-11-05",
-    "at": "2026-11-05T15:31:56+00:00"
+    "at": "2026-11-05T15:51:01+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-05T15:46:18+00:00",
+    "at": "2026-11-05T15:51:01+00:00",
     "day": "2026-11-05",
     "picks": [
      "UVXY",
@@ -48,14 +48,43 @@
     ],
     "equity_pct_vs_sleeve_start": 9.378,
     "closed": 4,
-    "legs": {}
+    "legs": {
+     "UVXY": {
+      "day": "2026-11-05",
+      "status": "pending",
+      "limit": 20.88,
+      "fill": null,
+      "stop": 16.515,
+      "target": null,
+      "exit": null,
+      "exit_why": null,
+      "net_R": null,
+      "oid": "d5da558d-bdee-4003-a2d6-4e86232abb70",
+      "stop_oid": null,
+      "exit_oid": null
+     },
+     "SOXS": {
+      "day": "2026-11-05",
+      "status": "pending",
+      "limit": 76.74,
+      "fill": null,
+      "stop": 66.4,
+      "target": null,
+      "exit": null,
+      "exit_why": null,
+      "net_R": null,
+      "oid": "182b2a05-4ea4-469b-9365-2501fbbbc3e0",
+      "stop_oid": null,
+      "exit_oid": null
+     }
+    }
    }
   },
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-05T15:46:30Z",
-   "equity_pct_vs_start": -3.302,
+   "as_of": "2026-11-05T15:51:32Z",
+   "equity_pct_vs_start": -4.046,
    "open": 0,
    "closed": 8,
    "wins": 3,
@@ -341,10 +370,10 @@
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
-     "breakeven_utc": null,
+     "breakeven_utc": "2026-11-05T15:52Z",
      "net_R": null,
-     "mark": 124.55,
-     "r_so_far": 0.498
+     "mark": 122.74,
+     "r_so_far": 0.796
     }
    },
    {
