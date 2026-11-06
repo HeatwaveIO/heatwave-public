@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-06T00:23:37Z",
+ "generated_utc": "2026-11-06T00:28:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-06T00:23:06+00:00",
+   "last_cycle_utc": "2026-11-06T00:28:05+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -83,7 +83,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-06T00:21:30Z",
+   "as_of": "2026-11-06T00:26:31Z",
    "equity_pct_vs_start": -4.09,
    "open": 0,
    "closed": 8,
@@ -352,8 +352,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1296.1,
-     "r_so_far": 0.249
+     "mark": 1302.8,
+     "r_so_far": 0.346
     }
    },
    {
@@ -380,8 +380,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.071846,
-     "r_so_far": -0.219
+     "mark": 0.071941,
+     "r_so_far": -0.25
     }
    },
    {
@@ -1020,8 +1020,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 10.762,
-     "r_so_far": -0.827
+     "mark": 10.782,
+     "r_so_far": -0.911
     }
    },
    {
