@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-06T14:28:32Z",
+ "generated_utc": "2026-11-06T14:33:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-06T14:27:50+00:00",
+   "last_cycle_utc": "2026-11-06T14:33:06+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,50 +40,18 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-05T20:55:57+00:00",
-    "day": "2026-11-05",
-    "picks": [
-     "UVXY",
-     "SOXS"
-    ],
+    "at": "2026-11-06T14:31:00+00:00",
+    "day": "2026-11-06",
+    "picks": [],
     "equity_pct_vs_sleeve_start": 11.155,
     "closed": 5,
-    "legs": {
-     "UVXY": {
-      "day": "2026-11-05",
-      "status": "closed",
-      "limit": 20.88,
-      "fill": 20.878,
-      "stop": 16.515,
-      "target": 27.4225,
-      "exit": 23.242,
-      "exit_why": "time",
-      "net_R": 0.542,
-      "oid": "d5da558d-bdee-4003-a2d6-4e86232abb70",
-      "stop_oid": null,
-      "exit_oid": "5b32046f-bff5-45c2-a021-afa0675a7a01"
-     },
-     "SOXS": {
-      "day": "2026-11-05",
-      "status": "expired",
-      "limit": 76.74,
-      "fill": null,
-      "stop": 66.4,
-      "target": null,
-      "exit": null,
-      "exit_why": null,
-      "net_R": null,
-      "oid": "182b2a05-4ea4-469b-9365-2501fbbbc3e0",
-      "stop_oid": null,
-      "exit_oid": null
-     }
-    }
+    "legs": {}
    }
   },
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-06T14:26:30Z",
+   "as_of": "2026-11-06T14:31:30Z",
    "equity_pct_vs_start": -4.09,
    "open": 0,
    "closed": 8,
@@ -214,8 +182,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-06T12:22Z",
      "net_R": null,
-     "mark": 1323.3,
-     "r_so_far": 0.801
+     "mark": 1316.3,
+     "r_so_far": 0.605
     }
    },
    {
@@ -268,8 +236,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1323.3,
-     "r_so_far": -0.096
+     "mark": 1316.3,
+     "r_so_far": -0.19
     }
    },
    {
