@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-06T01:58:40Z",
+ "generated_utc": "2026-11-06T02:03:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-06T01:57:49+00:00",
+   "last_cycle_utc": "2026-11-06T02:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-05T12:00Z .. 2026-11-06T01:00Z (decision times)",
+  "window": "2026-11-05T13:00Z .. 2026-11-06T02:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-05T12:00Z": 25,
    "2026-11-05T13:00Z": 25,
    "2026-11-05T14:00Z": 25,
    "2026-11-05T15:00Z": 25,
@@ -109,7 +108,8 @@
    "2026-11-05T22:00Z": 25,
    "2026-11-05T23:00Z": 25,
    "2026-11-06T00:00Z": 25,
-   "2026-11-06T01:00Z": 25
+   "2026-11-06T01:00Z": 25,
+   "2026-11-06T02:00Z": 25
   },
   "signals": [
    {
@@ -318,16 +318,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-05T16:26Z",
      "entry": 1278.9,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-06T01:56Z",
+     "exit": 1310.6,
+     "exit_kind": "time",
      "breakeven_utc": "2026-11-06T00:58Z",
-     "net_R": null,
-     "mark": 1308.9,
-     "r_so_far": 0.435
+     "net_R": 0.4353
     }
    },
    {
@@ -346,16 +344,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-05T18:07Z",
      "entry": 0.071173,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-06T01:56Z",
+     "exit": 0.072045,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.072038,
-     "r_so_far": -0.282
+     "net_R": -0.3027
     }
    },
    {
@@ -1102,14 +1098,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-11-06T01:57Z",
+     "entry": 131.09,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 131.4,
+     "r_so_far": 0.103
     }
    },
    {
