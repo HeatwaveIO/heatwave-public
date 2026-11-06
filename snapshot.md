@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-06T01:48:37Z
+# Heatwave public snapshot 2026-11-06T01:53:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-06T01:47:48+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-06T01:52:56+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -4.09% |  | 0 | 2026-11-06T01:46:30Z |  |
+| coinbase | SHADOW (real orders blocked) | -4.09% |  | 0 | 2026-11-06T01:51:30Z |  |
 
 ## Open Propr positions
 
@@ -33,8 +33,8 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-05T15:00Z | AAVE | SHORT | 1 | 3.646 | 4.195 | unknown (account read failed) | unknown (account read failed) | closed 0.0227R |
 | 2026-11-05T15:00Z | SOL | SHORT | 2 | 3.053 | 3.149 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-05T15:00Z | WLD | SHORT | 3 | 2.505 | 3.758 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-05T16:00Z | ZEC | LONG | 1 | 6.73 | 4.755 | unknown (account read failed) | unknown (account read failed) | open 0.43R so far |
-| 2026-11-05T16:00Z | DOGE | SHORT | 1 | 14.129 | 4.312 | unknown (account read failed) | unknown (account read failed) | open -0.26R so far |
+| 2026-11-05T16:00Z | ZEC | LONG | 1 | 6.73 | 4.755 | unknown (account read failed) | unknown (account read failed) | open 0.497R so far |
+| 2026-11-05T16:00Z | DOGE | SHORT | 1 | 14.129 | 4.312 | unknown (account read failed) | unknown (account read failed) | open -0.291R so far |
 | 2026-11-05T16:00Z | ADA | SHORT | 2 | 8.647 | 5.46 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-05T16:00Z | XRP | SHORT | 3 | 7.034 | 3.482 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-05T16:00Z | WLD | SHORT | 4 | 6.963 | 7.461 | unknown (account read failed) | unknown (account read failed) |  |
