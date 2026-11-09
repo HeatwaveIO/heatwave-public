@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-09T07:38:39Z",
+ "generated_utc": "2026-11-09T07:43:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-09T07:37:56+00:00",
+   "last_cycle_utc": "2026-11-09T07:42:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -54,7 +54,7 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-09T07:36:30Z",
+   "as_of": "2026-11-09T07:41:30Z",
    "equity_pct_vs_start": -0.792,
    "open": 0,
    "closed": 9,
@@ -107,8 +107,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.005007,
-     "r_so_far": -0.201
+     "mark": 0.004962,
+     "r_so_far": -0.355
     }
    },
    {
@@ -741,8 +741,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.0163,
-     "r_so_far": -0.712
+     "mark": 8.0019,
+     "r_so_far": -0.764
     }
    },
    {
@@ -859,8 +859,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.1717,
-     "r_so_far": -0.393
+     "mark": 0.1711,
+     "r_so_far": -0.544
     }
    },
    {
@@ -887,8 +887,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.5654,
-     "r_so_far": 0.468
+     "mark": 0.5648,
+     "r_so_far": 0.516
     }
    },
    {
@@ -931,8 +931,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-09T06:39Z",
      "net_R": null,
-     "mark": 0.17311,
-     "r_so_far": 0.862
+     "mark": 0.17264,
+     "r_so_far": 1.028
     }
    },
    {
@@ -959,8 +959,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 2094.9,
-     "r_so_far": 0.057
+     "mark": 2093.4,
+     "r_so_far": 0.098
     }
    }
   ]
