@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-09T15:28:37Z",
+ "generated_utc": "2026-11-09T15:33:34Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-09T15:28:09+00:00",
+   "last_cycle_utc": "2026-11-09T15:32:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -34,15 +34,18 @@
    "equity_pct_vs_start": -0.51,
    "closed": 1,
    "orb_exec_last": {
-    "type": "eod_hybrid",
-    "day": "2026-11-06",
-    "at": "2026-11-06T21:21:04+00:00"
+    "type": "picks",
+    "day": "2026-11-09",
+    "at": "2026-11-09T15:31:55+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-09T15:25:57+00:00",
+    "at": "2026-11-09T15:31:56+00:00",
     "day": "2026-11-09",
-    "picks": [],
+    "picks": [
+     "SOXL",
+     "CRWV"
+    ],
     "equity_pct_vs_sleeve_start": 11.155,
     "closed": 5,
     "legs": {}
@@ -224,8 +227,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-09T14:55Z",
      "net_R": null,
-     "mark": 0.005243,
-     "r_so_far": 0.757
+     "mark": 0.005262,
+     "r_so_far": 0.867
     }
    },
    {
@@ -456,16 +459,8 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
-     "entry_utc": "2026-11-09T15:02Z",
-     "entry": 0.005213,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": "2026-11-09T15:22Z",
-     "net_R": null,
-     "mark": 0.005243,
-     "r_so_far": 0.263
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
@@ -526,14 +521,8 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
@@ -608,8 +597,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.8185,
-     "r_so_far": 0.053
+     "mark": 8.9208,
+     "r_so_far": 0.19
     }
    },
    {
@@ -774,8 +763,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.8185,
-     "r_so_far": -0.147
+     "mark": 8.9208,
+     "r_so_far": 0.05
     }
    },
    {
@@ -818,8 +807,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.8185,
-     "r_so_far": -0.543
+     "mark": 8.9208,
+     "r_so_far": -0.082
     }
    },
    {
