@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-09T05:28:39Z
+# Heatwave public snapshot 2026-11-09T05:33:30Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-09T05:28:11+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-09T05:33:07+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -0.79% |  | 0 | 2026-11-09T05:26:30Z |  |
+| coinbase | SHADOW (real orders blocked) | -0.79% |  | 0 | 2026-11-09T05:31:30Z |  |
 
 ## Open Propr positions
 
@@ -23,7 +23,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-08T22:00Z | kPEPE | LONG | 1 | 3.076 | 5.839 | unknown (account read failed) | unknown (account read failed) | open -0.007R so far |
+| 2026-11-08T22:00Z | kPEPE | LONG | 1 | 3.076 | 5.839 | unknown (account read failed) | unknown (account read failed) | open -0.024R so far |
 | 2026-11-08T22:00Z | DOGE | SHORT | 1 | 40.884 | 5.79 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-08T22:00Z | ADA | SHORT | 2 | 27.634 | 5.041 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-08T22:00Z | LTC | SHORT | 3 | 22.371 | 4.926 | unknown (account read failed) | unknown (account read failed) |  |
@@ -60,14 +60,14 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-08T23:00Z | SOL | SHORT | 10 | 4.013 | 1.718 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-08T23:00Z | ZEC | SHORT | 11 | 3.539 | 2.897 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-08T23:00Z | TIA | SHORT | 12 | 2.568 | 1.818 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-09T00:00Z | INJ | LONG | 1 | 4.877 | 3.397 | unknown (account read failed) | unknown (account read failed) | open -0.211R so far |
+| 2026-11-09T00:00Z | INJ | LONG | 1 | 4.877 | 3.397 | unknown (account read failed) | unknown (account read failed) | open -0.305R so far |
 | 2026-11-09T00:00Z | SUI | SHORT | 1 | 5.727 | 2.425 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-09T00:00Z | SOL | SHORT | 2 | 5.687 | 2.376 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T00:00Z | ETH | SHORT | 3 | 4.33 | 2.252 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T00:00Z | XRP | SHORT | 4 | 4.01 | 2.028 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T00:00Z | BTC | SHORT | 5 | 2.997 | 1.71 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-09T02:00Z | ARB | LONG | 1 | 3.143 | 2.145 | unknown (account read failed) | unknown (account read failed) | open 0.078R so far |
+| 2026-11-09T02:00Z | ARB | LONG | 1 | 3.143 | 2.145 | unknown (account read failed) | unknown (account read failed) | open 0.008R so far |
 | 2026-11-09T02:00Z | APT | SHORT | 1 | 3.611 | 1.991 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-09T02:00Z | OP | SHORT | 2 | 2.971 | 1.503 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-09T04:00Z | ADA | SHORT | 1 | 4.633 | 1.502 | unknown (account read failed) | unknown (account read failed) | open 0.135R so far |
+| 2026-11-09T04:00Z | ADA | SHORT | 1 | 4.633 | 1.502 | unknown (account read failed) | unknown (account read failed) | open 0.252R so far |
 
