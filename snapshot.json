@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-09T22:58:33Z",
+ "generated_utc": "2026-11-09T23:03:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-09T22:58:02+00:00",
+   "last_cycle_utc": "2026-11-09T23:02:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-09T09:00Z .. 2026-11-09T22:00Z (decision times)",
+  "window": "2026-11-09T10:00Z .. 2026-11-09T23:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-09T09:00Z": 25,
    "2026-11-09T10:00Z": 25,
    "2026-11-09T11:00Z": 25,
    "2026-11-09T12:00Z": 25,
@@ -109,115 +108,10 @@
    "2026-11-09T19:00Z": 25,
    "2026-11-09T20:00Z": 25,
    "2026-11-09T21:00Z": 25,
-   "2026-11-09T22:00Z": 25
+   "2026-11-09T22:00Z": 25,
+   "2026-11-09T23:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-09T09:00Z",
-    "or_hour_utc": "08:00",
-    "coin": "SOL",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 4.831,
-    "width_pct": 1.786,
-    "level": 85.409,
-    "stop": 86.934,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "none",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
-    }
-   },
-   {
-    "decision_utc": "2026-11-09T09:00Z",
-    "or_hour_utc": "08:00",
-    "coin": "ETH",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 4.827,
-    "width_pct": 1.762,
-    "level": 2088.2,
-    "stop": 2125.0,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-11-09T09:00Z",
-    "or_hour_utc": "08:00",
-    "coin": "DOGE",
-    "side": "SHORT",
-    "rank": 3,
-    "rvol": 4.169,
-    "width_pct": 1.94,
-    "level": 0.067981,
-    "stop": 0.0693,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-11-09T09:00Z",
-    "or_hour_utc": "08:00",
-    "coin": "AVAX",
-    "side": "SHORT",
-    "rank": 4,
-    "rvol": 3.207,
-    "width_pct": 2.226,
-    "level": 7.8336,
-    "stop": 8.008,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-11-09T09:00Z",
-    "or_hour_utc": "08:00",
-    "coin": "LINK",
-    "side": "SHORT",
-    "rank": 5,
-    "rvol": 3.136,
-    "width_pct": 1.978,
-    "level": 10.262,
-    "stop": 10.465,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-11-09T09:00Z",
-    "or_hour_utc": "08:00",
-    "coin": "ZEC",
-    "side": "SHORT",
-    "rank": 6,
-    "rvol": 2.761,
-    "width_pct": 4.166,
-    "level": 1185.7,
-    "stop": 1235.1,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
    {
     "decision_utc": "2026-11-09T10:00Z",
     "or_hour_utc": "09:00",
@@ -376,16 +270,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-09T13:31Z",
      "entry": 8.7785,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-09T22:56Z",
+     "exit": 8.6318,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 8.6353,
-     "r_so_far": -0.192
+     "net_R": -0.2115
     }
    },
    {
@@ -550,8 +442,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.6353,
-     "r_so_far": -0.5
+     "mark": 8.6398,
+     "r_so_far": -0.492
     }
    },
    {
