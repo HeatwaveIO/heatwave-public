@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-09T23:13:31Z
+# Heatwave public snapshot 2026-11-09T23:18:32Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-09T23:13:04+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-09T23:17:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | -0.016% |  | 0 | 2026-11-09T22:56:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 0.304% |  | 0 | 2026-11-09T23:16:30Z |  |
 
 ## Open Propr positions
 
@@ -39,12 +39,12 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-09T13:00Z | APT | LONG | 7 | 3.779 | 2.94 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T13:00Z | OP | LONG | 8 | 3.244 | 2.731 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T13:00Z | XRP | SHORT | 1 | 4.521 | 2.892 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-09T14:00Z | AVAX | LONG | 1 | 54.447 | 5.84 | unknown (account read failed) | unknown (account read failed) | open -0.502R so far |
+| 2026-11-09T14:00Z | AVAX | LONG | 1 | 54.447 | 5.84 | unknown (account read failed) | unknown (account read failed) | open -0.456R so far |
 | 2026-11-09T14:00Z | ARB | LONG | 2 | 3.719 | 2.891 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T15:00Z | AVAX | LONG | 1 | 20.778 | 2.481 | unknown (account read failed) | unknown (account read failed) | closed -1.0322R |
 | 2026-11-09T15:00Z | ADA | LONG | 2 | 5.08 | 1.737 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T16:00Z | AVAX | LONG | 1 | 11.797 | 2.444 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-09T17:00Z | AVAX | LONG | 1 | 19.826 | 3.178 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-11-09T17:00Z | AVAX | LONG | 1 | 19.826 | 3.178 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-09T17:00Z | kPEPE | LONG | 2 | 2.674 | 2.983 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-09T20:00Z | ARB | LONG | 1 | 4.176 | 1.571 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-09T22:00Z | AVAX | LONG | 1 | 5.761 | 1.575 | unknown (account read failed) | unknown (account read failed) | pending |
