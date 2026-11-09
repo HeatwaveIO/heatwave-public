@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-09T14:58:33Z",
+ "generated_utc": "2026-11-09T15:03:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-09T14:57:50+00:00",
+   "last_cycle_utc": "2026-11-09T15:03:12+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-09T14:55:57+00:00",
+    "at": "2026-11-09T15:01:01+00:00",
     "day": "2026-11-09",
     "picks": [],
     "equity_pct_vs_sleeve_start": 11.155,
@@ -61,10 +61,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-09T01:00Z .. 2026-11-09T14:00Z (decision times)",
+  "window": "2026-11-09T02:00Z .. 2026-11-09T15:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-09T01:00Z": 25,
    "2026-11-09T02:00Z": 25,
    "2026-11-09T03:00Z": 25,
    "2026-11-09T04:00Z": 25,
@@ -77,7 +76,8 @@
    "2026-11-09T11:00Z": 25,
    "2026-11-09T12:00Z": 25,
    "2026-11-09T13:00Z": 25,
-   "2026-11-09T14:00Z": 25
+   "2026-11-09T14:00Z": 25,
+   "2026-11-09T15:00Z": 25
   },
   "signals": [
    {
@@ -224,8 +224,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-09T14:55Z",
      "net_R": null,
-     "mark": 0.005243,
-     "r_so_far": 0.757
+     "mark": 0.005223,
+     "r_so_far": 0.642
     }
    },
    {
@@ -606,8 +606,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.8886,
-     "r_so_far": 0.147
+     "mark": 8.8569,
+     "r_so_far": 0.105
     }
    },
    {
@@ -772,8 +772,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.8886,
-     "r_so_far": -0.012
+     "mark": 8.8569,
+     "r_so_far": -0.073
     }
    },
    {
@@ -786,6 +786,48 @@
     "width_pct": 2.891,
     "level": 0.1878,
     "stop": 0.18237,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
+    }
+   },
+   {
+    "decision_utc": "2026-11-09T15:00Z",
+    "or_hour_utc": "14:00",
+    "coin": "AVAX",
+    "side": "LONG",
+    "rank": 1,
+    "rvol": 20.778,
+    "width_pct": 2.481,
+    "level": 8.939,
+    "stop": 8.7172,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
+    }
+   },
+   {
+    "decision_utc": "2026-11-09T15:00Z",
+    "or_hour_utc": "14:00",
+    "coin": "ADA",
+    "side": "LONG",
+    "rank": 2,
+    "rvol": 5.08,
+    "width_pct": 1.737,
+    "level": 0.18194,
+    "stop": 0.17878,
     "in_core_hours": true,
     "accounts": {
      "propr_2s": "unknown (account read failed)",
