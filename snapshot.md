@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-10T15:23:32Z
+# Heatwave public snapshot 2026-11-10T15:28:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-10T15:23:07+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-10T15:27:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 2.574% |  | 0 | 2026-11-10T15:21:33Z |  |
+| coinbase | SHADOW (real orders blocked) | 2.952% |  | 0 | 2026-11-10T15:26:30Z |  |
 
 ## Open Propr positions
 
@@ -32,7 +32,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-10T11:00Z | ARB | SHORT | 2 | 2.629 | 1.891 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T11:00Z | SOL | SHORT | 3 | 2.626 | 1.597 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T13:00Z | ARB | SHORT | 1 | 4.937 | 1.973 | unknown (account read failed) | unknown (account read failed) | pending |
-| 2026-11-10T14:00Z | kPEPE | LONG | 1 | 2.604 | 3.667 | unknown (account read failed) | unknown (account read failed) | open 0.024R so far |
+| 2026-11-10T14:00Z | kPEPE | LONG | 1 | 2.604 | 3.667 | unknown (account read failed) | unknown (account read failed) | open -0.18R so far |
 | 2026-11-10T14:00Z | XRP | SHORT | 1 | 6.447 | 3.293 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-10T14:00Z | DOGE | SHORT | 2 | 6.138 | 2.286 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T14:00Z | ETH | SHORT | 3 | 6.112 | 4.232 | unknown (account read failed) | unknown (account read failed) |  |
