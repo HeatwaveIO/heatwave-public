@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-10T14:58:37Z
+# Heatwave public snapshot 2026-11-10T15:03:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-10T14:58:06+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-10T15:02:57+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 2.694% |  | 0 | 2026-11-10T14:56:32Z |  |
 
@@ -17,22 +17,22 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-10T01:00Z .. 2026-11-10T14:00Z (decision times)
+## Signal scan 2026-11-10T02:00Z .. 2026-11-10T15:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
 | 2026-11-10T04:00Z | AAVE | SHORT | 1 | 5.449 | 2.366 | unknown (account read failed) | unknown (account read failed) | closed -0.0013R |
-| 2026-11-10T05:00Z | kPEPE | LONG | 1 | 5.94 | 3.086 | unknown (account read failed) | unknown (account read failed) | open 1.384R so far |
-| 2026-11-10T05:00Z | AAVE | SHORT | 1 | 6.94 | 2.071 | unknown (account read failed) | unknown (account read failed) | open 0.062R so far |
+| 2026-11-10T05:00Z | kPEPE | LONG | 1 | 5.94 | 3.086 | unknown (account read failed) | unknown (account read failed) | closed 1.4924R |
+| 2026-11-10T05:00Z | AAVE | SHORT | 1 | 6.94 | 2.071 | unknown (account read failed) | unknown (account read failed) | closed -0.0092R |
 | 2026-11-10T07:00Z | AAVE | SHORT | 1 | 4.63 | 1.648 | unknown (account read failed) | unknown (account read failed) | closed 0.0R |
 | 2026-11-10T08:00Z | ARB | LONG | 1 | 3.336 | 2.227 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-10T11:00Z | AVAX | SHORT | 1 | 19.103 | 1.658 | unknown (account read failed) | unknown (account read failed) | closed -1.0483R |
 | 2026-11-10T11:00Z | ARB | SHORT | 2 | 2.629 | 1.891 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T11:00Z | SOL | SHORT | 3 | 2.626 | 1.597 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T13:00Z | ARB | SHORT | 1 | 4.937 | 1.973 | unknown (account read failed) | unknown (account read failed) | pending |
-| 2026-11-10T14:00Z | kPEPE | LONG | 1 | 2.604 | 3.667 | unknown (account read failed) | unknown (account read failed) | open 0.333R so far |
+| 2026-11-10T14:00Z | kPEPE | LONG | 1 | 2.604 | 3.667 | unknown (account read failed) | unknown (account read failed) | open 0.514R so far |
 | 2026-11-10T14:00Z | XRP | SHORT | 1 | 6.447 | 3.293 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-10T14:00Z | DOGE | SHORT | 2 | 6.138 | 2.286 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T14:00Z | ETH | SHORT | 3 | 6.112 | 4.232 | unknown (account read failed) | unknown (account read failed) |  |
@@ -49,4 +49,5 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-10T14:00Z | DOT | SHORT | 14 | 2.838 | 2.844 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T14:00Z | AVAX | SHORT | 15 | 2.652 | 2.236 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-10T14:00Z | AAVE | SHORT | 16 | 2.562 | 2.456 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-10T15:00Z | kPEPE | LONG | 1 | 3.583 | 5.099 | unknown (account read failed) | unknown (account read failed) | pending |
 
