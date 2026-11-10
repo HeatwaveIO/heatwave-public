@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-10T10:28:32Z
+# Heatwave public snapshot 2026-11-10T10:33:38Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-10T10:27:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-10T10:32:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 1.808% |  | 0 | 2026-11-10T10:26:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 1.688% |  | 0 | 2026-11-10T10:31:30Z |  |
 
 ## Open Propr positions
 
@@ -25,8 +25,8 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 |---|---|---|---|---|---|---|---|---|
 | 2026-11-09T22:00Z | AVAX | LONG | 1 | 5.761 | 1.575 | unknown (account read failed) | unknown (account read failed) | closed -1.0528R |
 | 2026-11-10T04:00Z | AAVE | SHORT | 1 | 5.449 | 2.366 | unknown (account read failed) | unknown (account read failed) | closed -0.0013R |
-| 2026-11-10T05:00Z | kPEPE | LONG | 1 | 5.94 | 3.086 | unknown (account read failed) | unknown (account read failed) | open -0.195R so far |
-| 2026-11-10T05:00Z | AAVE | SHORT | 1 | 6.94 | 2.071 | unknown (account read failed) | unknown (account read failed) | open 0.045R so far |
-| 2026-11-10T07:00Z | AAVE | SHORT | 1 | 4.63 | 1.648 | unknown (account read failed) | unknown (account read failed) | open 0.015R so far |
+| 2026-11-10T05:00Z | kPEPE | LONG | 1 | 5.94 | 3.086 | unknown (account read failed) | unknown (account read failed) | open -0.012R so far |
+| 2026-11-10T05:00Z | AAVE | SHORT | 1 | 6.94 | 2.071 | unknown (account read failed) | unknown (account read failed) | open 0.068R so far |
+| 2026-11-10T07:00Z | AAVE | SHORT | 1 | 4.63 | 1.648 | unknown (account read failed) | unknown (account read failed) | open 0.053R so far |
 | 2026-11-10T08:00Z | ARB | LONG | 1 | 3.336 | 2.227 | unknown (account read failed) | unknown (account read failed) | pending |
 
