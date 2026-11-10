@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-10T20:58:32Z",
+ "generated_utc": "2026-11-10T21:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-10T20:58:05+00:00",
+   "last_cycle_utc": "2026-11-10T21:03:12+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -64,10 +64,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-10T07:00Z .. 2026-11-10T20:00Z (decision times)",
+  "window": "2026-11-10T08:00Z .. 2026-11-10T21:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-10T07:00Z": 25,
    "2026-11-10T08:00Z": 25,
    "2026-11-10T09:00Z": 25,
    "2026-11-10T10:00Z": 25,
@@ -80,35 +79,10 @@
    "2026-11-10T17:00Z": 25,
    "2026-11-10T18:00Z": 25,
    "2026-11-10T19:00Z": 25,
-   "2026-11-10T20:00Z": 25
+   "2026-11-10T20:00Z": 25,
+   "2026-11-10T21:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-10T07:00Z",
-    "or_hour_utc": "06:00",
-    "coin": "AAVE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 4.63,
-    "width_pct": 1.648,
-    "level": 124.99,
-    "stop": 127.05,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-10T09:07Z",
-     "entry": 124.99,
-     "exit_utc": "2026-11-10T13:35Z",
-     "exit": 124.89,
-     "exit_kind": "trailed_stop",
-     "breakeven_utc": "2026-11-10T13:30Z",
-     "net_R": 0.0
-    }
-   },
    {
     "decision_utc": "2026-11-10T08:00Z",
     "or_hour_utc": "07:00",
@@ -217,8 +191,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-10T16:26Z",
      "net_R": null,
-     "mark": 0.15929,
-     "r_so_far": 0.597
+     "mark": 0.15961,
+     "r_so_far": 0.497
     }
    },
    {
@@ -271,8 +245,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 1.0591,
-     "r_so_far": -0.468
+     "mark": 1.0611,
+     "r_so_far": -0.514
     }
    },
    {
@@ -777,8 +751,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.00526,
-     "r_so_far": -0.274
+     "mark": 0.005268,
+     "r_so_far": -0.237
     }
    },
    {
