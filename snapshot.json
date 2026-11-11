@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T09:58:37Z",
+ "generated_utc": "2026-11-11T10:03:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-11T09:57:51+00:00",
+   "last_cycle_utc": "2026-11-11T10:02:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -64,10 +64,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-10T20:00Z .. 2026-11-11T09:00Z (decision times)",
+  "window": "2026-11-10T21:00Z .. 2026-11-11T10:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-10T20:00Z": 25,
    "2026-11-10T21:00Z": 25,
    "2026-11-10T22:00Z": 25,
    "2026-11-10T23:00Z": 25,
@@ -80,7 +79,8 @@
    "2026-11-11T06:00Z": 25,
    "2026-11-11T07:00Z": 25,
    "2026-11-11T08:00Z": 25,
-   "2026-11-11T09:00Z": 25
+   "2026-11-11T09:00Z": 25,
+   "2026-11-11T10:00Z": 25
   },
   "signals": [
    {
@@ -185,8 +185,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 980.13,
-     "r_so_far": -0.181
+     "mark": 979.72,
+     "r_so_far": -0.172
     }
    },
    {
@@ -213,7 +213,7 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.6086,
+     "mark": 8.6085,
      "r_so_far": -0.115
     }
    },
@@ -299,8 +299,34 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 980.13,
-     "r_so_far": -0.257
+     "mark": 979.72,
+     "r_so_far": -0.244
+    }
+   },
+   {
+    "decision_utc": "2026-11-11T10:00Z",
+    "or_hour_utc": "09:00",
+    "coin": "kPEPE",
+    "side": "LONG",
+    "rank": 1,
+    "rvol": 3.579,
+    "width_pct": 2.009,
+    "level": 0.005076,
+    "stop": 0.004974,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
