@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T20:08:40Z",
+ "generated_utc": "2026-11-11T20:13:30Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-11T20:08:03+00:00",
+   "last_cycle_utc": "2026-11-11T20:12:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-11T20:06:00+00:00",
+    "at": "2026-11-11T20:11:01+00:00",
     "day": "2026-11-11",
     "picks": [
      "CRWV",
