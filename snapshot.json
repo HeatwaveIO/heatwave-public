@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T15:33:37Z",
+ "generated_utc": "2026-11-11T15:38:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-11T15:32:52+00:00",
+   "last_cycle_utc": "2026-11-11T15:37:51+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-11T15:31:58+00:00",
+    "at": "2026-11-11T15:36:00+00:00",
     "day": "2026-11-11",
     "picks": [
      "CRWV",
@@ -54,8 +54,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-11T15:26:31Z",
-   "equity_pct_vs_start": 5.404,
+   "as_of": "2026-11-11T15:36:30Z",
+   "equity_pct_vs_start": 4.822,
    "open": 0,
    "closed": 11,
    "wins": 6,
@@ -185,8 +185,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 977.81,
-     "r_so_far": -0.132
+     "mark": 997.99,
+     "r_so_far": -0.558
     }
    },
    {
@@ -213,8 +213,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.5321,
-     "r_so_far": -0.487
+     "mark": 8.6113,
+     "r_so_far": -0.102
     }
    },
    {
@@ -291,16 +291,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-11T09:17Z",
      "entry": 972.25,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-11T15:35Z",
+     "exit": 1002.9,
+     "exit_kind": "stop",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 977.81,
-     "r_so_far": -0.181
+     "net_R": -1.0254
     }
    },
    {
@@ -319,8 +317,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "replay unavailable",
-     "why": "HTTP Error 429: Too Many Requests"
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
