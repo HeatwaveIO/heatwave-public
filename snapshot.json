@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-11T15:58:40Z",
+ "generated_utc": "2026-11-11T16:03:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-11T15:57:50+00:00",
+   "last_cycle_utc": "2026-11-11T16:02:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -36,11 +36,11 @@
    "orb_exec_last": {
     "type": "intent",
     "day": "2026-11-11",
-    "at": "2026-11-11T15:51:15+00:00"
+    "at": "2026-11-11T16:01:03+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-11T15:56:01+00:00",
+    "at": "2026-11-11T16:01:03+00:00",
     "day": "2026-11-11",
     "picks": [
      "CRWV",
@@ -65,7 +65,7 @@
      },
      "CRWV": {
       "day": "2026-11-11",
-      "status": "pending",
+      "status": "expired",
       "limit": 59.41,
       "fill": null,
       "stop": 53.87,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-11T02:00Z .. 2026-11-11T15:00Z (decision times)",
+  "window": "2026-11-11T03:00Z .. 2026-11-11T16:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-11T02:00Z": 25,
    "2026-11-11T03:00Z": 25,
    "2026-11-11T04:00Z": 25,
    "2026-11-11T05:00Z": 25,
@@ -109,35 +108,10 @@
    "2026-11-11T12:00Z": 25,
    "2026-11-11T13:00Z": 25,
    "2026-11-11T14:00Z": 25,
-   "2026-11-11T15:00Z": 25
+   "2026-11-11T15:00Z": 25,
+   "2026-11-11T16:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-11T02:00Z",
-    "or_hour_utc": "01:00",
-    "coin": "ARB",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 2.51,
-    "width_pct": 2.965,
-    "level": 0.16558,
-    "stop": 0.16067,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-11T02:36Z",
-     "entry": 0.16666,
-     "exit_utc": "2026-11-11T06:09Z",
-     "exit": 0.16067,
-     "exit_kind": "stop",
-     "breakeven_utc": null,
-     "net_R": -1.0362
-    }
-   },
    {
     "decision_utc": "2026-11-11T03:00Z",
     "or_hour_utc": "02:00",
@@ -214,8 +188,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 978.78,
-     "r_so_far": -0.152
+     "mark": 990.53,
+     "r_so_far": -0.4
     }
    },
    {
@@ -242,8 +216,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 8.5902,
-     "r_so_far": -0.204
+     "mark": 8.5995,
+     "r_so_far": -0.159
     }
    },
    {
