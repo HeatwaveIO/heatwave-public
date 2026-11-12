@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-12T19:38:32Z
+# Heatwave public snapshot 2026-11-12T19:43:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-12T19:37:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-12T19:42:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 8.502% |  | 0 | 2026-11-12T19:36:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 8.688% |  | 0 | 2026-11-12T19:41:31Z |  |
 
 ## Open Propr positions
 
@@ -23,8 +23,8 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-12T11:00Z | AVAX | SHORT | 1 | 2.789 | 2.742 | unknown (account read failed) | unknown (account read failed) | open 0.645R so far |
-| 2026-11-12T12:00Z | LINK | SHORT | 1 | 10.756 | 1.605 | unknown (account read failed) | unknown (account read failed) | open -0.616R so far |
+| 2026-11-12T11:00Z | AVAX | SHORT | 1 | 2.789 | 2.742 | unknown (account read failed) | unknown (account read failed) | open 0.601R so far |
+| 2026-11-12T12:00Z | LINK | SHORT | 1 | 10.756 | 1.605 | unknown (account read failed) | unknown (account read failed) | open -0.606R so far |
 | 2026-11-12T12:00Z | DOGE | SHORT | 2 | 10.193 | 1.582 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-12T12:00Z | ETH | SHORT | 3 | 7.121 | 1.72 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-12T12:00Z | ADA | SHORT | 4 | 4.989 | 1.652 | unknown (account read failed) | unknown (account read failed) |  |
