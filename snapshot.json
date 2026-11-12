@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T18:58:30Z",
+ "generated_utc": "2026-11-12T19:03:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-12T18:57:51+00:00",
+   "last_cycle_utc": "2026-11-12T19:02:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,13 +40,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-12T18:56:00+00:00",
+    "at": "2026-11-12T19:01:01+00:00",
     "day": "2026-11-12",
     "picks": [
      "SOXS",
      "AMD"
     ],
-    "equity_pct_vs_sleeve_start": 10.524,
+    "equity_pct_vs_sleeve_start": 10.608,
     "closed": 6,
     "legs": {
      "AMD": {
@@ -79,10 +79,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-12T05:00Z .. 2026-11-12T18:00Z (decision times)",
+  "window": "2026-11-12T06:00Z .. 2026-11-12T19:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-12T05:00Z": 25,
    "2026-11-12T06:00Z": 25,
    "2026-11-12T07:00Z": 25,
    "2026-11-12T08:00Z": 25,
@@ -95,7 +94,8 @@
    "2026-11-12T15:00Z": 25,
    "2026-11-12T16:00Z": 25,
    "2026-11-12T17:00Z": 25,
-   "2026-11-12T18:00Z": 25
+   "2026-11-12T18:00Z": 25,
+   "2026-11-12T19:00Z": 25
   },
   "signals": [
    {
@@ -122,8 +122,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-12T13:10Z",
      "net_R": null,
-     "mark": 8.3424,
-     "r_so_far": 0.47
+     "mark": 8.3174,
+     "r_so_far": 0.571
     }
    },
    {
@@ -150,8 +150,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 10.026,
-     "r_so_far": -0.711
+     "mark": 10.011,
+     "r_so_far": -0.636
     }
    },
    {
