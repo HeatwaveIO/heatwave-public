@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T15:28:37Z",
+ "generated_utc": "2026-11-12T15:33:34Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-12T15:27:52+00:00",
+   "last_cycle_utc": "2026-11-12T15:32:53+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -34,15 +34,18 @@
    "equity_pct_vs_start": -0.51,
    "closed": 1,
    "orb_exec_last": {
-    "type": "eod_hybrid",
-    "day": "2026-11-11",
-    "at": "2026-11-11T21:21:07+00:00"
+    "type": "picks",
+    "day": "2026-11-12",
+    "at": "2026-11-12T15:31:56+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-12T15:25:59+00:00",
+    "at": "2026-11-12T15:31:57+00:00",
     "day": "2026-11-12",
-    "picks": [],
+    "picks": [
+     "SOXS",
+     "AMD"
+    ],
     "equity_pct_vs_sleeve_start": 10.539,
     "closed": 6,
     "legs": {}
@@ -104,8 +107,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-12T13:10Z",
      "net_R": null,
-     "mark": 8.2981,
-     "r_so_far": 0.649
+     "mark": 8.2925,
+     "r_so_far": 0.672
     }
    },
    {
@@ -132,8 +135,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 9.8252,
-     "r_so_far": 0.29
+     "mark": 9.8319,
+     "r_so_far": 0.257
     }
    },
    {
@@ -232,14 +235,8 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
@@ -274,16 +271,8 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
-     "entry_utc": "2026-11-12T14:28Z",
-     "entry": 9.7964,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null,
-     "mark": 9.8252,
-     "r_so_far": -0.15
+     "status": "replay unavailable",
+     "why": "HTTP Error 429: Too Many Requests"
     }
    },
    {
