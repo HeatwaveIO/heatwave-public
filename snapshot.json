@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T16:03:33Z",
+ "generated_utc": "2026-11-12T16:08:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-12T16:02:56+00:00",
+   "last_cycle_utc": "2026-11-12T16:08:04+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -36,31 +36,31 @@
    "orb_exec_last": {
     "type": "intent",
     "day": "2026-11-12",
-    "at": "2026-11-12T16:01:03+00:00"
+    "at": "2026-11-12T16:06:01+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-12T16:01:03+00:00",
+    "at": "2026-11-12T16:06:01+00:00",
     "day": "2026-11-12",
     "picks": [
      "SOXS",
      "AMD"
     ],
-    "equity_pct_vs_sleeve_start": 10.539,
+    "equity_pct_vs_sleeve_start": 10.642,
     "closed": 6,
     "legs": {
      "AMD": {
       "day": "2026-11-12",
-      "status": "pending",
+      "status": "open",
       "limit": 578.4,
-      "fill": null,
+      "fill": 578.4,
       "stop": 555.05,
-      "target": null,
+      "target": 613.425,
       "exit": null,
       "exit_why": null,
       "net_R": null,
       "oid": "6860c5e8-c164-46d4-af6b-3a2b2f6cb41d",
-      "stop_oid": null,
+      "stop_oid": "e5bed8aa-8a2a-4f8c-a9b3-868cc0177fa4",
       "exit_oid": null
      }
     }
@@ -122,8 +122,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-12T13:10Z",
      "net_R": null,
-     "mark": 8.3663,
-     "r_so_far": 0.372
+     "mark": 8.3915,
+     "r_so_far": 0.27
     }
    },
    {
@@ -150,8 +150,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 9.9621,
-     "r_so_far": -0.392
+     "mark": 10.004,
+     "r_so_far": -0.601
     }
    },
    {
@@ -292,16 +292,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-12T14:28Z",
      "entry": 9.7964,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-12T16:05Z",
+     "exit": 9.989,
+     "exit_kind": "stop",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 9.9621,
-     "r_so_far": -0.86
+     "net_R": -1.0407
     }
    },
    {
