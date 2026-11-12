@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-12T20:53:38Z
+# Heatwave public snapshot 2026-11-12T20:58:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-12T20:53:07+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-12T20:57:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 8.6% |  | 0 | 2026-11-12T20:51:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 8.728% |  | 0 | 2026-11-12T20:56:30Z |  |
 
 ## Open Propr positions
 
@@ -23,7 +23,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-12T11:00Z | AVAX | SHORT | 1 | 2.789 | 2.742 | unknown (account read failed) | unknown (account read failed) | open 0.424R so far |
+| 2026-11-12T11:00Z | AVAX | SHORT | 1 | 2.789 | 2.742 | unknown (account read failed) | unknown (account read failed) | open 0.479R so far |
 | 2026-11-12T12:00Z | LINK | SHORT | 1 | 10.756 | 1.605 | unknown (account read failed) | unknown (account read failed) | closed -1.064R |
 | 2026-11-12T12:00Z | DOGE | SHORT | 2 | 10.193 | 1.582 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-12T12:00Z | ETH | SHORT | 3 | 7.121 | 1.72 | unknown (account read failed) | unknown (account read failed) |  |
