@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T15:58:39Z",
+ "generated_utc": "2026-11-12T16:03:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-12T15:57:51+00:00",
+   "last_cycle_utc": "2026-11-12T16:02:56+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -34,13 +34,13 @@
    "equity_pct_vs_start": -0.51,
    "closed": 1,
    "orb_exec_last": {
-    "type": "picks",
+    "type": "intent",
     "day": "2026-11-12",
-    "at": "2026-11-12T15:31:56+00:00"
+    "at": "2026-11-12T16:01:03+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-12T15:56:00+00:00",
+    "at": "2026-11-12T16:01:03+00:00",
     "day": "2026-11-12",
     "picks": [
      "SOXS",
@@ -48,7 +48,22 @@
     ],
     "equity_pct_vs_sleeve_start": 10.539,
     "closed": 6,
-    "legs": {}
+    "legs": {
+     "AMD": {
+      "day": "2026-11-12",
+      "status": "pending",
+      "limit": 578.4,
+      "fill": null,
+      "stop": 555.05,
+      "target": null,
+      "exit": null,
+      "exit_why": null,
+      "net_R": null,
+      "oid": "6860c5e8-c164-46d4-af6b-3a2b2f6cb41d",
+      "stop_oid": null,
+      "exit_oid": null
+     }
+    }
    }
   },
   "coinbase": {
@@ -64,10 +79,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-12T02:00Z .. 2026-11-12T15:00Z (decision times)",
+  "window": "2026-11-12T03:00Z .. 2026-11-12T16:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-12T02:00Z": 25,
    "2026-11-12T03:00Z": 25,
    "2026-11-12T04:00Z": 25,
    "2026-11-12T05:00Z": 25,
@@ -80,7 +94,8 @@
    "2026-11-12T12:00Z": 25,
    "2026-11-12T13:00Z": 25,
    "2026-11-12T14:00Z": 25,
-   "2026-11-12T15:00Z": 25
+   "2026-11-12T15:00Z": 25,
+   "2026-11-12T16:00Z": 25
   },
   "signals": [
    {
@@ -107,8 +122,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-12T13:10Z",
      "net_R": null,
-     "mark": 8.3493,
-     "r_so_far": 0.442
+     "mark": 8.3663,
+     "r_so_far": 0.372
     }
    },
    {
@@ -135,8 +150,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 9.9398,
-     "r_so_far": -0.281
+     "mark": 9.9621,
+     "r_so_far": -0.392
     }
    },
    {
@@ -285,8 +300,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 9.9398,
-     "r_so_far": -0.745
+     "mark": 9.9621,
+     "r_so_far": -0.86
     }
    },
    {
