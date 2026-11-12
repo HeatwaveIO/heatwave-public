@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T20:03:31Z",
+ "generated_utc": "2026-11-12T20:08:31Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-12T20:03:08+00:00",
+   "last_cycle_utc": "2026-11-12T20:07:53+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,13 +40,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-12T20:01:02+00:00",
+    "at": "2026-11-12T20:06:00+00:00",
     "day": "2026-11-12",
     "picks": [
      "SOXS",
      "AMD"
     ],
-    "equity_pct_vs_sleeve_start": 11.309,
+    "equity_pct_vs_sleeve_start": 11.352,
     "closed": 6,
     "legs": {
      "AMD": {
@@ -122,8 +122,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-12T13:10Z",
      "net_R": null,
-     "mark": 8.3013,
-     "r_so_far": 0.636
+     "mark": 8.3052,
+     "r_so_far": 0.621
     }
    },
    {
@@ -150,8 +150,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 10.021,
-     "r_so_far": -0.686
+     "mark": 10.022,
+     "r_so_far": -0.691
     }
    },
    {
