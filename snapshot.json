@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T22:08:39Z",
+ "generated_utc": "2026-11-13T22:13:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-13T22:08:03+00:00",
+   "last_cycle_utc": "2026-11-13T22:12:58+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -174,8 +174,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 7.9524,
-     "r_so_far": -0.581
+     "mark": 7.955,
+     "r_so_far": -0.577
     }
    },
    {
@@ -202,8 +202,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 7.9524,
-     "r_so_far": -0.735
+     "mark": 7.955,
+     "r_so_far": -0.73
     }
    },
    {
@@ -230,8 +230,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 68265.0,
-     "r_so_far": 0.474
+     "mark": 68216.0,
+     "r_so_far": 0.511
     }
    },
    {
@@ -328,14 +328,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-11-13T22:11Z",
+     "entry": 78.283,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 78.176,
+     "r_so_far": 0.063
     }
    }
   ]
