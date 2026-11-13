@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-13T18:23:32Z
+# Heatwave public snapshot 2026-11-13T18:28:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-13T18:23:00+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-13T18:27:57+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 12.174% |  | 0 | 2026-11-13T18:21:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 12.274% |  | 0 | 2026-11-13T18:26:30Z |  |
 
 ## Open Propr positions
 
@@ -49,9 +49,9 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-13T08:00Z | ZEC | SHORT | 1 | 4.355 | 2.201 | unknown (account read failed) | unknown (account read failed) | closed -1.0363R |
 | 2026-11-13T11:00Z | ARB | SHORT | 1 | 3.884 | 1.68 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-13T12:00Z | ZEC | LONG | 1 | 2.656 | 1.953 | unknown (account read failed) | unknown (account read failed) | closed 0.009R |
-| 2026-11-13T13:00Z | INJ | LONG | 1 | 2.72 | 2.899 | unknown (account read failed) | unknown (account read failed) | open -0.397R so far |
+| 2026-11-13T13:00Z | INJ | LONG | 1 | 2.72 | 2.899 | unknown (account read failed) | unknown (account read failed) | open -0.368R so far |
 | 2026-11-13T14:00Z | INJ | LONG | 1 | 4.441 | 5.574 | unknown (account read failed) | unknown (account read failed) | pending |
-| 2026-11-13T14:00Z | BTC | SHORT | 1 | 2.928 | 1.64 | unknown (account read failed) | unknown (account read failed) | open 0.023R so far |
-| 2026-11-13T16:00Z | INJ | LONG | 1 | 3.935 | 2.928 | unknown (account read failed) | unknown (account read failed) | open -0.609R so far |
-| 2026-11-13T18:00Z | XLM | LONG | 1 | 3.271 | 1.612 | unknown (account read failed) | unknown (account read failed) | open 0.084R so far |
+| 2026-11-13T14:00Z | BTC | SHORT | 1 | 2.928 | 1.64 | unknown (account read failed) | unknown (account read failed) | open -0.048R so far |
+| 2026-11-13T16:00Z | INJ | LONG | 1 | 3.935 | 2.928 | unknown (account read failed) | unknown (account read failed) | open -0.525R so far |
+| 2026-11-13T18:00Z | XLM | LONG | 1 | 3.271 | 1.612 | unknown (account read failed) | unknown (account read failed) | open 0.243R so far |
 
