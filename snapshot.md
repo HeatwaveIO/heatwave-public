@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-13T18:58:34Z
+# Heatwave public snapshot 2026-11-13T19:03:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-13T18:57:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-13T19:02:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 12.214% |  | 0 | 2026-11-13T18:56:31Z |  |
 
@@ -17,16 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-13T05:00Z .. 2026-11-13T18:00Z (decision times)
+## Signal scan 2026-11-13T06:00Z .. 2026-11-13T19:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-13T05:00Z | APT | SHORT | 1 | 25.215 | 1.66 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-13T05:00Z | ZEC | SHORT | 2 | 9.991 | 5.438 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-13T05:00Z | HYPE | SHORT | 3 | 4.081 | 1.625 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-13T05:00Z | ARB | SHORT | 4 | 2.914 | 1.917 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-13T06:00Z | DOGE | SHORT | 1 | 9.768 | 1.537 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-13T06:00Z | BTC | SHORT | 2 | 9.366 | 2.041 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-13T06:00Z | ETH | SHORT | 3 | 7.595 | 1.942 | unknown (account read failed) | unknown (account read failed) |  |
@@ -49,9 +45,9 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-13T08:00Z | ZEC | SHORT | 1 | 4.355 | 2.201 | unknown (account read failed) | unknown (account read failed) | closed -1.0363R |
 | 2026-11-13T11:00Z | ARB | SHORT | 1 | 3.884 | 1.68 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-13T12:00Z | ZEC | LONG | 1 | 2.656 | 1.953 | unknown (account read failed) | unknown (account read failed) | closed 0.009R |
-| 2026-11-13T13:00Z | INJ | LONG | 1 | 2.72 | 2.899 | unknown (account read failed) | unknown (account read failed) | open -0.294R so far |
+| 2026-11-13T13:00Z | INJ | LONG | 1 | 2.72 | 2.899 | unknown (account read failed) | unknown (account read failed) | open -0.292R so far |
 | 2026-11-13T14:00Z | INJ | LONG | 1 | 4.441 | 5.574 | unknown (account read failed) | unknown (account read failed) | pending |
-| 2026-11-13T14:00Z | BTC | SHORT | 1 | 2.928 | 1.64 | unknown (account read failed) | unknown (account read failed) | open -0.061R so far |
-| 2026-11-13T16:00Z | INJ | LONG | 1 | 3.935 | 2.928 | unknown (account read failed) | unknown (account read failed) | open -0.305R so far |
-| 2026-11-13T18:00Z | XLM | LONG | 1 | 3.271 | 1.612 | unknown (account read failed) | unknown (account read failed) | open 0.407R so far |
+| 2026-11-13T14:00Z | BTC | SHORT | 1 | 2.928 | 1.64 | unknown (account read failed) | unknown (account read failed) | open 0.011R so far |
+| 2026-11-13T16:00Z | INJ | LONG | 1 | 3.935 | 2.928 | unknown (account read failed) | unknown (account read failed) | open -0.301R so far |
+| 2026-11-13T18:00Z | XLM | LONG | 1 | 3.271 | 1.612 | unknown (account read failed) | unknown (account read failed) | open 0.23R so far |
 
