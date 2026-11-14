@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-14T07:58:33Z
+# Heatwave public snapshot 2026-11-14T08:03:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-14T07:57:50+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-14T08:02:58+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 15.926% |  | 0 | 2026-11-14T07:56:31Z |  |
 
@@ -17,17 +17,16 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-13T18:00Z .. 2026-11-14T07:00Z (decision times)
+## Signal scan 2026-11-13T19:00Z .. 2026-11-14T08:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-13T18:00Z | XLM | LONG | 1 | 3.271 | 1.612 | unknown (account read failed) | unknown (account read failed) | closed -1.0836R |
 | 2026-11-13T20:00Z | INJ | LONG | 1 | 3.982 | 3.583 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-13T22:00Z | SOL | SHORT | 1 | 6.111 | 1.867 | unknown (account read failed) | unknown (account read failed) | open 1.807R so far |
+| 2026-11-13T22:00Z | SOL | SHORT | 1 | 6.111 | 1.867 | unknown (account read failed) | unknown (account read failed) | closed 1.6988R |
 | 2026-11-13T23:00Z | INJ | LONG | 1 | 4.665 | 2.015 | unknown (account read failed) | unknown (account read failed) | closed -1.0572R |
-| 2026-11-13T23:00Z | TIA | SHORT | 1 | 6.468 | 4.612 | unknown (account read failed) | unknown (account read failed) | open 0.452R so far |
+| 2026-11-13T23:00Z | TIA | SHORT | 1 | 6.468 | 4.612 | unknown (account read failed) | unknown (account read failed) | open 0.484R so far |
 | 2026-11-13T23:00Z | SOL | SHORT | 2 | 3.943 | 1.655 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-14T03:00Z | DOGE | SHORT | 1 | 16.673 | 3.486 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-14T03:00Z | XRP | SHORT | 2 | 11.699 | 2.335 | unknown (account read failed) | unknown (account read failed) |  |
@@ -56,6 +55,9 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-14T06:00Z | INJ | LONG | 1 | 3.378 | 2.3 | unknown (account read failed) | unknown (account read failed) | closed -1.0445R |
 | 2026-11-14T06:00Z | HYPE | SHORT | 1 | 2.662 | 1.604 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-14T07:00Z | INJ | LONG | 1 | 2.587 | 2.866 | unknown (account read failed) | unknown (account read failed) | pending |
-| 2026-11-14T07:00Z | OP | SHORT | 1 | 3.287 | 1.815 | unknown (account read failed) | unknown (account read failed) | open -0.0R so far |
+| 2026-11-14T07:00Z | OP | SHORT | 1 | 3.287 | 1.815 | unknown (account read failed) | unknown (account read failed) | open 0.162R so far |
 | 2026-11-14T07:00Z | TIA | SHORT | 2 | 2.759 | 1.871 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-14T08:00Z | TIA | SHORT | 1 | 3.316 | 2.35 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-11-14T08:00Z | ENA | SHORT | 2 | 2.922 | 2.459 | unknown (account read failed) | unknown (account read failed) |  |
+| 2026-11-14T08:00Z | WLD | SHORT | 3 | 2.768 | 2.144 | unknown (account read failed) | unknown (account read failed) |  |
 
