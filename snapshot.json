@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-14T07:18:38Z",
+ "generated_utc": "2026-11-14T07:23:36Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-14T07:17:54+00:00",
+   "last_cycle_utc": "2026-11-14T07:22:49+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -69,8 +69,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-14T07:16:31Z",
-   "equity_pct_vs_start": 15.926,
+   "as_of": "2026-11-14T07:21:30Z",
+   "equity_pct_vs_start": 15.924,
    "open": 0,
    "closed": 12,
    "wins": 7,
@@ -174,8 +174,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-14T01:52Z",
      "net_R": null,
-     "mark": 75.338,
-     "r_so_far": 1.747
+     "mark": 75.104,
+     "r_so_far": 1.886
     }
    },
    {
@@ -226,10 +226,10 @@
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
-     "breakeven_utc": null,
+     "breakeven_utc": "2026-11-14T07:18Z",
      "net_R": null,
-     "mark": 0.36252,
-     "r_so_far": 0.716
+     "mark": 0.36342,
+     "r_so_far": 0.671
     }
    },
    {
@@ -688,16 +688,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-14T06:16Z",
      "entry": 8.21,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-14T07:20Z",
+     "exit": 7.9702,
+     "exit_kind": "stop",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 8.0459,
-     "r_so_far": -0.684
+     "net_R": -1.0445
     }
    },
    {
@@ -776,8 +774,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.08858,
-     "r_so_far": 0.105
+     "mark": 0.08816,
+     "r_so_far": 0.305
     }
    },
    {
