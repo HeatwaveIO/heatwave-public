@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-15T19:38:37Z
+# Heatwave public snapshot 2026-11-15T19:43:30Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-15T19:38:08+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-15T19:42:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 15.908% |  | 0 | 2026-11-15T19:36:34Z |  |
+| coinbase | SHADOW (real orders blocked) | 15.91% |  | 0 | 2026-11-15T19:41:30Z |  |
 
 ## Open Propr positions
 
@@ -27,12 +27,12 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-15T09:00Z | LINK | LONG | 2 | 2.926 | 1.657 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-15T09:00Z | ETH | LONG | 3 | 2.552 | 1.975 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-15T09:00Z | DOT | SHORT | 1 | 3.481 | 1.657 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-15T10:00Z | HYPE | LONG | 1 | 5.728 | 3.444 | unknown (account read failed) | unknown (account read failed) | open -0.584R so far |
+| 2026-11-15T10:00Z | HYPE | LONG | 1 | 5.728 | 3.444 | unknown (account read failed) | unknown (account read failed) | open -0.511R so far |
 | 2026-11-15T10:00Z | LTC | LONG | 2 | 4.756 | 1.933 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-15T10:00Z | DOT | LONG | 3 | 4.082 | 2.058 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-15T10:00Z | INJ | LONG | 4 | 3.59 | 4.15 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-15T10:00Z | LINK | LONG | 5 | 3.229 | 1.759 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-15T10:00Z | AAVE | LONG | 6 | 2.913 | 2.342 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-15T10:00Z | AVAX | SHORT | 1 | 3.516 | 2.435 | unknown (account read failed) | unknown (account read failed) | open -0.551R so far |
+| 2026-11-15T10:00Z | AVAX | SHORT | 1 | 3.516 | 2.435 | unknown (account read failed) | unknown (account read failed) | open -0.53R so far |
 | 2026-11-15T10:00Z | APT | SHORT | 2 | 2.516 | 2.306 | unknown (account read failed) | unknown (account read failed) |  |
 
