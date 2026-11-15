@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-15T13:58:37Z",
+ "generated_utc": "2026-11-15T14:03:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-15T13:57:57+00:00",
+   "last_cycle_utc": "2026-11-15T14:02:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -79,10 +79,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-15T00:00Z .. 2026-11-15T13:00Z (decision times)",
+  "window": "2026-11-15T01:00Z .. 2026-11-15T14:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-15T00:00Z": 25,
    "2026-11-15T01:00Z": 25,
    "2026-11-15T02:00Z": 25,
    "2026-11-15T03:00Z": 25,
@@ -95,67 +94,10 @@
    "2026-11-15T10:00Z": 25,
    "2026-11-15T11:00Z": 25,
    "2026-11-15T12:00Z": 25,
-   "2026-11-15T13:00Z": 25
+   "2026-11-15T13:00Z": 25,
+   "2026-11-15T14:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-15T00:00Z",
-    "or_hour_utc": "23:00",
-    "coin": "DOGE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 5.266,
-    "width_pct": 2.466,
-    "level": 0.055956,
-    "stop": 0.057336,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-15T01:37Z",
-     "entry": 0.055956,
-     "exit_utc": "2026-11-15T02:07Z",
-     "exit": 0.057336,
-     "exit_kind": "stop",
-     "breakeven_utc": null,
-     "net_R": -1.0324
-    }
-   },
-   {
-    "decision_utc": "2026-11-15T00:00Z",
-    "or_hour_utc": "23:00",
-    "coin": "XRP",
-    "side": "SHORT",
-    "rank": 2,
-    "rvol": 3.437,
-    "width_pct": 2.523,
-    "level": 0.89215,
-    "stop": 0.91466,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
-   {
-    "decision_utc": "2026-11-15T00:00Z",
-    "or_hour_utc": "23:00",
-    "coin": "INJ",
-    "side": "SHORT",
-    "rank": 3,
-    "rvol": 2.807,
-    "width_pct": 2.756,
-    "level": 6.6691,
-    "stop": 6.8529,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   },
    {
     "decision_utc": "2026-11-15T01:00Z",
     "or_hour_utc": "00:00",
@@ -976,8 +918,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-15T09:12Z",
      "net_R": null,
-     "mark": 107.74,
-     "r_so_far": 1.166
+     "mark": 107.42,
+     "r_so_far": 0.995
     }
    },
    {
@@ -1030,8 +972,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 65457.0,
-     "r_so_far": -0.264
+     "mark": 65279.0,
+     "r_so_far": -0.345
     }
    },
    {
@@ -1116,8 +1058,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 68.074,
-     "r_so_far": -0.166
+     "mark": 67.705,
+     "r_so_far": -0.303
     }
    },
    {
