@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-16T14:58:33Z",
+ "generated_utc": "2026-11-16T15:03:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-16T14:57:51+00:00",
+   "last_cycle_utc": "2026-11-16T15:02:50+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-16T14:55:58+00:00",
+    "at": "2026-11-16T15:00:58+00:00",
     "day": "2026-11-16",
     "picks": [],
     "equity_pct_vs_sleeve_start": 9.474,
@@ -61,10 +61,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-16T01:00Z .. 2026-11-16T14:00Z (decision times)",
+  "window": "2026-11-16T02:00Z .. 2026-11-16T15:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-16T01:00Z": 25,
    "2026-11-16T02:00Z": 25,
    "2026-11-16T03:00Z": 25,
    "2026-11-16T04:00Z": 25,
@@ -77,35 +76,10 @@
    "2026-11-16T11:00Z": 25,
    "2026-11-16T12:00Z": 25,
    "2026-11-16T13:00Z": 25,
-   "2026-11-16T14:00Z": 25
+   "2026-11-16T14:00Z": 25,
+   "2026-11-16T15:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-16T01:00Z",
-    "or_hour_utc": "00:00",
-    "coin": "AVAX",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 3.544,
-    "width_pct": 2.169,
-    "level": 7.1602,
-    "stop": 7.3155,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-16T01:27Z",
-     "entry": 7.1602,
-     "exit_utc": "2026-11-16T10:56Z",
-     "exit": 7.1325,
-     "exit_kind": "time",
-     "breakeven_utc": null,
-     "net_R": 0.1415
-    }
-   },
    {
     "decision_utc": "2026-11-16T02:00Z",
     "or_hour_utc": "01:00",
