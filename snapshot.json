@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-16T15:58:37Z",
+ "generated_utc": "2026-11-16T16:03:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-16T15:57:52+00:00",
+   "last_cycle_utc": "2026-11-16T16:02:56+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-16T15:55:58+00:00",
+    "at": "2026-11-16T16:00:59+00:00",
     "day": "2026-11-16",
     "picks": [
      "UVXY",
@@ -64,10 +64,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-16T02:00Z .. 2026-11-16T15:00Z (decision times)",
+  "window": "2026-11-16T03:00Z .. 2026-11-16T16:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-16T02:00Z": 25,
    "2026-11-16T03:00Z": 25,
    "2026-11-16T04:00Z": 25,
    "2026-11-16T05:00Z": 25,
@@ -80,35 +79,10 @@
    "2026-11-16T12:00Z": 25,
    "2026-11-16T13:00Z": 25,
    "2026-11-16T14:00Z": 25,
-   "2026-11-16T15:00Z": 25
+   "2026-11-16T15:00Z": 25,
+   "2026-11-16T16:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-16T02:00Z",
-    "or_hour_utc": "01:00",
-    "coin": "DOGE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 3.229,
-    "width_pct": 1.5,
-    "level": 0.058465,
-    "stop": 0.059342,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-16T06:17Z",
-     "entry": 0.058543,
-     "exit_utc": "2026-11-16T11:56Z",
-     "exit": 0.058904,
-     "exit_kind": "time",
-     "breakeven_utc": null,
-     "net_R": -0.5104
-    }
-   },
    {
     "decision_utc": "2026-11-16T12:00Z",
     "or_hour_utc": "11:00",
@@ -159,8 +133,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 875.61,
-     "r_so_far": -0.669
+     "mark": 875.81,
+     "r_so_far": -0.674
     }
    },
    {
