@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-16T11:58:40Z
+# Heatwave public snapshot 2026-11-16T12:03:39Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-16T11:57:51+00:00 | HyroError: list_challenges: HyroTrader API error (502 internal_server_error): An unexpected API error occurred. |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-16T12:02:53+00:00 | HyroError: list_challenges: HyroTrader API error (502 internal_server_error): An unexpected API error occurred. |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 17.052% |  | 0 | 2026-11-16T11:56:30Z |  |
 
@@ -17,7 +17,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-15T22:00Z .. 2026-11-16T11:00Z (decision times)
+## Signal scan 2026-11-15T23:00Z .. 2026-11-16T12:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
@@ -25,5 +25,6 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 |---|---|---|---|---|---|---|---|---|
 | 2026-11-16T00:00Z | DOGE | LONG | 1 | 3.372 | 1.766 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-16T01:00Z | AVAX | SHORT | 1 | 3.544 | 2.169 | unknown (account read failed) | unknown (account read failed) | closed 0.1415R |
-| 2026-11-16T02:00Z | DOGE | SHORT | 1 | 3.229 | 1.5 | unknown (account read failed) | unknown (account read failed) | open -0.36R so far |
+| 2026-11-16T02:00Z | DOGE | SHORT | 1 | 3.229 | 1.5 | unknown (account read failed) | unknown (account read failed) | closed -0.5104R |
+| 2026-11-16T12:00Z | HYPE | SHORT | 1 | 4.079 | 2.39 | unknown (account read failed) | unknown (account read failed) | pending |
 
