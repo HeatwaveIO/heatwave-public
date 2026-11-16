@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-16T12:03:39Z",
+ "generated_utc": "2026-11-16T12:08:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,14 +14,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-16T12:02:53+00:00",
+   "last_cycle_utc": "2026-11-16T12:07:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
    "open_positions": 0,
    "resting_orders": 0,
    "saver_why": null,
-   "error": "HyroError: list_challenges: HyroTrader API error (502 internal_server_error): An unexpected API error occurred."
+   "error": "HyroError: need exactly one active Hyro trial challenge"
   },
   "alp100": {
    "account": "alp100",
