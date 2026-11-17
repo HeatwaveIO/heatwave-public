@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-17T22:13:37Z
+# Heatwave public snapshot 2026-11-17T22:18:36Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-17T22:12:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-17T22:17:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 15.182% |  | 0 | 2026-11-17T21:56:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 14.962% |  | 0 | 2026-11-17T22:16:34Z |  |
 
 ## Open Propr positions
 
@@ -27,7 +27,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-17T12:00Z | SOL | LONG | 2 | 2.584 | 2.014 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-17T12:00Z | ETH | SHORT | 1 | 2.734 | 1.999 | unknown (account read failed) | unknown (account read failed) | closed -0.7436R |
 | 2026-11-17T13:00Z | INJ | LONG | 1 | 7.49 | 2.589 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-17T16:00Z | DOGE | SHORT | 1 | 5.199 | 3.522 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-11-17T16:00Z | DOGE | SHORT | 1 | 5.199 | 3.522 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-17T16:00Z | SOL | SHORT | 2 | 3.748 | 4.142 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-17T17:00Z | ADA | SHORT | 1 | 5.325 | 1.695 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-17T17:00Z | AAVE | SHORT | 2 | 3.369 | 3.456 | unknown (account read failed) | unknown (account read failed) |  |
