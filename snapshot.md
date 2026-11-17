@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-17T19:13:30Z
+# Heatwave public snapshot 2026-11-17T19:18:35Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-17T19:12:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-17T19:17:57+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 16.188% |  | 0 | 2026-11-17T18:56:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 16.01% |  | 0 | 2026-11-17T19:16:30Z |  |
 
 ## Open Propr positions
 
@@ -27,8 +27,8 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-17T07:00Z | OP | SHORT | 1 | 3.16 | 2.029 | unknown (account read failed) | unknown (account read failed) | closed -1.0413R |
 | 2026-11-17T12:00Z | LINK | LONG | 1 | 3.188 | 1.822 | unknown (account read failed) | unknown (account read failed) | closed -1.0448R |
 | 2026-11-17T12:00Z | SOL | LONG | 2 | 2.584 | 2.014 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-17T12:00Z | ETH | SHORT | 1 | 2.734 | 1.999 | unknown (account read failed) | unknown (account read failed) | open -0.544R so far |
-| 2026-11-17T13:00Z | INJ | LONG | 1 | 7.49 | 2.589 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-11-17T12:00Z | ETH | SHORT | 1 | 2.734 | 1.999 | unknown (account read failed) | unknown (account read failed) | open -0.555R so far |
+| 2026-11-17T13:00Z | INJ | LONG | 1 | 7.49 | 2.589 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-17T16:00Z | DOGE | SHORT | 1 | 5.199 | 3.522 | unknown (account read failed) | unknown (account read failed) | pending |
 | 2026-11-17T16:00Z | SOL | SHORT | 2 | 3.748 | 4.142 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-17T17:00Z | ADA | SHORT | 1 | 5.325 | 1.695 | unknown (account read failed) | unknown (account read failed) | pending |
