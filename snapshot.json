@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T13:58:40Z",
+ "generated_utc": "2026-11-18T14:03:32Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-18T13:57:51+00:00",
+   "last_cycle_utc": "2026-11-18T14:03:01+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -64,10 +64,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-18T00:00Z .. 2026-11-18T13:00Z (decision times)",
+  "window": "2026-11-18T01:00Z .. 2026-11-18T14:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-18T00:00Z": 25,
    "2026-11-18T01:00Z": 25,
    "2026-11-18T02:00Z": 25,
    "2026-11-18T03:00Z": 25,
@@ -80,35 +79,9 @@
    "2026-11-18T10:00Z": 25,
    "2026-11-18T11:00Z": 25,
    "2026-11-18T12:00Z": 25,
-   "2026-11-18T13:00Z": 25
+   "2026-11-18T13:00Z": 25,
+   "2026-11-18T14:00Z": 25
   },
-  "signals": [
-   {
-    "decision_utc": "2026-11-18T00:00Z",
-    "or_hour_utc": "23:00",
-    "coin": "OP",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 3.165,
-    "width_pct": 2.066,
-    "level": 0.07939,
-    "stop": 0.07775,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "none",
-     "entry_utc": null,
-     "entry": null,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
-     "breakeven_utc": null,
-     "net_R": null
-    }
-   }
-  ]
+  "signals": []
  }
 }
