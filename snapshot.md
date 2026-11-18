@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-18T06:13:35Z
+# Heatwave public snapshot 2026-11-18T06:18:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-18T06:12:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-18T06:17:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 13.276% |  | 0 | 2026-11-18T05:56:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 13.276% |  | 0 | 2026-11-18T06:16:30Z |  |
 
 ## Open Propr positions
 
@@ -27,5 +27,5 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-17T17:00Z | AAVE | SHORT | 2 | 3.369 | 3.456 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-17T19:00Z | WLD | SHORT | 1 | 6.655 | 1.601 | unknown (account read failed) | unknown (account read failed) | none |
 | 2026-11-17T20:00Z | WLD | SHORT | 1 | 5.478 | 2.086 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-18T00:00Z | OP | LONG | 1 | 3.165 | 2.066 | unknown (account read failed) | unknown (account read failed) | pending |
+| 2026-11-18T00:00Z | OP | LONG | 1 | 3.165 | 2.066 | unknown (account read failed) | unknown (account read failed) | none |
 
