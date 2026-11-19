@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-19T06:58:36Z
+# Heatwave public snapshot 2026-11-19T07:03:40Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-19T06:57:55+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-19T07:02:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 10.388% |  | 0 | 2026-11-19T06:56:30Z |  |
 
@@ -17,16 +17,14 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-18T17:00Z .. 2026-11-19T06:00Z (decision times)
+## Signal scan 2026-11-18T18:00Z .. 2026-11-19T07:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-18T17:00Z | AAVE | SHORT | 1 | 3.071 | 1.807 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-18T17:00Z | DOGE | SHORT | 2 | 2.515 | 1.841 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-18T18:00Z | LTC | SHORT | 1 | 10.128 | 1.595 | unknown (account read failed) | unknown (account read failed) | closed -1.052R |
 | 2026-11-18T18:00Z | ADA | SHORT | 2 | 3.59 | 1.608 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-18T18:00Z | BTC | SHORT | 3 | 2.552 | 1.504 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-19T00:00Z | ENA | LONG | 1 | 3.23 | 2.56 | unknown (account read failed) | unknown (account read failed) | open -0.354R so far |
+| 2026-11-19T00:00Z | ENA | LONG | 1 | 3.23 | 2.56 | unknown (account read failed) | unknown (account read failed) | open -0.367R so far |
 
