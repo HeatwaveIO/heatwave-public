@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-19T23:18:37Z
+# Heatwave public snapshot 2026-11-19T23:23:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-19T23:17:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-19T23:22:54+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 12.886% |  | 0 | 2026-11-19T23:16:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 12.926% |  | 0 | 2026-11-19T23:21:30Z |  |
 
 ## Open Propr positions
 
@@ -30,6 +30,6 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-19T18:00Z | LTC | SHORT | 4 | 3.257 | 1.54 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-19T18:00Z | BTC | SHORT | 5 | 3.219 | 1.894 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-19T18:00Z | AAVE | SHORT | 6 | 2.711 | 2.126 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-19T19:00Z | APT | SHORT | 1 | 2.604 | 1.869 | unknown (account read failed) | unknown (account read failed) | open -0.231R so far |
-| 2026-11-19T21:00Z | HYPE | SHORT | 1 | 2.986 | 2.299 | unknown (account read failed) | unknown (account read failed) | open -0.533R so far |
+| 2026-11-19T19:00Z | APT | SHORT | 1 | 2.604 | 1.869 | unknown (account read failed) | unknown (account read failed) | open -0.242R so far |
+| 2026-11-19T21:00Z | HYPE | SHORT | 1 | 2.986 | 2.299 | unknown (account read failed) | unknown (account read failed) | open -0.367R so far |
 
