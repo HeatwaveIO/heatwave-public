@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T21:58:39Z",
+ "generated_utc": "2026-11-20T22:03:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-20T21:57:54+00:00",
+   "last_cycle_utc": "2026-11-20T22:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-20T08:00Z .. 2026-11-20T21:00Z (decision times)",
+  "window": "2026-11-20T09:00Z .. 2026-11-20T22:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-20T08:00Z": 25,
    "2026-11-20T09:00Z": 25,
    "2026-11-20T10:00Z": 25,
    "2026-11-20T11:00Z": 25,
@@ -109,7 +108,8 @@
    "2026-11-20T18:00Z": 25,
    "2026-11-20T19:00Z": 25,
    "2026-11-20T20:00Z": 25,
-   "2026-11-20T21:00Z": 25
+   "2026-11-20T21:00Z": 25,
+   "2026-11-20T22:00Z": 25
   },
   "signals": [
    {
@@ -188,8 +188,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 40.403,
-     "r_so_far": -0.32
+     "mark": 40.323,
+     "r_so_far": -0.278
     }
    },
    {
@@ -450,8 +450,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.3699,
-     "r_so_far": -0.333
+     "mark": 0.3694,
+     "r_so_far": -0.294
     }
    },
    {
@@ -494,8 +494,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.12768,
-     "r_so_far": -0.603
+     "mark": 0.12784,
+     "r_so_far": -0.648
     }
    },
    {
@@ -948,6 +948,32 @@
     "accounts": {
      "propr_2s": "unknown (account read failed)",
      "propr_h6": "unknown (account read failed)"
+    }
+   },
+   {
+    "decision_utc": "2026-11-20T22:00Z",
+    "or_hour_utc": "21:00",
+    "coin": "BTC",
+    "side": "SHORT",
+    "rank": 1,
+    "rvol": 2.594,
+    "width_pct": 2.111,
+    "level": 58171.0,
+    "stop": 59399.0,
+    "in_core_hours": false,
+    "accounts": {
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
