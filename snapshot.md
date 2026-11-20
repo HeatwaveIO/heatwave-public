@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-19T23:58:39Z
+# Heatwave public snapshot 2026-11-20T00:03:37Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-19T23:57:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-20T00:02:51+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 12.976% |  | 0 | 2026-11-19T23:56:30Z |  |
 
@@ -17,7 +17,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-19T10:00Z .. 2026-11-19T23:00Z (decision times)
+## Signal scan 2026-11-19T11:00Z .. 2026-11-20T00:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
@@ -30,6 +30,6 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-19T18:00Z | LTC | SHORT | 4 | 3.257 | 1.54 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-19T18:00Z | BTC | SHORT | 5 | 3.219 | 1.894 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-19T18:00Z | AAVE | SHORT | 6 | 2.711 | 2.126 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-19T19:00Z | APT | SHORT | 1 | 2.604 | 1.869 | unknown (account read failed) | unknown (account read failed) | open -0.143R so far |
-| 2026-11-19T21:00Z | HYPE | SHORT | 1 | 2.986 | 2.299 | unknown (account read failed) | unknown (account read failed) | open -0.325R so far |
+| 2026-11-19T19:00Z | APT | SHORT | 1 | 2.604 | 1.869 | unknown (account read failed) | unknown (account read failed) | open -0.242R so far |
+| 2026-11-19T21:00Z | HYPE | SHORT | 1 | 2.986 | 2.299 | unknown (account read failed) | unknown (account read failed) | open -0.562R so far |
 
