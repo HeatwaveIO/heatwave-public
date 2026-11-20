@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-20T05:08:37Z
+# Heatwave public snapshot 2026-11-20T05:13:33Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-20T05:07:54+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-20T05:12:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 13.658% |  | 0 | 2026-11-20T04:56:33Z |  |
 
@@ -32,7 +32,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-19T18:00Z | AAVE | SHORT | 6 | 2.711 | 2.126 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-19T19:00Z | APT | SHORT | 1 | 2.604 | 1.869 | unknown (account read failed) | unknown (account read failed) | closed 1.337R |
 | 2026-11-19T21:00Z | HYPE | SHORT | 1 | 2.986 | 2.299 | unknown (account read failed) | unknown (account read failed) | closed 0.0152R |
-| 2026-11-20T02:00Z | XLM | SHORT | 1 | 16.434 | 2.003 | unknown (account read failed) | unknown (account read failed) | open -0.047R so far |
+| 2026-11-20T02:00Z | XLM | SHORT | 1 | 16.434 | 2.003 | unknown (account read failed) | unknown (account read failed) | open -0.016R so far |
 | 2026-11-20T02:00Z | kPEPE | SHORT | 2 | 9.155 | 5.027 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T02:00Z | LTC | SHORT | 3 | 7.909 | 2.687 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T02:00Z | INJ | SHORT | 4 | 4.287 | 3.829 | unknown (account read failed) | unknown (account read failed) |  |
@@ -42,7 +42,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-20T02:00Z | DOT | SHORT | 8 | 2.959 | 3.288 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T02:00Z | ENA | SHORT | 9 | 2.861 | 4.225 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T02:00Z | ETH | SHORT | 10 | 2.733 | 2.74 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-20T03:00Z | INJ | SHORT | 1 | 6.514 | 2.795 | unknown (account read failed) | unknown (account read failed) | open 0.18R so far |
+| 2026-11-20T03:00Z | INJ | SHORT | 1 | 6.514 | 2.795 | unknown (account read failed) | unknown (account read failed) | open 0.135R so far |
 | 2026-11-20T03:00Z | kPEPE | SHORT | 2 | 5.094 | 2.708 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T03:00Z | LTC | SHORT | 3 | 4.478 | 1.574 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T03:00Z | NEAR | SHORT | 4 | 3.922 | 2.724 | unknown (account read failed) | unknown (account read failed) |  |
