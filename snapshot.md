@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-20T18:48:33Z
+# Heatwave public snapshot 2026-11-20T18:53:34Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-20T18:47:55+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-20T18:52:54+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 20.838% |  | 0 | 2026-11-20T18:46:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 20.838% |  | 0 | 2026-11-20T18:51:34Z |  |
 
 ## Open Propr positions
 
@@ -29,8 +29,8 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-20T06:00Z | INJ | SHORT | 3 | 3.824 | 2.073 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T06:00Z | HYPE | SHORT | 4 | 2.536 | 2.554 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T13:00Z | INJ | SHORT | 1 | 3.998 | 2.666 | unknown (account read failed) | unknown (account read failed) | closed -0.0068R |
-| 2026-11-20T15:00Z | XLM | SHORT | 1 | 3.046 | 1.569 | unknown (account read failed) | unknown (account read failed) | open 0.347R so far |
-| 2026-11-20T16:00Z | LTC | SHORT | 1 | 10.457 | 4.969 | unknown (account read failed) | unknown (account read failed) | open -0.032R so far |
+| 2026-11-20T15:00Z | XLM | SHORT | 1 | 3.046 | 1.569 | unknown (account read failed) | unknown (account read failed) | open 0.169R so far |
+| 2026-11-20T16:00Z | LTC | SHORT | 1 | 10.457 | 4.969 | unknown (account read failed) | unknown (account read failed) | open -0.216R so far |
 | 2026-11-20T16:00Z | DOT | SHORT | 2 | 6.276 | 5.805 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T16:00Z | XLM | SHORT | 3 | 5.183 | 4.708 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T16:00Z | BNB | SHORT | 4 | 5.03 | 4.619 | unknown (account read failed) | unknown (account read failed) |  |
@@ -40,11 +40,11 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-20T16:00Z | AAVE | SHORT | 8 | 3.483 | 5.881 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T16:00Z | BTC | SHORT | 9 | 3.364 | 4.34 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T16:00Z | ADA | SHORT | 10 | 3.062 | 5.56 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-20T17:00Z | APT | SHORT | 1 | 6.195 | 3.14 | unknown (account read failed) | unknown (account read failed) | open 0.19R so far |
+| 2026-11-20T17:00Z | APT | SHORT | 1 | 6.195 | 3.14 | unknown (account read failed) | unknown (account read failed) | open -0.092R so far |
 | 2026-11-20T17:00Z | ETH | SHORT | 2 | 4.965 | 2.243 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T17:00Z | BTC | SHORT | 3 | 3.405 | 1.848 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T17:00Z | LINK | SHORT | 4 | 2.562 | 2.453 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-20T17:00Z | DOT | SHORT | 5 | 2.519 | 1.901 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-20T18:00Z | APT | SHORT | 1 | 3.854 | 3.445 | unknown (account read failed) | unknown (account read failed) | open -0.135R so far |
+| 2026-11-20T18:00Z | APT | SHORT | 1 | 3.854 | 3.445 | unknown (account read failed) | unknown (account read failed) | open -0.452R so far |
 | 2026-11-20T18:00Z | ETH | SHORT | 2 | 2.774 | 1.601 | unknown (account read failed) | unknown (account read failed) |  |
 
