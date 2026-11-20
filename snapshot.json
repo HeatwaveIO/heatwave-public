@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T16:48:32Z",
+ "generated_utc": "2026-11-20T16:53:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-20T16:48:09+00:00",
+   "last_cycle_utc": "2026-11-20T16:52:53+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,13 +40,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-20T16:46:00+00:00",
+    "at": "2026-11-20T16:51:00+00:00",
     "day": "2026-11-20",
     "picks": [
      "SOXS",
      "UVXY"
     ],
-    "equity_pct_vs_sleeve_start": 14.341,
+    "equity_pct_vs_sleeve_start": 14.58,
     "closed": 9,
     "legs": {
      "SOXS": {
@@ -83,8 +83,8 @@
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-20T16:46:33Z",
-   "equity_pct_vs_start": 19.644,
+   "as_of": "2026-11-20T16:51:30Z",
+   "equity_pct_vs_start": 19.814,
    "open": 0,
    "closed": 16,
    "wins": 9,
@@ -336,8 +336,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.12776,
-     "r_so_far": 0.091
+     "mark": 0.12775,
+     "r_so_far": 0.093
     }
    },
    {
