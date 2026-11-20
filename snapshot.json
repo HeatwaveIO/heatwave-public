@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T14:58:33Z",
+ "generated_utc": "2026-11-20T15:03:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-20T14:57:51+00:00",
+   "last_cycle_utc": "2026-11-20T15:03:16+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-20T14:55:59+00:00",
+    "at": "2026-11-20T15:00:59+00:00",
     "day": "2026-11-20",
     "picks": [],
     "equity_pct_vs_sleeve_start": 12.705,
@@ -61,10 +61,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-20T01:00Z .. 2026-11-20T14:00Z (decision times)",
+  "window": "2026-11-20T02:00Z .. 2026-11-20T15:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-20T01:00Z": 25,
    "2026-11-20T02:00Z": 25,
    "2026-11-20T03:00Z": 25,
    "2026-11-20T04:00Z": 25,
@@ -77,7 +76,8 @@
    "2026-11-20T11:00Z": 25,
    "2026-11-20T12:00Z": 25,
    "2026-11-20T13:00Z": 25,
-   "2026-11-20T14:00Z": 25
+   "2026-11-20T14:00Z": 25,
+   "2026-11-20T15:00Z": 25
   },
   "signals": [
    {
@@ -448,6 +448,32 @@
      "exit_kind": "trailed_stop",
      "breakeven_utc": "2026-11-20T13:31Z",
      "net_R": -0.0068
+    }
+   },
+   {
+    "decision_utc": "2026-11-20T15:00Z",
+    "or_hour_utc": "14:00",
+    "coin": "XLM",
+    "side": "SHORT",
+    "rank": 1,
+    "rvol": 3.046,
+    "width_pct": 1.569,
+    "level": 0.13062,
+    "stop": 0.13267,
+    "in_core_hours": true,
+    "accounts": {
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
