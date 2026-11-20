@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T17:08:37Z",
+ "generated_utc": "2026-11-20T17:13:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-20T17:07:53+00:00",
+   "last_cycle_utc": "2026-11-20T17:12:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,13 +40,13 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-20T17:06:00+00:00",
+    "at": "2026-11-20T17:11:00+00:00",
     "day": "2026-11-20",
     "picks": [
      "SOXS",
      "UVXY"
     ],
-    "equity_pct_vs_sleeve_start": 15.464,
+    "equity_pct_vs_sleeve_start": 14.304,
     "closed": 9,
     "legs": {
      "SOXS": {
@@ -262,8 +262,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.12661,
-     "r_so_far": 0.347
+     "mark": 0.12693,
+     "r_so_far": 0.276
     }
    },
    {
@@ -282,14 +282,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-11-20T17:07Z",
+     "entry": 39.8,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 39.764,
+     "r_so_far": 0.019
     }
    },
    {
@@ -452,14 +454,16 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "pending",
-     "entry_utc": null,
-     "entry": null,
+     "status": "open",
+     "entry_utc": "2026-11-20T17:11Z",
+     "entry": 0.3701,
      "exit_utc": null,
      "exit": null,
      "exit_kind": null,
      "breakeven_utc": null,
-     "net_R": null
+     "net_R": null,
+     "mark": 0.369,
+     "r_so_far": 0.077
     }
    },
    {
