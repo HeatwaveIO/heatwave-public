@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-21T02:58:40Z",
+ "generated_utc": "2026-11-21T03:03:39Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-21T02:58:09+00:00",
+   "last_cycle_utc": "2026-11-21T03:02:52+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-20T13:00Z .. 2026-11-21T02:00Z (decision times)",
+  "window": "2026-11-20T14:00Z .. 2026-11-21T03:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-20T13:00Z": 25,
    "2026-11-20T14:00Z": 25,
    "2026-11-20T15:00Z": 25,
    "2026-11-20T16:00Z": 25,
@@ -109,35 +108,10 @@
    "2026-11-20T23:00Z": 25,
    "2026-11-21T00:00Z": 25,
    "2026-11-21T01:00Z": 25,
-   "2026-11-21T02:00Z": 25
+   "2026-11-21T02:00Z": 25,
+   "2026-11-21T03:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-20T13:00Z",
-    "or_hour_utc": "12:00",
-    "coin": "INJ",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 3.998,
-    "width_pct": 2.666,
-    "level": 6.3017,
-    "stop": 6.4697,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-20T13:17Z",
-     "entry": 6.3017,
-     "exit_utc": "2026-11-20T14:25Z",
-     "exit": 6.2978,
-     "exit_kind": "trailed_stop",
-     "breakeven_utc": "2026-11-20T13:31Z",
-     "net_R": -0.0068
-    }
-   },
    {
     "decision_utc": "2026-11-20T15:00Z",
     "or_hour_utc": "14:00",
@@ -448,8 +422,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.3626,
-     "r_so_far": 0.246
+     "mark": 0.3628,
+     "r_so_far": 0.23
     }
    },
    {
@@ -996,8 +970,34 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 0.65975,
-     "r_so_far": 0.141
+     "mark": 0.65928,
+     "r_so_far": 0.169
+    }
+   },
+   {
+    "decision_utc": "2026-11-21T03:00Z",
+    "or_hour_utc": "02:00",
+    "coin": "ZEC",
+    "side": "SHORT",
+    "rank": 1,
+    "rvol": 5.858,
+    "width_pct": 6.811,
+    "level": 703.56,
+    "stop": 751.48,
+    "in_core_hours": false,
+    "accounts": {
+     "propr_2s": "unknown (account read failed)",
+     "propr_h6": "unknown (account read failed)"
+    },
+    "replay_be075": {
+     "status": "pending",
+     "entry_utc": null,
+     "entry": null,
+     "exit_utc": null,
+     "exit": null,
+     "exit_kind": null,
+     "breakeven_utc": null,
+     "net_R": null
     }
    }
   ]
