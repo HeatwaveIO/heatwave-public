@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-22T04:58:40Z
+# Heatwave public snapshot 2026-11-22T05:03:39Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,7 +8,7 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-22T04:57:55+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-22T05:02:52+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
 | coinbase | SHADOW (real orders blocked) | 21.892% |  | 0 | 2026-11-22T04:56:30Z |  |
 
@@ -17,12 +17,12 @@ percent of each account's start and R; no dollar amounts, no account IDs
 | Account | Coin | Side | Entry | Mark | R | BE trigger | BE moved | Time exit | Stop order | TP order |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-## Signal scan 2026-11-21T15:00Z .. 2026-11-22T04:00Z (decision times)
+## Signal scan 2026-11-21T16:00Z .. 2026-11-22T05:00Z (decision times)
 
 qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side
 
 | Decision | Coin | Side | Rank | RVOL | Width % | propr_2s | propr_h6 | Replay be075 |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-22T03:00Z | ADA | SHORT | 1 | 7.269 | 1.522 | unknown (account read failed) | unknown (account read failed) | open -0.105R so far |
+| 2026-11-22T03:00Z | ADA | SHORT | 1 | 7.269 | 1.522 | unknown (account read failed) | unknown (account read failed) | open -0.004R so far |
 | 2026-11-22T03:00Z | INJ | SHORT | 2 | 2.882 | 1.814 | unknown (account read failed) | unknown (account read failed) |  |
 
