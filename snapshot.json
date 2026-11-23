@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-23T17:58:33Z",
+ "generated_utc": "2026-11-23T18:03:32Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,14 +14,14 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-23T17:57:55+00:00",
+   "last_cycle_utc": "2026-11-23T18:02:53+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
    "open_positions": 0,
    "resting_orders": 0,
    "saver_why": null,
-   "error": "HyroError: need exactly one active Hyro trial challenge"
+   "error": "HyroError: network error 28 on tools/call"
   },
   "alp100": {
    "account": "alp100",
@@ -40,7 +40,7 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-23T17:56:00+00:00",
+    "at": "2026-11-23T18:01:00+00:00",
     "day": "2026-11-23",
     "picks": [
      "NBIS",
@@ -64,10 +64,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-23T04:00Z .. 2026-11-23T17:00Z (decision times)",
+  "window": "2026-11-23T05:00Z .. 2026-11-23T18:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-23T04:00Z": 25,
    "2026-11-23T05:00Z": 25,
    "2026-11-23T06:00Z": 25,
    "2026-11-23T07:00Z": 25,
@@ -80,35 +79,10 @@
    "2026-11-23T14:00Z": 25,
    "2026-11-23T15:00Z": 25,
    "2026-11-23T16:00Z": 25,
-   "2026-11-23T17:00Z": 25
+   "2026-11-23T17:00Z": 25,
+   "2026-11-23T18:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-23T04:00Z",
-    "or_hour_utc": "03:00",
-    "coin": "XRP",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 2.891,
-    "width_pct": 2.373,
-    "level": 0.93749,
-    "stop": 0.91524,
-    "in_core_hours": false,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-23T05:46Z",
-     "entry": 0.94187,
-     "exit_utc": "2026-11-23T13:56Z",
-     "exit": 0.96103,
-     "exit_kind": "time",
-     "breakeven_utc": null,
-     "net_R": 0.6735
-    }
-   },
    {
     "decision_utc": "2026-11-23T06:00Z",
     "or_hour_utc": "05:00",
@@ -175,8 +149,8 @@
      "exit_kind": null,
      "breakeven_utc": null,
      "net_R": null,
-     "mark": 98.852,
-     "r_so_far": -0.779
+     "mark": 98.995,
+     "r_so_far": -0.76
     }
    },
    {
