@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-23T18:53:35Z
+# Heatwave public snapshot 2026-11-23T18:58:39Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-23T18:52:55+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-23T18:58:10+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 18.438% |  | 0 | 2026-11-23T18:51:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 18.438% |  | 0 | 2026-11-23T18:56:30Z |  |
 
 ## Open Propr positions
 
@@ -25,7 +25,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 |---|---|---|---|---|---|---|---|---|
 | 2026-11-23T06:00Z | SUI | LONG | 1 | 4.437 | 1.506 | unknown (account read failed) | unknown (account read failed) | closed -0.0107R |
 | 2026-11-23T06:00Z | ENA | LONG | 2 | 2.621 | 1.907 | unknown (account read failed) | unknown (account read failed) |  |
-| 2026-11-23T14:00Z | AAVE | LONG | 1 | 5.767 | 5.573 | unknown (account read failed) | unknown (account read failed) | open -0.751R so far |
+| 2026-11-23T14:00Z | AAVE | LONG | 1 | 5.767 | 5.573 | unknown (account read failed) | unknown (account read failed) | open -0.731R so far |
 | 2026-11-23T14:00Z | APT | LONG | 2 | 5.452 | 4.915 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-23T14:00Z | XLM | LONG | 3 | 5.359 | 4.088 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-23T14:00Z | DOGE | LONG | 4 | 4.752 | 5.137 | unknown (account read failed) | unknown (account read failed) |  |
