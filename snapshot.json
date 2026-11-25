@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-25T14:28:33Z",
+ "generated_utc": "2026-11-25T14:33:37Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-25T14:27:52+00:00",
+   "last_cycle_utc": "2026-11-25T14:32:59+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -40,50 +40,18 @@
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-24T20:56:03+00:00",
-    "day": "2026-11-24",
-    "picks": [
-     "SOXS",
-     "LABU"
-    ],
+    "at": "2026-11-25T14:31:01+00:00",
+    "day": "2026-11-25",
+    "picks": [],
     "equity_pct_vs_sleeve_start": 24.589,
     "closed": 13,
-    "legs": {
-     "SOXS": {
-      "day": "2026-11-24",
-      "status": "closed",
-      "limit": 62.05,
-      "fill": 62.05,
-      "stop": 55.12,
-      "target": 72.445,
-      "exit": 61.158,
-      "exit_why": "time",
-      "net_R": -0.129,
-      "oid": "2cd54b6e-110b-492e-9266-6966c0a1af18",
-      "stop_oid": null,
-      "exit_oid": "875e0b3d-851d-4ce1-8dcf-cd293f88f12e"
-     },
-     "LABU": {
-      "day": "2026-11-24",
-      "status": "closed",
-      "limit": 223.59,
-      "fill": 223.32,
-      "stop": 205.99,
-      "target": 249.315,
-      "exit": 236.226,
-      "exit_why": "time",
-      "net_R": 0.745,
-      "oid": "6d8f0c30-dd89-4853-8b78-6601dd262243",
-      "stop_oid": null,
-      "exit_oid": "c1a909f5-0c26-429a-96d9-3adde4848d52"
-     }
-    }
+    "legs": {}
    }
   },
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-25T14:26:30Z",
+   "as_of": "2026-11-25T14:31:30Z",
    "equity_pct_vs_start": 18.448,
    "open": 0,
    "closed": 17,
@@ -136,8 +104,8 @@
      "exit_kind": null,
      "breakeven_utc": "2026-11-25T13:46Z",
      "net_R": null,
-     "mark": 67.025,
-     "r_so_far": 0.512
+     "mark": 66.738,
+     "r_so_far": 0.732
     }
    },
    {
