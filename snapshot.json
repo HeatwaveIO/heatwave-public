@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-24T23:58:31Z",
+ "generated_utc": "2026-11-25T00:03:40Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-24T23:57:54+00:00",
+   "last_cycle_utc": "2026-11-25T00:02:53+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -93,10 +93,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-24T10:00Z .. 2026-11-24T23:00Z (decision times)",
+  "window": "2026-11-24T11:00Z .. 2026-11-25T00:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-24T10:00Z": 25,
    "2026-11-24T11:00Z": 25,
    "2026-11-24T12:00Z": 25,
    "2026-11-24T13:00Z": 25,
@@ -109,35 +108,10 @@
    "2026-11-24T20:00Z": 25,
    "2026-11-24T21:00Z": 25,
    "2026-11-24T22:00Z": 25,
-   "2026-11-24T23:00Z": 25
+   "2026-11-24T23:00Z": 25,
+   "2026-11-25T00:00Z": 25
   },
   "signals": [
-   {
-    "decision_utc": "2026-11-24T10:00Z",
-    "or_hour_utc": "09:00",
-    "coin": "HYPE",
-    "side": "SHORT",
-    "rank": 1,
-    "rvol": 2.597,
-    "width_pct": 1.549,
-    "level": 62.678,
-    "stop": 63.649,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-24T10:46Z",
-     "entry": 62.44,
-     "exit_utc": "2026-11-24T19:56Z",
-     "exit": 59.873,
-     "exit_kind": "time",
-     "breakeven_utc": "2026-11-24T15:07Z",
-     "net_R": 2.0561
-    }
-   },
    {
     "decision_utc": "2026-11-24T12:00Z",
     "or_hour_utc": "11:00",
@@ -180,16 +154,14 @@
      "propr_h6": "unknown (account read failed)"
     },
     "replay_be075": {
-     "status": "open",
+     "status": "closed",
      "entry_utc": "2026-11-24T15:24Z",
      "entry": 0.6511,
-     "exit_utc": null,
-     "exit": null,
-     "exit_kind": null,
+     "exit_utc": "2026-11-24T23:56Z",
+     "exit": 0.65191,
+     "exit_kind": "time",
      "breakeven_utc": null,
-     "net_R": null,
-     "mark": 0.65194,
-     "r_so_far": -0.063
+     "net_R": -0.0999
     }
    }
   ]
