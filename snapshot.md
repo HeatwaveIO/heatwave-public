@@ -1,4 +1,4 @@
-# Heatwave public snapshot 2026-11-26T04:48:39Z
+# Heatwave public snapshot 2026-11-26T04:53:31Z
 
 percent of each account's start and R; no dollar amounts, no account IDs
 
@@ -8,9 +8,9 @@ percent of each account's start and R; no dollar amounts, no account IDs
 |---|---|---|---|---|---|---|
 | propr_2s |  | None% |  | None |  | snapshot read failed (rc 1) |
 | propr_h6 |  | None% |  | None |  | snapshot read failed (rc 1) |
-| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-26T04:47:56+00:00 | HyroError: need exactly one active Hyro trial challenge |
+| hyro_h6 | h6.16-hyro | None% |  | 0 | 2026-11-26T04:52:53+00:00 | HyroError: need exactly one active Hyro trial challenge |
 | alp100 | {'alp100_mode': 'live', 'orbA_mode': 'live'} | -0.51% |  | None | 2026-10-26T13:30:44+00:00 |  |
-| coinbase | SHADOW (real orders blocked) | 15.182% |  | 0 | 2026-11-26T04:46:30Z |  |
+| coinbase | SHADOW (real orders blocked) | 15.272% |  | 0 | 2026-11-26T04:51:30Z |  |
 
 ## Open Propr positions
 
@@ -34,7 +34,7 @@ qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor take
 | 2026-11-25T18:00Z | AAVE | LONG | 6 | 3.124 | 4.154 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-25T18:00Z | XRP | LONG | 7 | 2.677 | 2.472 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-25T18:00Z | kPEPE | SHORT | 1 | 2.565 | 4.347 | unknown (account read failed) | unknown (account read failed) | none |
-| 2026-11-25T19:00Z | LINK | LONG | 1 | 6.006 | 2.008 | unknown (account read failed) | unknown (account read failed) | open 1.089R so far |
+| 2026-11-25T19:00Z | LINK | LONG | 1 | 6.006 | 2.008 | unknown (account read failed) | unknown (account read failed) | open 1.075R so far |
 | 2026-11-25T19:00Z | NEAR | LONG | 2 | 4.195 | 2.146 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-25T19:00Z | HYPE | LONG | 3 | 2.519 | 2.036 | unknown (account read failed) | unknown (account read failed) |  |
 | 2026-11-25T20:00Z | ENA | LONG | 1 | 10.601 | 3.295 | unknown (account read failed) | unknown (account read failed) | closed 0.0257R |
