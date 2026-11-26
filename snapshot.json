@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-26T10:58:31Z",
+ "generated_utc": "2026-11-26T11:03:33Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-26T10:58:05+00:00",
+   "last_cycle_utc": "2026-11-26T11:02:56+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -79,10 +79,9 @@
   }
  },
  "signal_scan_12h": {
-  "window": "2026-11-25T21:00Z .. 2026-11-26T10:00Z (decision times)",
+  "window": "2026-11-25T22:00Z .. 2026-11-26T11:00Z (decision times)",
   "rule": "qualifying = RVOL >= 2.5, side OR width >= 1.5%, trend agrees; the executor takes Top-1 per side",
   "hours_with_data": {
-   "2026-11-25T21:00Z": 25,
    "2026-11-25T22:00Z": 25,
    "2026-11-25T23:00Z": 25,
    "2026-11-26T00:00Z": 25,
@@ -95,51 +94,9 @@
    "2026-11-26T07:00Z": 25,
    "2026-11-26T08:00Z": 25,
    "2026-11-26T09:00Z": 25,
-   "2026-11-26T10:00Z": 25
+   "2026-11-26T10:00Z": 25,
+   "2026-11-26T11:00Z": 25
   },
-  "signals": [
-   {
-    "decision_utc": "2026-11-25T21:00Z",
-    "or_hour_utc": "20:00",
-    "coin": "ENA",
-    "side": "LONG",
-    "rank": 1,
-    "rvol": 4.692,
-    "width_pct": 1.809,
-    "level": 0.10077,
-    "stop": 0.098947,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    },
-    "replay_be075": {
-     "status": "closed",
-     "entry_utc": "2026-11-25T22:38Z",
-     "entry": 0.10075,
-     "exit_utc": "2026-11-26T00:54Z",
-     "exit": 0.10084,
-     "exit_kind": "trailed_stop",
-     "breakeven_utc": "2026-11-26T00:14Z",
-     "net_R": 0.0053
-    }
-   },
-   {
-    "decision_utc": "2026-11-25T21:00Z",
-    "or_hour_utc": "20:00",
-    "coin": "NEAR",
-    "side": "LONG",
-    "rank": 2,
-    "rvol": 3.323,
-    "width_pct": 4.343,
-    "level": 3.0506,
-    "stop": 2.9181,
-    "in_core_hours": true,
-    "accounts": {
-     "propr_2s": "unknown (account read failed)",
-     "propr_h6": "unknown (account read failed)"
-    }
-   }
-  ]
+  "signals": []
  }
 }
