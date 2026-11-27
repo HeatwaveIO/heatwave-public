@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-27T16:28:31Z",
+ "generated_utc": "2026-11-27T16:33:35Z",
  "source": "heatwave trading server (read-only)",
  "units": "percent of each account's start and R; no dollar amounts, no account IDs",
  "accounts": {
@@ -14,7 +14,7 @@
   "hyro_h6": {
    "account": "hyro_h6",
    "version": "h6.16-hyro",
-   "last_cycle_utc": "2026-11-27T16:27:56+00:00",
+   "last_cycle_utc": "2026-11-27T16:32:56+00:00",
    "attendance_only": true,
    "trading_days": null,
    "balance_pct_vs_start": null,
@@ -34,13 +34,13 @@
    "equity_pct_vs_start": -0.51,
    "closed": 1,
    "orb_exec_last": {
-    "type": "picks",
+    "type": "intent",
     "day": "2026-11-27",
-    "at": "2026-11-27T15:31:57+00:00"
+    "at": "2026-11-27T16:31:00+00:00"
    },
    "configA_sleeve": {
     "version": "orbA.1",
-    "at": "2026-11-27T16:26:01+00:00",
+    "at": "2026-11-27T16:31:01+00:00",
     "day": "2026-11-27",
     "picks": [
      "SOXL",
@@ -48,13 +48,28 @@
     ],
     "equity_pct_vs_sleeve_start": 20.839,
     "closed": 14,
-    "legs": {}
+    "legs": {
+     "SOXL": {
+      "day": "2026-11-27",
+      "status": "pending",
+      "limit": 35.1,
+      "fill": null,
+      "stop": 32.02,
+      "target": null,
+      "exit": null,
+      "exit_why": null,
+      "net_R": null,
+      "oid": "b19fa46c-9221-47e8-8f7a-a06befa83188",
+      "stop_oid": null,
+      "exit_oid": null
+     }
+    }
    }
   },
   "coinbase": {
    "account": "coinbase",
    "mode": "SHADOW (real orders blocked)",
-   "as_of": "2026-11-27T16:26:30Z",
+   "as_of": "2026-11-27T16:31:30Z",
    "equity_pct_vs_start": 13.17,
    "open": 0,
    "closed": 19,
